@@ -34,6 +34,6 @@ You can also use a Reactor toolset called "Atomz Create" & "Atomz Expand" to do 
 
 ### macOS Resolve/Resolve Studio Tip
 
-> The macOS App Store version of Resolve/Resolve studio is sandboxed and lacks a lot of features you may require.
+> The macOS App Store version of Resolve/Resolve Studio is sandboxed and lacks a lot of features you may require.
 
 If you are on macOS it is a good idea to install a copy of Resolve Studio from the official [BMD website support centre](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) website. This will make life easier for you if you want to install 3rd party tools.
