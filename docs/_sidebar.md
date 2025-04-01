@@ -5,9 +5,9 @@
 	- [Install Vonk Ultra Using Reactor](install)
 	- Mograph
 		- [Example Comps](mograph-comps)
-		- [JSON Nodes](mograph-json)
 		- [Array Nodes](mograph-array)
 		- [HTML Nodes](mograph-html)
+		- [JSON Nodes](mograph-json)
 		- [Matrix Nodes](mograph-matrix)
 		- [Number Nodes](mograph-number)
 		- [ScriptVal Nodes](mograph-scriptval)

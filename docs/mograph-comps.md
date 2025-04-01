@@ -20,7 +20,6 @@ The Vonk Ultra motion graphics examples are located on disk at the Pathmap locat
 
 ## Screenshots
 
-
 ### vArrayAccumulator
 
 ![vArrayAccumulator](Images/Mograph/vArrayAccumulator.png)
