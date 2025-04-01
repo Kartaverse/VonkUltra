@@ -11,6 +11,10 @@
 
 An HTML GUI based node
 
+![vHTML_UIControl_Color Node](Images/Nodes/vHTML_UIControl_Color.png)
+
 ### vHTML_UIControl_Hero
 
 An HTML GUI based node
+
+![vHTML_UIControl_Hero Node](Images/Nodes/vHTML_UIControl_Hero.png)

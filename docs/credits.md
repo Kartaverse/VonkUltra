@@ -11,7 +11,7 @@ The Vonk Ultra fork is maintained by:
 
 The Vonk Mograph toolset was created by:
 
-- [Dunn Lewis](https://www.instagram.com/done__by__dunn)
+- [Dunn Lewis](mailto:dunn.lewis.work@gmail.com)
 
 Special Thanks to the following fuse creators:
 
