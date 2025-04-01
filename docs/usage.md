@@ -2,11 +2,11 @@
 
 The Vonk nodes can be found in Fusion Studio's "Tools > Kartaverse > Vonk Ultra" menu.
 
-![Tools Menu](images/fusion-tools-menu.png)
+![Tools Menu](Images/fusion-tools-menu.png)
 
 The Vonk nodes all have an initial "v" prefix which makes it easier to browse in the Fusion "Select Tool" dialog which is accessed using the Shift + Spacebar hotkey.
 
-![Select Tools Dialog](images/fusion-select-tools.png)
+![Select Tools Dialog](Images/fusion-select-tools.png)
 
 Vonk tools allow you to interconnect mathematical operator nodes (called modifiers) that work together in the flow to visually build formulas that live-update on each frame of a composite. You can also connect several text based Vonk nodes together to edit textual strings on the fly or read/write data like JSON or Text files.
 
