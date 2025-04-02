@@ -74,7 +74,7 @@ Shapes:
 
 - vScriptValCustom2DShapes
 - vScriptValCustom3DShapes
-- vScriptValShapeText
+- vScriptValShapeTextArray
 - vScriptValTangentVectorItem
 
 Utility:
@@ -437,7 +437,7 @@ Dynamically create Shape elements
 
 ![Node](Images/Nodes/vScriptValCustom3DShapes.png)
 
-### vScriptValShapeText
+### vScriptValShapeTextArray
 
 Example, using Text and Strings
 
