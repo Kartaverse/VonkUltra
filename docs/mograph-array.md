@@ -64,7 +64,6 @@ ShapeRender:
 
 - vArrayShapeRender
 - vArrayShapeRenderTextPath
-- vArrayWireframeRender
 
 Shapes:
 
@@ -351,7 +350,7 @@ The following math operations are supported:
 - Randomseed
 - Matrix Multiply
 
-Tip: A Vonk vMatrix transform can be applied to an array when the "Operation" control is set to "Matrix Multiply", and the "Input Number" set to "Use Array". The ideal vMatrix node to use for this application is the "vMatrixCreateTRS" node that combines translation, rotation, and scale.
+Tip: A Vonk vMatrix transform can be applied to an array when the "Operation" control is set to "Matrix Multiply", and the "Input Number" is set to "Use Array". The ideal vMatrix node to use for this application is the "vMatrixCreateTRS" node that combines translation, rotation, and scale.
 
 Example Node Connections:
 
@@ -448,12 +447,6 @@ Create a polygon dot shapes from a Array based Lua table of XY point pairs
 Using Text and Strings on Array based Lua table of XY points path
 
 ![Node](Images/Nodes/vArrayShapeRenderTextPath.png)
-
-### vArrayWireframeRender
-
-Create a polygon wireframe shapes from an array of XY point pairs, and an array of edge index values
-
-![Node](Images/Nodes/vArrayWireframeRender.png)
 
 ### vArrayAccumulator
 

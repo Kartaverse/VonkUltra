@@ -67,8 +67,6 @@ ShapeRender:
 - vScriptValRenderAssetSVG
 - vScriptValShapeRender
 - vScriptValShapeRenderTextPath
-- vScriptValWireframeRender
-- vScriptValWireframeRenderSVG
 
 Shapes:
 
@@ -412,18 +410,6 @@ Create a polygon dot shapes from a ScriptVal based Lua table of XY point pairs
 Using Text and Strings on Array based Lua table of XY points path
 
 ![Node](Images/Nodes/vScriptValShapeRenderTextPath.png)
-
-### vScriptValWireframeRender
-
-Create a polygon wireframe shapes from a ScriptVal based Lua table of XY point pairs, and a ScriptVal Lua table of edge index values
-
-![Node](Images/Nodes/vScriptValWireframeRender.png)
-
-### vScriptValWireframeRenderSVG
-
-Export an SVG wireframe from an array of XY point pairs, and an array of edge index values
-
-![Node](Images/Nodes/vScriptValWireframeRenderSVG.png)
 
 ### vScriptValCustom2DShapes
 

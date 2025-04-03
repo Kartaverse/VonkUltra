@@ -62,7 +62,6 @@ ShapeRender:
 
 - vJSONShapeRender
 - vJSONShapeRenderTextPath
-- vJSONWireframeRender
 
 Shapes:
 
@@ -381,12 +380,6 @@ Create a polygon dot shapes from a JSON based Lua table of XY point pairs
 Using Text and Strings on Array based Lua table of XY points path
 
 ![Node](Images/Nodes/vJSONShapeRenderTextPath.png)
-
-### vJSONWireframeRender
-
-Create a polygon wireframe shapes from a JSON array of XY point pairs, and a JSON array of edge index values
-
-![Node](Images/Nodes/vJSONWireframeRender.png)
 
 ### vJSONCustom2DShapes
 
