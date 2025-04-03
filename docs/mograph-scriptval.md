@@ -171,6 +171,60 @@ Example, generating random Text and Strings
 
 ![Node](Images/Nodes/vScriptValGenerateText.png)
 
+The following Generate Random options are available:
+
+- Pick from → input Array
+- Lorem ipsum
+
+Basics:
+
+- Bool
+- Character
+- Word
+- Letter
+- Vowel
+
+Names:
+
+- Name
+- Male name
+- Male name w/last
+- Name w/last
+- Female name
+- Female name w/last
+
+Numbers:
+
+- Hash
+- Integer
+- Integer w/min
+- Integer w/both
+
+Color:
+
+- rgb
+- rgba
+- hsl 
+- hsla
+
+Tech:
+
+- ip
+- ipv4
+- ipv6
+
+Location:
+
+- Phone
+- Address
+- Street
+
+Strings:
+
+- String
+- Syllable
+- Shuffle
+
 ### vScriptValLissajouseSpline
 
 Generate a Lissajouse spline
