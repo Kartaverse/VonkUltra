@@ -308,6 +308,57 @@ Math Operations on an Array
 
 ![Node](Images/Nodes/vArrayMath.png)
 
+
+Tip: If you want to apply math operations to arrays of XY or XYZ value pairs, the vArrayUnPacker node will extract all the values into a single linear sequence of numbers. You can then use the vArrayMath node to modify the values. Then a vArrayPacker node can remux the linear sequence of numbers back into XY or XYZ value pairs.
+
+Example Node Connections:
+
+    vArrayGenerateSpirals.Output -> vArrayUnPacker.ArrayB
+    vArrayUnPacker.Output -> vArrayMath.ArrayA 
+    vArrayMath.Output -> vArrayPacker.ArrayA
+    vArrayPacker.Output -> vArrayViewer.Text
+
+The following math operations are supported:
+
+- Subtract A-B
+- Multiply
+- Divide A/B
+- Min
+- Max
+- Average
+- Difference
+- Modulo A/B
+- Power A^B
+- Arc Tangent A/B
+- Sine
+- Cosine
+- Tangent
+- Arc Sine
+- Arc Cosine
+- Arc Tangent
+- Log
+- Log 10
+- Exponential
+- Degrees to Radians
+- Radians to Degrees
+- Absolute Value
+- Ceiling
+- Floor
+- Square Root
+- Reciprocal
+- Negate
+- Random
+- Randomseed
+- Matrix Multiply
+
+Tip: A Vonk vMatrix transform can be applied to an array when the "Operation" control is set to "Matrix Multiply", and the "Input Number" set to "Use Array". The ideal vMatrix node to use for this application is the "vMatrixCreateTRS" node that combines translation, rotation, and scale.
+
+Example Node Connections:
+
+    vArrayGenerateSpirals.Output -> vArrayMath.ArrayA
+    vMatrixCreateTRS1.Output -> vArrayMath.ArrayB
+    vArrayMath.Output -> vArrayViewer.Text
+
 ### vArrayPacker
 
 Pack Operations on an Array
