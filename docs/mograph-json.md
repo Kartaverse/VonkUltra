@@ -329,6 +329,20 @@ Interpolate between corresponding values in two arrays
 
 ![Node](Images/Nodes/vJSONInterpolate.png)
 
+Select Easing options include:
+
+- linear
+- easeInQuad
+- easeOutQuad
+- easeInOutQuad
+- easeInExpo
+- easeOutExpo
+- easeInOutExpo
+
+Match Array options include:
+- Trim Array to match
+- Add Zeros to match
+
 ### vJSONInterpolateRandom
 
 Interpolate between two randomly chosen values
@@ -425,6 +439,15 @@ Animates an Array
 
 ![Node](Images/Nodes/vJSONWave.png)
 
+Wave options include:
+
+- Line
+- Saw
+- Tri
+- Square
+- Sine
+- Noise
+
 ### vJSONShapeRender
 
 Create a polygon dot shapes from a JSON based Lua table of XY point pairs
@@ -490,6 +513,12 @@ Dynamically join JSON elements into one table
 Reduce points Operations on an Array
 
 ![Node](Images/Nodes/vJSONReducePoints.png)
+
+Decimation Method options include:
+
+- Grid-Based
+- Random Sampling
+- Curvature-Based (SLOW)
 
 ### vJSONSlicer
 

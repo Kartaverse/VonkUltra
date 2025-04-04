@@ -351,6 +351,20 @@ Interpolate between corresponding values in two arrays
 
 ![Node](Images/Nodes/vScriptValInterpolate.png)
 
+Select Easing options include:
+
+- linear
+- easeInQuad
+- easeOutQuad
+- easeInOutQuad
+- easeInExpo
+- easeOutExpo
+- easeInOutExpo
+
+Match Array options include:
+- Trim Array to match
+- Add Zeros to match
+
 ### vScriptValMapRange
 
 Apply range mapping operations to an array
@@ -441,6 +455,15 @@ Animates an Array
 
 ![Node](Images/Nodes/vScriptValWave.png)
 
+Wave options include:
+
+- Line
+- Saw
+- Tri
+- Square
+- Sine
+- Noise
+
 ### vScriptValRenderAsset
 
 Render 3D wireframe from a ScriptVal Lua table of vGeometry mesh data
@@ -524,6 +547,12 @@ Merge Wavefront OBJ geometry with edge and point ScriptVal Arrays
 Reduce points Operations on a ScriptVal
 
 ![Node](Images/Nodes/vScriptValReducePoints.png)
+
+Decimation Method options include:
+
+- Grid-Based
+- Random Sampling
+- Curvature-Based (SLOW)
 
 ### vScriptValSlicer
 

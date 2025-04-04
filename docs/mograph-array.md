@@ -344,6 +344,20 @@ Interpolate between two arrays
 
 ![Node](Images/Nodes/vArrayInterpolate.png)
 
+Select Easing options include:
+
+- linear
+- easeInQuad
+- easeOutQuad
+- easeInOutQuad
+- easeInExpo
+- easeOutExpo
+- easeInOutExpo
+
+Match Array options include:
+- Trim Array to match
+- Add Zeros to match
+
 ### vArrayIterator
 
 Loop an array
@@ -491,6 +505,15 @@ Animates an array
 
 ![Node](Images/Nodes/vArrayWave.png)
 
+Wave options include:
+
+- Line
+- Saw
+- Tri
+- Square
+- Sine
+- Noise
+
 ### vArrayShapeRender
 
 Create a polygon dot shapes from a Array based Lua table of XY point pairs
@@ -550,6 +573,12 @@ Merge Wavefront OBJ geometry with edge and point Arrays
 Reduce points Operations on an Array
 
 ![Node](Images/Nodes/vArrayReducePoints.png)
+
+Decimation Method options include:
+
+- Grid-Based
+- Random Sampling
+- Curvature-Based (SLOW)
 
 ### vArraySlicer
 
