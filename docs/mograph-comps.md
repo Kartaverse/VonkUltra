@@ -21,7 +21,7 @@ The Vonk Ultra motion graphics examples are located on disk at the Pathmap locat
 ## Video
 
 
-<div style="text-align: center;">
+<div style="text-align: left;">
   <iframe width="640" height="360"
           src="https://www.youtube.com/embed/NIERGDzrMDs"
           frameborder="0"
