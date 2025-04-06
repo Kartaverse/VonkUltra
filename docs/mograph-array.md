@@ -87,9 +87,7 @@ Utility:
 - vArrayReducePoints
 - vArraySlicer.fuse
 
-### Node Docs
-
-![Node](Images/Nodes/vArrayBuffer.png)
+## Node Docs
 
 ### vArrayBuffer
 

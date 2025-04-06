@@ -214,7 +214,6 @@ Strings:
 - Syllable
 - Shuffle
 
-
 ### vJSONLissajouseSpline
 
 Generate a Lissajouse spline
