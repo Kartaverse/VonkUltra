@@ -45,3 +45,53 @@ Utility:
 
 ## Node Docs
 
+
+### vMatrixFromArray
+
+### vMatrixColorTransform
+
+### vMatrixCreate
+
+### vMatrixLink
+
+### vMatrixSwitch
+
+### vMatrixWireless
+
+### vMatrixDeterminant
+
+### vMatrixDivide
+
+### vMatrixDivideNumber
+
+### vMatrixInvert
+
+### vMatrixMultiply
+
+### vMatrixTimeSpeed
+
+### vMatrixTimeStretch
+
+### vMatrixFromRotation
+
+### vMatrixFromScale
+
+### vMatrixFromTranslation
+
+### vMatrixToEuler
+
+### vMatrixToRotation
+
+### vMatrixToScale
+
+### vMatrixToTranslation
+
+### vMatrixTranspose
+
+### vMatrixConcatenateHorizontal
+
+### vMatrixConcatenateVertical
+
+### vMatrixSlice
+
+### vMatrixViewer

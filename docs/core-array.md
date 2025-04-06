@@ -13,7 +13,7 @@ Create:
 - vArrayFromYAML
 
 Flow:
-vArraySwitch
+- vArraySwitch
 - vArrayWireless
 
 Key Value:
@@ -45,3 +45,57 @@ Utility:
 
 ## Node Docs
 
+
+### vArrayFromCSV
+
+### vArrayFromDataWindow
+
+### vArrayFromJSON
+
+### vArrayFromLuaTable
+
+### vArrayFromMediaIn
+
+### vArrayFromMetadata
+
+### vArrayFromXML
+
+### vArrayFromYAML
+
+### vArraySwitch
+
+### vArrayWireless
+
+### vArrayGet
+
+### vArrayGetElement
+
+### vArrayGetIndex
+
+### vArrayGetKey
+
+### vArrayKeys
+
+### vArrayDoString
+
+### vArraySubReturn
+
+### vArrayTimeSpeed
+
+### vArrayTimeStretch
+
+### vArrayConcatenate
+
+### vArrayCountElement
+
+### vArrayCountSubElements
+
+### vArrayJoin
+
+### vArrayMatch
+
+### vArraySize
+
+### vArraySlice
+
+### vArrayViewer

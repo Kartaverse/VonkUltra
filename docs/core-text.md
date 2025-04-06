@@ -118,3 +118,166 @@ Utility:
 
 ## Node Docs
 
+### vTextCaseAlternate
+
+### vTextCaseInvert
+
+### vTextCaseLower
+
+### vTextCaseRandom
+
+### vTextCaseSentence
+
+### vTextCaseTitle
+
+### vTextCaseUpper
+
+### vTextCompAppUUID
+
+### vTextCompCurrentTime
+
+### vTextCompFilename
+
+### vTextCompName
+
+### vTextCompReqTime
+
+### vTextCreate
+
+### vTextCreateArch
+
+### vTextCreateBrowse
+
+### vTextCreateMultiline
+
+### vTextCreateMultilineCode
+
+### vTextCreatePlatform
+
+### vTextCreatePlatformBrowse
+
+### vTextDate
+
+### vTextEnv
+
+### vTextFromArray
+
+### vTextFromASCII
+
+### vTextFromCSV
+
+### vTextFromHex
+
+### vTextFromNumber
+
+### vTextFromNumberPadded
+
+### vTextToHex
+
+### vTextUUID
+
+### vTextUUIDStatic
+
+### vTextDecodeUrl
+
+### vTextEncodeUrl
+
+### vTextSwitch
+
+### vTextWireless
+
+### vTextFontMetrics
+
+### vTextFromClipboard
+
+### vTextFromComp
+
+### vTextFromFile
+
+### vTextFromNet
+
+### vTextFromZip
+
+### vTextToClipboard
+
+### vTextToFile
+
+### vTextEqual
+
+### vTextNotEqual
+
+### vTextTernary
+
+### vTextOrderReverse
+
+### vTextOrderShuffle
+
+### vTextResolvePID
+
+### vTextResolveProjectName
+
+### vTextDoAction
+
+### vTextDoString
+
+### vTextExecute
+
+### vTextProcessOpen
+
+### vTextRenderComp
+
+### vTextRunScript
+
+### vTextShellBG
+
+### vTextSlashCommand
+
+### vTextMerge
+
+### vTextSubFormat
+
+### vTextSubFormatMultiline
+
+### vTextSubJoin
+
+### vTextSubReplace
+
+### vTextSubReturn
+
+### vTextSubSplit
+
+### vTextSubStripLeft
+
+### vTextSubStripRight
+
+### vTextFromSubtitle
+
+### vTextAccumulator
+
+### vTextTimeSpeed
+
+### vTextTimeStretch
+
+### vTextDelay
+
+### vTextDump
+
+### vTextFromCSVViewer
+
+### vTextLength
+
+### vTextLineCount
+
+### vTextNormalizeSlashes
+
+### vTextParseFilename
+
+### vTextParseFilenameOutputs
+
+### vTextReadLine
+
+### vTextSortLines
+
+### vTextToHTMLViewer
+
+### vTextViewer

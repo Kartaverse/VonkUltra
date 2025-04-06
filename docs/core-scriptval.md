@@ -103,3 +103,124 @@ YAML:
 
 ## Node Docs
 
+### vScriptValFromArray
+
+### vScriptValToArray
+
+### vScriptValCreate
+
+### vScriptValFromApp
+
+### vScriptValFromCSV
+
+### vScriptValFromDate
+
+### vScriptValFromListFiles
+
+### vScriptValFromPingHosts
+
+### vScriptValFromPrefs
+
+### vScriptValFromRegistry
+
+### vScriptValFromCustomData
+
+### vScriptValToCustomData
+
+### vScriptValSwitch
+
+### vScriptValWireless
+
+### vScriptValFontMetrics
+
+### vScriptValFromListFonts
+
+### vScriptValFromEXRFile
+
+### vScriptValFromBinaryFile
+
+### vScriptValFromClipboard
+
+### vScriptValFromFile
+
+### vScriptValToBinaryFile
+
+### vScriptValToClipboard
+
+### vScriptValToFile
+
+### vScriptValFromJSON
+
+### vScriptValToJSON
+
+### vScriptValGetElementToNumber
+
+### vScriptValGetElementToTable
+
+### vScriptValGetElementToText
+
+### vScriptValGetElementXYZToNumber
+
+### vScriptValGetToNumber
+
+### vScriptValGetToTable
+
+### vScriptValGetToText
+
+### vScriptValKeysToTable
+
+### vScriptValKeysToText
+
+### vScriptValRemoveElement
+
+### vScriptValSetFromNumber
+
+### vScriptValSetFromTable
+
+### vScriptValSetFromText
+
+### vScriptValTrimElement
+
+### vScriptValFromMetadata
+
+### vScriptValToMetadata
+
+### vScriptValFromNumber
+
+### vScriptValToNumber
+
+### vScriptValFromPoint
+
+### vScriptValToPoint
+
+### vScriptValDoFile
+
+### vScriptValDoString
+
+### vScriptValDoStringMultiplex
+
+### vScriptValCreatePolyline
+
+### vScriptValAccumulator
+
+### vScriptValTimeSpeed
+
+### vScriptValTimeStretch
+
+### vScriptValFromText
+
+### vScriptValToText
+
+### vScriptValCount
+
+### vScriptValDump
+
+### vScriptValMerge
+
+### vScriptValViewer
+
+### vScriptValFromXML
+
+### vScriptValToXML
+
+### vScriptValFromYAML

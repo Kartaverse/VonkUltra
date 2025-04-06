@@ -45,3 +45,44 @@ Utility:
 
 ## Node Docs
 
+### vGradientFromArray
+
+### vGradientCreate
+
+### vGradientSwitch
+
+### vGradientWireless
+
+### vGradientToImage
+
+### vGradientToNumber
+
+### vGradientFromPixel
+
+### vScriptValFromPixel
+
+### vGradientDoString
+
+### vGradientFromScriptVal
+
+### vGradientToScriptVal
+
+### vGradientAccumulator
+
+### vGradientTimeSpeed
+
+### vGradientTimeStretch
+
+### vGradientColorCount
+
+### vGradientMerge
+
+### vGradientNormalizePosition
+
+### vGradientSlice
+
+### vGradientSort
+
+### vGradientSwatchViewer
+
+### vGradientViewer

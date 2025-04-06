@@ -17,3 +17,16 @@ Utility:
 
 ## Node Docs
 
+### vBase64DecodeFromText
+
+### vBase64DecodeImageFromFile
+
+### vBase64DecodeImageFromText
+
+### vBase64EncodeFromFile
+
+### vBase64EncodeFromText
+
+### vBase64ImageViewer
+
+### vBase64ToHTML

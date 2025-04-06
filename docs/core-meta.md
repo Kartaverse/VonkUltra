@@ -19,3 +19,16 @@ Utility:
 
 ## Node Docs
 
+### vMetadataFromComp
+
+### vMetadataToComp
+
+### vMetadataFromMediaIn
+
+### vMetadataFilename
+
+### vMetadataFromText
+
+### vMetadataToText
+
+### vMetadataViewer

@@ -28,3 +28,30 @@ Utility:
 
 ## Node Docs
 
+### vVectorFromArray
+
+### vVectorCreate
+
+### vVectorAdd
+
+### vVectorCrossProduct
+
+### vVectorDivideNumber
+
+### vVectorDotProduct
+
+### vVectorMultiplyNumber
+
+### vVectorNormalize
+
+### vVectorSlice
+
+### vVectorSubtract
+
+### vPointToVector
+
+### vVectorFromPoint
+
+### vVectorToPoint
+
+### vVectorLength

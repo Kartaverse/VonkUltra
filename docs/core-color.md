@@ -8,3 +8,8 @@
 
 ## Node Docs
 
+### vColorJuggler
+
+### vColorPermutations
+
+### vColorSet

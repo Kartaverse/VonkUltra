@@ -12,3 +12,10 @@ ScriptVal:
 
 ## Node Docs
 
+### vJSONFromCBORFile
+
+### vJSONToCBORFile
+
+### vScriptValFromCBORFile
+
+### vScriptValToCBORFile

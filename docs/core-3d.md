@@ -17,3 +17,12 @@ Utility:
 
 ## Node Docs
 
+### v3DSwitch
+
+### v3DToFile
+
+### v3DProcessOpen
+
+### v3DSlashCommand
+
+### v3DDelay

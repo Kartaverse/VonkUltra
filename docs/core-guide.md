@@ -13,3 +13,12 @@ IO:
 
 ## Node Docs
 
+### vGuideCreate
+
+### vGuideShape
+
+### vGuideText
+
+### vGuideFromFile
+
+### vGuideToFile
