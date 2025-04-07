@@ -10,5 +10,9 @@ Flow:
 
 ### vShapeSwitch
 
+![vShapeSwitch](Images/Nodes/vShapeSwitch.png)
+
 ### vShapeWireless
+
+![vShapeWireless](Images/Nodes/vShapeWireless.png)
 
