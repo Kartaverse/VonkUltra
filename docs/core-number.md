@@ -95,7 +95,7 @@ Trigonometry:
 - vNumberArcCosine
 - vNumberArcSine
 - vNumberArcTangent
-- vNumberArcTangent2
+- vNumberTwoArgumentArcTangent
 - vNumberCosine
 - vNumberDegreesToRadians
 - vNumberHyperbolicCosine
@@ -395,9 +395,9 @@ Vector:
 
 ![vNumberArcTangent](Images/Nodes/vNumberArcTangent.png)
 
-### vNumberArcTangent2
+### vNumberTwoArgumentArcTangent
 
-![vNumberArcTangent2](Images/Nodes/vNumberArcTangent2.png)
+![vNumberTwoArgumentArcTangent](Images/Nodes/vNumberTwoArgumentArcTangent.png)
 
 ### vNumberCosine
 

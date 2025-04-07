@@ -1,0 +1,36 @@
+/* Simple Youtbe embed CSS STARTS*/
+
+.yt-embed-container {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+  }
+  
+  .yt-embed-left {
+    justify-content: flex-start;
+  }
+  
+  .yt-embed-center {
+    justify-content: center;
+  }
+  
+  .yt-embed-right {
+    justify-content: flex-end;
+  }
+  
+  .yt-embed-wrapper {
+    max-width: 800px;
+    /* Adjust this value as needed */
+    aspect-ratio: 16 / 9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .yt-embed-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /*Simple Youtbe embed CSS ENDS*/

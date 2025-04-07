@@ -20,16 +20,7 @@ The Vonk Ultra motion graphics examples are located on disk at the Pathmap locat
 
 ## Video
 
-
-<div style="text-align: left;">
-  <iframe width="640" height="360"
-          src="https://www.youtube.com/embed/NIERGDzrMDs"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-  </iframe>
-</div>
-
+@yt(NIERGDzrMDs,640px,360px,center)
 
 ## Screenshots
 
@@ -163,7 +154,7 @@ The Vonk Ultra motion graphics examples are located on disk at the Pathmap locat
 ![vJSONPointsOnRectangle_1](Images/Mograph/vJSONPointsOnRectangle_1.png ':size=650')
 ![vJSONPointsOnRectangle_2](Images/Mograph/vJSONPointsOnRectangle_2.png ':size=650')
 
-### 
+### vJSONPointsOnSphere
 
 ![vJSONPointsOnSphere_1](Images/Mograph/vJSONPointsOnSphere_1.png ':size=650')
 ![vJSONPointsOnSphere_2](Images/Mograph/vJSONPointsOnSphere_2.png ':size=650')
@@ -202,7 +193,7 @@ The Vonk Ultra motion graphics examples are located on disk at the Pathmap locat
 ![vScriptValGenerateSpirals_2](Images/Mograph/vScriptValGenerateSpirals_2.png ':size=650')
 ![vScriptValGenerateSpirals_3](Images/Mograph/vScriptValGenerateSpirals_3.png ':size=650')
 
-### 
+### vScriptValLogarithmicSpiral
 
 ![vScriptValLogarithmicSpiral_1](Images/Mograph/vScriptValLogarithmicSpiral_1.png ':size=650')
 ![vScriptValLogarithmicSpiral_3](Images/Mograph/vScriptValLogarithmicSpiral_3.png ':size=650')
