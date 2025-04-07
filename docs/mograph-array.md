@@ -524,6 +524,30 @@ Using Text and Strings on Array based Lua table of XY points path
 
 ![Node](Images/Nodes/vArrayShapeRenderTextPath.png)
 
+### vArrayCustom2DShapes
+
+Dynamically create 2D Shape elements
+
+![Node](Images/Nodes/vArrayCustom2DShapes.png)
+
+### vArrayCustom3DShapes
+
+Dynamically create Shape elements
+
+![Node](Images/Nodes/vArrayCustom3DShapes.png)
+
+### vArrayShapeText
+
+Example, using Text and Strings
+
+![Node](Images/Nodes/vArrayShapeText.png)
+
+### vArrayTangentVectorItem
+
+Create a vector that is tangent to a curve or surface at a given point
+
+![Node](Images/Nodes/vArrayTangentVectorItem.png)
+
 ### vArrayAccumulator
 
 Temporally concatenate array elements
