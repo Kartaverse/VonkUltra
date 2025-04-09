@@ -120,6 +120,12 @@ The "Skip Hidden Files" checkbox is used to ignore hidden files like "`.DS_Store
 
 ### vFileSystemMapPath
 
+Expands a PathMap
+
+This node automatically converts a relative filepath into an absolute filepath on the output.
+
+This is useful if you want to supply an executable program name, or a filename to an operation like the ProcessOpen node that carries out command-line tasks.
+
 ![vFileSystemMapPath](Images/Nodes/vFileSystemMapPath.png)
 
 ### vFileSystemRemoveDir

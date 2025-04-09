@@ -83,7 +83,6 @@ The "Show Which Input" checkbox is used to hide the Number datatype based input 
 
 The "Show Active Input" checkbox is used as a visualization and diagnostics mode. When enabled, this control automatically toggles the visibility off for the inactive connection wirelines fed into the switch node. This approach makes it possible to visually see in a quick glance the source comp branch that is selected as the input and used by the Which control. All other inputs will be turned into hidden wireless inputs when not in use.
 
-
 ![vMatrixSwitch](Images/Nodes/vMatrixSwitch.png)
 
 ### vMatrixWireless
