@@ -269,7 +269,7 @@ Generate points on Hexagon Grid
 
 ### vScriptValPointsOnCircle
 
-Generate points on a cricle
+Generate points on a circle
 
 ![Node](Images/Nodes/vScriptValPointsOnCircle.png)
 

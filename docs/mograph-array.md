@@ -217,7 +217,7 @@ Example Node Connections:
     vArrayFromXYZ.Points -> vArrayCameraProjection.ArrayA
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
-    
+
 Transform XYZ Points Node Connections:
 
     vArrayFromXYZ.Points -> vArrayMath.ArrayA
@@ -377,7 +377,7 @@ Example Node Connections:
     vJSONFromFile.Output -> vArrayMapGeoJSON.ArrayA
     vArrayMapGeoJSON.Output -> vArrayCameraProjection.ArrayA
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
-    vArrayMapGeoJSON.Output -> vArrayShapeRender.ArrayGroups
+    vArrayMapGeoJSON.ScriptVal_Groups -> vArrayShapeRender.ArrayGroups
     Background.Output -> vArrayShapeRender.Input
 
 ### vArrayPhyllotaxis
@@ -418,7 +418,7 @@ Example Node Connections:
 
 ### vArrayPointsOnCircle
 
-Generate points on Array Cricle
+Generate points on Array circle
 
 ![Node](Images/Nodes/vArrayPointsOnCircle.png)
 
@@ -563,7 +563,7 @@ Displace XYZ positions using noise with spherical falloff
 
 Example Node Connections:
 
-    vArrayCircularPoints1.Output -> vArrayDisplaceValues.ArrayA
+    vArrayCircularPoints.Output -> vArrayDisplaceValues.ArrayA
     vArrayDisplaceValues.Output -> vArrayCameraProjection.ArrayA
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
@@ -786,6 +786,14 @@ Example Node Connections:
 Create a vector that is tangent to a curve or surface at a given point
 
 ![Node](Images/Nodes/vArrayTangentVector.png)
+
+Example Node Connections:
+
+    vArrayLogarithmicSpiral.Output -> vArrayTangentVector.JSONpath
+    vArrayTangentVector.Output -> vArrayCameraProjection.ArrayA
+    vArrayCameraProjection.Output -> vArrayShapeRender.ArrayShape
+    vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
+    Background.Output -> vArrayShapeRender.Input
 
 ### vArrayTextWrap
 
