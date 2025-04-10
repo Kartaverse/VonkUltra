@@ -732,11 +732,26 @@ Create a vector that is tangent to a curve or surface at a given point
 
 ![Node](Images/Nodes/vJSONTangentVector.png)
 
+Example Node Connections:
+
+    vJSONLogarithmicSpiral.Output -> vJSONTangentVector.JSONpath
+    vJSONTangentVector.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+
 ### vJSONTextWrap
 
 Text wrap Operations on a JSON
 
 ![Node](Images/Nodes/vJSONTextWrap.png)
+
+Example Node Connections:
+
+    vJSONGenerateText.chanceOperation = "Lorem ipsum"
+    vJSONGenerateText.selectMode = "Paragraph"
+    vJSONGenerateText.paragraphCount = 8
+    vJSONGenerateText.OutputValData -> vJSONTextWrap.Array
+    vJSONTextWrap.Text -> vTextViewer.Input
 
 ### vJSONTranslate
 
@@ -744,11 +759,30 @@ Creates a vector from an array
 
 ![Node](Images/Nodes/vJSONTranslate.png)
 
+Example Node Connections:
+
+    vJSONPointsOnGrid.Output -> vJSONUnPacker.ArrayA
+    vJSONUnPacker.OutputArray -> vJSONTranslate.ArrayA
+    vJSONTranslate.Output -> vJSONPacker.ArrayA
+    vJSONPacker.Output -> vJSONWave.ArrayA
+    vJSONWave.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+
 ### vJSONUnPacker
 
 Unpack Operations on an Array
 
 ![Node](Images/Nodes/vJSONUnPacker.png)
+
+Example Node Connections:
+
+    vJSONPointsOnCircle.Output -> vJSONUnPacker.ArrayB
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONSin.Output -> vJSONPacker.ArrayA
+    vJSONPacker.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
 
 ### vJSONWave
 
@@ -765,11 +799,26 @@ Wave options include:
 - Sine
 - Noise
 
+Example Node Connections:
+
+    vJSONPointsOnGrid.Output -> vJSONWave.ArrayA
+    vJSONWave.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+
 ### vJSONShapeRender
 
 Create a polygon dot shapes from a JSON based Lua table of XY point pairs
 
 ![Node](Images/Nodes/vJSONShapeRender.png)
+
+Example Node Connections:
+
+    vJSONFromOBJ.Points -> vJSONCameraProjection.ArrayA
+    vJSONFromOBJ.Edges -> vJSONShapeRender.ArrayEdge
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONEdge
+    Background.Output -> vJSONShapeRender.Input
 
 ### vJSONShapeRenderTextPath
 
@@ -777,11 +826,29 @@ Using Text and Strings on Array based Lua table of XY points path
 
 ![Node](Images/Nodes/vJSONShapeRenderTextPath.png)
 
+Example Node Connections:
+
+    vJSONCircularPoints.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONConvert2D_3D.ArrayA
+    vJSONConvert2D_3D.Output -> vJSONShapeRenderTextPath.JSONpath
+    Background.Output -> vJSONShapeRenderTextPath.Input
+    vTextCreate.Output -> vJSONShapeRenderTextPath.inputtext
+
 ### vJSONCustom2DShapes
 
 Dynamically create 2D Shape elements
 
 ![Node](Images/Nodes/vJSONCustom2DShapes.png)
+
+Example Node Connections:
+
+    vJSONPointsOnCircle1.Output -> vJSONUnPacker.ArrayB
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONSin.Output -> vJSONPacker.ArrayA
+    vJSONPacker.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    vJSONCustom2DShapes.Output -> vJSONShapeRender.JSONCustomShape
+    Background.Output -> vJSONShapeRender.Input
 
 ### vJSONCustom3DShapes
 
@@ -789,11 +856,25 @@ Dynamically create Shape elements
 
 ![Node](Images/Nodes/vJSONCustom3DShapes.png)
 
+Example Node Connections:
+
+    vJSONPointsOnCircle.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    vJSONCustom3DShapes.Output -> vJSONShapeRender.JSONCustomShape
+    Background.Output -> vJSONShapeRender.Input
+
 ### vJSONShapeText
 
 Example, using Text and Strings
 
 ![Node](Images/Nodes/vJSONShapeText.png)
+
+Example Node Connections:
+
+    vJSONPointsOnCircle.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+    vJSONShapeText.OutputValShape -> vJSONShapeRender.JSONCustomShape
 
 ### vJSONTangentVectorItem
 
@@ -801,11 +882,29 @@ Create a vector that is tangent to a curve or surface at a given point
 
 ![Node](Images/Nodes/vJSONTangentVectorItem.png)
 
+Example Node Connections:
+
+    vJSONLogarithmicSpiral.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONTangentVectorItem.JSON_Path
+    vJSONTangentVectorItem.Output -> vJSONShapeRender.JSONCustomShape
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+
 ### vJSONAppend
 
 Append Array to an array
 
 ![Node](Images/Nodes/vJSONAppend.png)
+
+Example Node Connections:
+
+    vJSONPointsOnCircle.Output -> vJSONAppend.In_Array
+    vJSONAppend.Output -> vJSONUnPacker.ArrayB
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONSin.Output -> vJSONPacker.ArrayA
+    vJSONPacker.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
 
 ### vJSONAppendGroup
 
@@ -819,11 +918,27 @@ Returns info of an array
 
 ![Node](Images/Nodes/vJSONInfo.png)
 
+Example Node Connections:
+
+    vJSONPointsOnCube.Output -> vJSONUnPacker.ArrayB
+    vJSONUnPacker.OutputArray -> vJSONInfo.ArrayA
+
 ### vJSONMerge
 
 Dynamically join JSON elements into one table
 
 ![Node](Images/Nodes/vJSONMerge.png)
+
+Example Node Connections:
+
+    vJSONPointsOnCircle1.Output -> vJSONMerge.Array1
+    vJSONPointsOnCircle2.Output -> vJSONMerge.Array2
+    vJSONMerge.Output -> vJSONPacker.ArrayA
+    vJSONMerge.SelectMode = "Flatten"
+    vJSONPacker.InputNumber = "XYZ"
+    vJSONPacker.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
 
 ### vJSONReducePoints
 
@@ -837,8 +952,23 @@ Decimation Method options include:
 - Random Sampling
 - Curvature-Based (SLOW)
 
+Example Node Connections:
+
+    vJSONPointsOnSphere.Output -> vJSONReducePoints.ArrayA
+    vJSONReducePoints.Output -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+
 ### vJSONSlicer
 
 Trimming the start and end of single or multi-dimensional arrays
 
 ![Node](Images/Nodes/vJSONSlicer.png)
+
+Example Node Connections:
+
+    vJSONCircularPoints.Output -> vJSONSlicer.Input
+    vJSONSlicer.Array -> vJSONCameraProjection.ArrayA
+    vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
+    Background.Output -> vJSONShapeRender.Input
+    vJSONShapeText.OutputValShape -> vJSONShapeRender.JSONCustomShape

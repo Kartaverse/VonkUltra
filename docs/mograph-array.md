@@ -791,7 +791,6 @@ Example Node Connections:
 
     vArrayLogarithmicSpiral.Output -> vArrayTangentVector.JSONpath
     vArrayTangentVector.Output -> vArrayCameraProjection.ArrayA
-    vArrayCameraProjection.Output -> vArrayShapeRender.ArrayShape
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
