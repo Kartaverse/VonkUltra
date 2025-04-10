@@ -95,6 +95,12 @@ FIFO (first in first out) in an array
 
 ![Node](Images/Nodes/vArrayBuffer.png)
 
+Example Node Connections:
+
+    vArrayBuffer.Low = 1
+    vArrayBuffer.High = 10
+    vArrayBuffer.Output -> vArrayViewer.Text
+
 ### vArrayCircularPoints
 
 Distributes points in circular form

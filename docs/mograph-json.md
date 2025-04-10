@@ -87,6 +87,12 @@ FIFO (first in first out) in an array
 
 ![Node](Images/Nodes/vJSONBuffer.png)
 
+Example Node Connections:
+
+    vJSONBuffer.Low = 1
+    vJSONBuffer.High = 10
+    vJSONBuffer.Output -> vJSONViewer.Text
+
 ### vJSONCircularPoints
 
 Distributes points in circular form

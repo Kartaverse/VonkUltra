@@ -93,11 +93,19 @@ FIFO (first in first out) in an array
 
 ![Node](Images/Nodes/vScriptValBuffer.png)
 
+Example Node Connections:
+
+    vScriptValBuffer.Low = 1
+    vScriptValBuffer.High = 10
+    vScriptValBuffer.Output -> vScriptValViewer.ScriptVal
+
 ### vScriptValCircularPoints
 
 Distributes points in circular form
 
 ![Node](Images/Nodes/vScriptValCircularPoints.png)
+
+Example Node Connections:
 
     vScriptValCircularPoints1.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
