@@ -129,7 +129,7 @@ Example Node Connections:
 
     vJSONFromFile.Output -> vArrayCreateJSONFont.JSON_Font
     vArrayCreateJSONFont.Output -> vArrayCameraProjection.ArrayA
-    vArrayCreateJSONFont.Scriptal_Groups -> vArrayShapeRender.ArrayGroups
+    vArrayCreateJSONFont.ScriptVal_Groups -> vArrayShapeRender.ArrayGroups
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
@@ -778,7 +778,7 @@ Example Node Connections:
 
     vArrayUnPacker.OutputArray -> vArrayLogicBetween.ArrayA 
     vArrayLogicBetween.Output -> vArraySortByDistance.Array
-    ArraySortByDistance.Output -> vArrayPacker.ArrayA
+    vArraySortByDistance.Output -> vArrayPacker.ArrayA
     vArrayPacker.Output -> vArrayViewer.Text
 
 ### vArrayTangentVector
@@ -872,7 +872,6 @@ Example Node Connections:
     vArrayFromOBJ.Points -> vArrayCameraProjection.ArrayA
     vArrayFromOBJ.Edges -> vArrayShapeRender.ArrayEdge
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
-    vArrayCameraProjection.Output -> vArrayShapeRender.ArrayEdge
     Background.Output -> vArrayShapeRender.Input
 
 ### vArrayShapeRenderTextPath

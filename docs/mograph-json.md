@@ -121,7 +121,7 @@ Example Node Connections:
 
     vJSONFromFile.Output -> vJSONCreateJSONFont.JSON_Font
     vJSONCreateJSONFont.Output -> vJSONCameraProjection.ArrayA
-    vJSONCreateJSONFont.Scriptal_Groups -> vJSONShapeRender.JSONTextGroups
+    vJSONCreateJSONFont.ScriptVal_Groups -> vJSONShapeRender.JSONTextGroups
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
@@ -723,7 +723,7 @@ Example Node Connections:
 
     vJSONUnPacker.OutputArray -> vJSONLogicBetween.ArrayA 
     vJSONLogicBetween.Output -> vJSONSortByDistance.Array
-    ArraySortByDistance.Output -> vJSONPacker.ArrayA
+    vJSONSortByDistance.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
 ### vJSONTangentVector
@@ -755,7 +755,7 @@ Example Node Connections:
 
 ### vJSONTranslate
 
-Creates a vector from an array
+Transforms array positions
 
 ![Node](Images/Nodes/vJSONTranslate.png)
 
@@ -817,7 +817,6 @@ Example Node Connections:
     vJSONFromOBJ.Points -> vJSONCameraProjection.ArrayA
     vJSONFromOBJ.Edges -> vJSONShapeRender.ArrayEdge
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
-    vJSONCameraProjection.Output -> vJSONShapeRender.JSONEdge
     Background.Output -> vJSONShapeRender.Input
 
 ### vJSONShapeRenderTextPath
