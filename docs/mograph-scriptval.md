@@ -514,8 +514,8 @@ Logic Between Operations on an Array
 
 Example Node Connections:
 
-    vScriptValUnPacker.ScriptVal1 -> vScriptValLogicBetween.ArrayA 
-    vScriptValLogicBetween.Output -> vScriptValSortByDistance.Array
+    vScriptValUnPacker.ScriptVal1 -> vScriptValLogicBetween.ScriptVal
+    vScriptValLogicBetween.Output -> vScriptValSortByDistance.ScriptVal
     ArraySortByDistance.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -698,7 +698,7 @@ Example Node Connections:
 
     vScriptValCircularPoints.Output->  vScriptValUnPacker.ScriptVal
     vScriptValUnPacker.ScriptVal1 -> vScriptValPerlin3Noise.Input
-    vScriptValPerlin3Noise.Array ->  vScriptValPacker.ScriptVal
+    vScriptValPerlin3Noise.Output ->  vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
@@ -741,7 +741,7 @@ Rotate ScriptVals Between Operations on a ScriptVal Object
 Example Node Connections:
 
     vScriptValPointsHexagonGrid.Output -> vScriptValRotateValues.ScriptVal
-    vScriptValRotateValues.ScriptVal -> vScriptValCameraProjection.ScriptVal
+    vScriptValRotateValues.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
@@ -768,8 +768,8 @@ Sort array by point distance
 
 Example Node Connections:
 
-    vScriptValUnPacker.ScriptVal1 -> vScriptValLogicBetween.ArrayA 
-    vScriptValLogicBetween.Output -> vScriptValSortByDistance.Array
+    vScriptValUnPacker.ScriptVal1 -> vScriptValLogicBetween.ScriptVal
+    vScriptValLogicBetween.Output -> vScriptValSortByDistance.ScriptVal
     vScriptValSortByDistance.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -809,9 +809,9 @@ Transforms array positions
 Example Node Connections:
 
     vScriptValPointsOnGrid.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValTranslate.ArrayA
+    vScriptValUnPacker.ScriptVal1 -> vScriptValTranslate.ScriptVal
     vScriptValTranslate.Output -> vScriptValPacker.ScriptVal
-    vScriptValPacker.ScriptVal -> vScriptValWave.ArrayA
+    vScriptValPacker.ScriptVal -> vScriptValWave.ScriptVal
     vScriptValWave.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
@@ -825,7 +825,7 @@ Unpack Operations on a ScriptVal object
 Example Node Connections:
 
     vScriptValPointsOnCircle.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal 
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -848,7 +848,7 @@ Wave options include:
 
 Example Node Connections:
 
-    vScriptValPointsOnGrid.Output -> vScriptValWave.ArrayA
+    vScriptValPointsOnGrid.Output -> vScriptValWave.ScriptVal
     vScriptValWave.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
@@ -935,7 +935,7 @@ Dynamically create 2D Shape elements
 Example Node Connections:
 
     vScriptValPointsOnCircle1.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal 
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -992,7 +992,7 @@ Example Node Connections:
 
     vScriptValPointsOnCircle.Output -> vScriptValAppend.In_Array
     vScriptValAppend.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal 
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -1055,7 +1055,7 @@ Trim the start and end of single or multi-dimensional arrays
 Example Node Connections:
 
     vScriptValCircularPoints.Output -> vScriptValSlicer.Input
-    vScriptValSlicer.Array -> vScriptValCameraProjection.ScriptVal
+    vScriptValSlicer.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
     vScriptValShapeText.OutputValShape -> vScriptValShapeRender.ScriptValShape

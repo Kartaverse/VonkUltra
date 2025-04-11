@@ -795,7 +795,7 @@ Create a vector that is tangent to a curve or surface at a given point
 
 Example Node Connections:
 
-    vArrayLogarithmicSpiral.Output -> vArrayTangentVector.JSONpath
+    vArrayLogarithmicSpiral.Output -> vArrayTangentVector.ArrayPath
     vArrayTangentVector.Output -> vArrayCameraProjection.ArrayA
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
@@ -890,7 +890,7 @@ Example Node Connections:
 
     vArrayCircularPoints.Output -> vArrayCameraProjection.ArrayA
     vArrayCameraProjection.Output -> vArrayConvert2D_3D.ArrayA
-    vArrayConvert2D_3D.Output -> vArrayShapeRenderTextPath.JSONpath
+    vArrayConvert2D_3D.Output -> vArrayShapeRenderTextPath.ArrayPath
     Background.Output -> vArrayShapeRenderTextPath.Input
     vTextCreate.Output -> vArrayShapeRenderTextPath.inputtext
 
@@ -945,7 +945,7 @@ Create a vector that is tangent to a curve or surface at a given point
 Example Node Connections:
 
     vArrayLogarithmicSpiral.Output -> vArrayCameraProjection.ArrayA
-    vArrayCameraProjection.Output -> vArrayTangentVectorItem.JSON_Path
+    vArrayCameraProjection.Output -> vArrayTangentVectorItem.ArrayPath
     vArrayTangentVectorItem.Output -> vArrayShapeRender.ArrayShape
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
