@@ -289,7 +289,7 @@ Color:
 
 - rgb
 - rgba
-- hsl 
+- hsl
 - hsla
 
 Tech:
@@ -527,7 +527,7 @@ Loop an array
 
 Example Node Connections:
 
-    vScriptValUnPacker.ScriptVal1 -> vScriptValArrayIterator.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValArrayIterator.ArrayA
     vScriptValArrayIterator.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -616,7 +616,7 @@ Apply range mapping operations to an array
 
 Example Node Connections:
 
-    vScriptValUnPacker.ScriptVal1 -> vScriptValMapRange.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValMapRange.ArrayA
     vScriptValMapRange.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -631,7 +631,7 @@ Tip: If you want to apply math operations to arrays of XY or XYZ value pairs, th
 Example Node Connections:
 
     vScriptValGenerateSpirals.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValMath.ScriptValA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValMath.ScriptValA
     vScriptValMath.ScriptVal -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -676,7 +676,7 @@ Pack Operations on a ScriptVal
 Example Node Connections:
 
     vScriptValPointsOnCircle.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -754,7 +754,7 @@ Math Sin - Cos Operations on an Array
 Example Node Connections:
 
     vScriptValPointsOnCircle.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ArrayA 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -825,7 +825,7 @@ Unpack Operations on a ScriptVal object
 Example Node Connections:
 
     vScriptValPointsOnCircle.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -935,7 +935,7 @@ Dynamically create 2D Shape elements
 Example Node Connections:
 
     vScriptValPointsOnCircle1.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
@@ -992,7 +992,7 @@ Example Node Connections:
 
     vScriptValPointsOnCircle.Output -> vScriptValAppend.In_Array
     vScriptValAppend.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal 
+    vScriptValUnPacker.ScriptVal1 -> vScriptValSin.ScriptVal
     vScriptValSin.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint

@@ -267,7 +267,7 @@ Color:
 
 - rgb
 - rgba
-- hsl 
+- hsl
 - hsla
 
 Tech:
@@ -473,7 +473,7 @@ Logic Between Operations on an Array
 
 Example Node Connections:
 
-    vJSONUnPacker.OutputArray -> vJSONLogicBetween.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONLogicBetween.ArrayA
     vJSONLogicBetween.Output -> vJSONSortByDistance.Array
     ArraySortByDistance.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
@@ -563,7 +563,7 @@ Loop an array
 
 Example Node Connections:
 
-    vJSONUnPacker.OutputArray -> vJSONIterator.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONIterator.ArrayA
     vJSONIterator.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
@@ -575,7 +575,7 @@ Apply range mapping operations to an array
 
 Example Node Connections:
 
-    vJSONUnPacker.OutputArray -> vJSONMapRange.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONMapRange.ArrayA
     vJSONMapRange.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
@@ -590,7 +590,7 @@ Tip: If you want to apply math operations to arrays of XY or XYZ value pairs, th
 Example Node Connections:
 
     vJSONGenerateSpirals.Output -> vJSONUnPacker.ArrayB
-    vJSONUnPacker.OutputArray -> vJSONMath.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONMath.ArrayA
     vJSONMath.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
@@ -635,7 +635,7 @@ Pack an array into a new array
 Example Node Connections:
 
     vJSONPointsOnCircle.Output -> vJSONUnPacker.ArrayB
-    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA
     vJSONSin.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
@@ -713,7 +713,7 @@ Math Sin - Cos Operations on an Array
 Example Node Connections:
 
     vJSONPointsOnCircle.Output -> vJSONUnPacker.ArrayB
-    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA
     vJSONSin.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
@@ -727,7 +727,7 @@ Sort array by point distance
 
 Example Node Connections:
 
-    vJSONUnPacker.OutputArray -> vJSONLogicBetween.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONLogicBetween.ArrayA
     vJSONLogicBetween.Output -> vJSONSortByDistance.Array
     vJSONSortByDistance.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
@@ -784,7 +784,7 @@ Unpack Operations on an Array
 Example Node Connections:
 
     vJSONPointsOnCircle.Output -> vJSONUnPacker.ArrayB
-    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA
     vJSONSin.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
@@ -848,7 +848,7 @@ Dynamically create 2D Shape elements
 Example Node Connections:
 
     vJSONPointsOnCircle1.Output -> vJSONUnPacker.ArrayB
-    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA
     vJSONSin.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
@@ -905,7 +905,7 @@ Example Node Connections:
 
     vJSONPointsOnCircle.Output -> vJSONAppend.In_Array
     vJSONAppend.Output -> vJSONUnPacker.ArrayB
-    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA 
+    vJSONUnPacker.OutputArray -> vJSONSin.ArrayA
     vJSONSin.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
