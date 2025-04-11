@@ -527,7 +527,7 @@ Loop an array
 
 Example Node Connections:
 
-    vScriptValUnPacker.ScriptVal1 -> vScriptValArrayIterator.ArrayA
+    vScriptValUnPacker.ScriptVal1 -> vScriptValArrayIterator.ScriptVal
     vScriptValArrayIterator.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -565,7 +565,7 @@ Convert 2D array to 3D array
 
 Example Node Connections:
 
-    vScriptValCameraProjection.Output -> vScriptValConvert2D_3D.ArrayA
+    vScriptValCameraProjection.Output -> vScriptValConvert2D_3D.ScriptVal
     vScriptValConvert2D_3D.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
@@ -577,7 +577,7 @@ Displace XYZ positions using noise with spherical falloff.
 
 Example Node Connections:
 
-    vScriptValCircularPoints.Output -> vScriptValDisplaceValues.ArrayA
+    vScriptValCircularPoints.Output -> vScriptValDisplaceValues.ScriptVal
     vScriptValDisplaceValues.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
@@ -604,8 +604,8 @@ Match Array options include:
 
 Example Node Connections:
 
-    vScriptValCircularPoints1.Output -> vScriptValInterpolate.ArrayA
-    vScriptValCircularPoints2.Output -> vScriptValInterpolate.ArrayB
+    vScriptValCircularPoints1.Output -> vScriptValInterpolate.ScriptVal1
+    vScriptValCircularPoints2.Output -> vScriptValInterpolate.ScriptVal2
     vScriptValInterpolate.Output -> vScriptValViewer.ScriptVal
 
 ### vScriptValMapRange
@@ -616,7 +616,7 @@ Apply range mapping operations to an array
 
 Example Node Connections:
 
-    vScriptValUnPacker.ScriptVal1 -> vScriptValMapRange.ArrayA
+    vScriptValUnPacker.ScriptVal1 -> vScriptValMapRange.ScriptVal
     vScriptValMapRange.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
@@ -713,8 +713,8 @@ Example Node Connections:
 
     vScriptValLissajouseSpline1.Output-> vScriptValUnPacker1.ScriptVal
     vScriptValLissajouseSpline2.Output-> vScriptValUnPacker2.ScriptVal
-    vScriptValUnPacker1.ScriptVal1 -> vScriptValPointsConnect.ArrayA
-    vScriptValUnPacker2.ScriptVal1 -> vScriptValPointsConnect.ArrayB
+    vScriptValUnPacker1.ScriptVal1 -> vScriptValPointsConnect.ScriptVal1
+    vScriptValUnPacker2.ScriptVal1 -> vScriptValPointsConnect.ScriptVal2
     vScriptValPointsConnect.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
@@ -727,7 +727,7 @@ Generate points on an arc
 
 Example Node Connections:
 
-    vScriptValCreateMinMax.Output -> vScriptValPointsOnArc.ArrayA
+    vScriptValCreateMinMax.Output -> vScriptValPointsOnArc.ScriptVal
     vScriptValPointsOnArc.Output -> vScriptValCameraProjection.ScriptVal
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
@@ -921,7 +921,7 @@ Using Text and Strings on Array based Lua table of XY points path
 Example Node Connections:
 
     vScriptValCircularPoints.Output -> vScriptValCameraProjection.ScriptVal
-    vScriptValCameraProjection.Output -> vScriptValConvert2D_3D.ArrayA
+    vScriptValCameraProjection.Output -> vScriptValConvert2D_3D.ScriptVal
     vScriptValConvert2D_3D.Output -> vScriptValShapeRenderTextPath.ScriptValpath
     Background.Output -> vScriptValShapeRenderTextPath.Input
     vTextCreate.Output -> vScriptValShapeRenderTextPath.inputtext
@@ -1013,7 +1013,7 @@ Returns info of an array
 Example Node Connections:
 
     vScriptValPointsOnCube.Output -> vScriptValUnPacker.ScriptVal
-    vScriptValUnPacker.ScriptVal1 -> vScriptValInfo.ArrayA
+    vScriptValUnPacker.ScriptVal1 -> vScriptValInfo.ScriptVal
 
 ### vScriptValMergeAsset
 
