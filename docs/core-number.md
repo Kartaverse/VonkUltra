@@ -115,7 +115,9 @@ Vector:
 
 ## Node Docs
 
-### vNumberFromArray
+### Array
+
+#### vNumberFromArray
 
 Creates a Number from an array
 
@@ -123,7 +125,9 @@ The "Index" control allows you to select the array item (cell) to return as a nu
 
 ![vNumberFromArray](Images/Nodes/vNumberFromArray.png)
 
-### vNumberCompCurrentTime
+### Comp
+
+#### vNumberCompCurrentTime
 
 Returns the comp's Current Time
 
@@ -131,13 +135,13 @@ The current time represents the point where the timeline playhead is positioned 
 
 ![vNumberCompCurrentTime](Images/Nodes/vNumberCompCurrentTime.png)
 
-### vNumberCompFPS
+#### vNumberCompFPS
 
 Returns the comp's frame rate
 
 ![vNumberCompFPS](Images/Nodes/vNumberCompFPS.png)
 
-### vNumberCompFrameFormat
+#### vNumberCompFrameFormat
 
 Returns the comp's frame format
 
@@ -145,7 +149,7 @@ This node outputs a Width and Height parameter derived from the current comp's F
 
 ![vNumberCompFrameFormat](Images/Nodes/vNumberCompFrameFormat.png)
 
-### vNumberCompGlobalEnd
+#### vNumberCompGlobalEnd
 
 Returns the comp's Global End
 
@@ -153,7 +157,7 @@ This is the last frame of the full Fusion timeline range. This number is not alw
 
 ![vNumberCompGlobalEnd](Images/Nodes/vNumberCompGlobalEnd.png)
 
-### vNumberCompGlobalStart
+#### vNumberCompGlobalStart
 
 Returns the comp's Global Start
 
@@ -161,7 +165,7 @@ This is the first frame of the full Fusion timeline range. This number is not al
 
 ![vNumberCompGlobalStart](Images/Nodes/vNumberCompGlobalStart.png)
 
-### vNumberCompProxy
+#### vNumberCompProxy
 
 Returns the comp's Proxy state
 
@@ -173,13 +177,13 @@ Note: There is a slight instability that can occur with this node if you rapidly
 
 ![vNumberCompProxy](Images/Nodes/vNumberCompProxy.png)
 
-### vNumberCompProxyScale
+#### vNumberCompProxyScale
 
 Returns the comp's Proxy Scale
 
 ![vNumberCompProxyScale](Images/Nodes/vNumberCompProxyScale.png)
 
-### vNumberCompRenderEnd
+#### vNumberCompRenderEnd
 
 Returns the comp's Render End
 
@@ -187,7 +191,7 @@ This is the last renderable frame when a batch render is carried out.
 
 ![vNumberCompRenderEnd](Images/Nodes/vNumberCompRenderEnd.png)
 
-### vNumberCompRenderStart
+#### vNumberCompRenderStart
 
 Returns the comp's Render Start
 
@@ -195,7 +199,7 @@ This is the first renderable frame when a batch render is carried out.
 
 ![vNumberCompRenderStart](Images/Nodes/vNumberCompRenderStart.png)
 
-### vNumberCompReqTime
+#### vNumberCompReqTime
 
 Returns the comp's request time
 
@@ -203,7 +207,9 @@ This is the currently requested frame that is being processed at render time. It
 
 ![vNumberCompReqTime](Images/Nodes/vNumberCompReqTime.png)
 
-### vNumberCreate
+### Create
+
+#### vNumberCreate
 
 Creates a Fusion Number object
 
@@ -211,7 +217,7 @@ This node is the starting point for most number data type based node graphs. The
 
 ![vNumberCreate](Images/Nodes/vNumberCreate.png)
 
-### vNumberCreateArch
+#### vNumberCreateArch
 
 Creates a unique Fusion Number object per CPU architecture
 
@@ -223,7 +229,7 @@ If the fuse is rendered on an ARM 64-bit system, like an Apple Silicon CPU, a va
 
 ![vNumberCreateArch](Images/Nodes/vNumberCreateArch.png)
 
-### vNumberCreateBool
+#### vNumberCreateBool
 
 Returns a 0-1 range integer Fusion Number object
 
@@ -239,13 +245,13 @@ Node setting to change:
 
     vNumberAdd.Term2 = 1
 
-### vNumberCreateMultiButton
+#### vNumberCreateMultiButton
 
 Creates a Fusion Number object using a MultiButton control for the input
 
 ![vNumberCreateMultiButton](Images/Nodes/vNumberCreateMultiButton.png)
 
-### vNumberCreatePlatform
+#### vNumberCreatePlatform
 
 Creates a unique Fusion Number object per OS platform
 
@@ -257,7 +263,7 @@ If the fuse is rendered on a Linux system a value of 3 is returned.
 
 ![vNumberCreatePlatform](Images/Nodes/vNumberCreatePlatform.png)
 
-### vNumberCreateRandom
+#### vNumberCreateRandom
 
 Creates a Fusion Number object
 
@@ -265,7 +271,7 @@ This node uses a pseudo-random number generator to create a number that fits wit
 
 ![vNumberCreateRandom](Images/Nodes/vNumberCreateRandom.png)
 
-### vNumberIntegerCreate
+#### vNumberIntegerCreate
 
 Creates an integer Fusion Number object
 
@@ -273,7 +279,7 @@ This node creates whole number based values with no floating point decimal based
 
 ![vNumberIntegerCreate](Images/Nodes/vNumberIntegerCreate.png)
 
-### vNumberRange
+#### vNumberRange
 
 Creates a Fusion Number object
 
@@ -285,7 +291,9 @@ If the "From" value was set to 0, and the "To" value was set to 5 the output fro
 
 ![vNumberRange](Images/Nodes/vNumberRange.png)
 
-### vNumberSwitch
+### Flow
+
+#### vNumberSwitch
 
 Switches between Fusion Number objects
 
@@ -299,19 +307,21 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vNumberSwitch](Images/Nodes/vNumberSwitch.png)
 
-### vNumberWireless
+#### vNumberWireless
 
 The vNumberWireless node allows you to connect to other number based nodes in your comp without drawing the connection wirelines visually in the Flow/Nodes view. This can be helpful if you need to reduce clutter.
 
 ![vNumberWireless](Images/Nodes/vNumberWireless.png)
 
-### vNumberAnd
+### Logic
+
+#### vNumberAnd
 
 Performs a logical AND operation on two numbers
 
 ![vNumberAnd](Images/Nodes/vNumberAnd.png)
 
-### vNumberEqual
+#### vNumberEqual
 
 Compares two numbers to see if they are equal
 
@@ -319,7 +329,7 @@ A zero (false) or one (true) based number is returned from the comparator operat
 
 ![vNumberEqual](Images/Nodes/vNumberEqual.png)
 
-### vNumberGreater
+#### vNumberGreater
 
 Compares two numbers to see if Term 1 is greater than Term 2
 
@@ -327,7 +337,7 @@ A zero (false) or one (true) based number is returned from the comparator operat
 
 ![vNumberGreater](Images/Nodes/vNumberGreater.png)
 
-### vNumberGreaterEqual
+#### vNumberGreaterEqual
 
 Compares two numbers to see if Term 1 is greater than or equal to Term 2
 
@@ -335,7 +345,7 @@ A zero (false) or one (true) based number is returned from the comparator operat
 
 ![vNumberGreaterEqual](Images/Nodes/vNumberGreaterEqual.png)
 
-### vNumberLess
+#### vNumberLess
 
 Compares two numbers to see if Term 1 is less than Term 2
 
@@ -343,7 +353,7 @@ A zero (false) or one (true) based number is returned from the comparator operat
 
 ![vNumberLess](Images/Nodes/vNumberLess.png)
 
-### vNumberLessEqual
+#### vNumberLessEqual
 
 Compares two numbers to see if Term 1 is less than or equal to Term 2
 
@@ -351,13 +361,13 @@ A zero (false) or one (true) based number is returned from the comparator operat
 
 ![vNumberLessEqual](Images/Nodes/vNumberLessEqual.png)
 
-### vNumberNot
+#### vNumberNot
 
 Performs a logical NOT operation on a number
 
 ![vNumberNot](Images/Nodes/vNumberNot.png)
 
-### vNumberNotEqual
+#### vNumberNotEqual
 
 Compares two numbers to see if they are not equal
 
@@ -365,31 +375,35 @@ A zero (false) or one (true) based number is returned from the comparator operat
 
 ![vNumberNotEqual](Images/Nodes/vNumberNotEqual.png)
 
-### vNumberOr
+#### vNumberOr
 
 Performs a logical OR operation on two numbers
 
 ![vNumberOr](Images/Nodes/vNumberOr.png)
 
-### vNumberTernary
+#### vNumberTernary
 
 Compare a value and return one of two possible results
 
 ![vNumberTernary](Images/Nodes/vNumberTernary.png)
 
-### vNumberFromMatrix
+### Matrix
+
+#### vNumberFromMatrix
 
 Returns a number from a matrix
 
 ![vNumberFromMatrix](Images/Nodes/vNumberFromMatrix.png)
 
-### vNumberToMatrix
+#### vNumberToMatrix
 
 Returns a matrix from a number
 
 ![vNumberToMatrix](Images/Nodes/vNumberToMatrix.png)
 
-### vNumberAbsolute
+### Operators
+
+#### vNumberAbsolute
 
 Returns the absolute value of a number
 
@@ -397,13 +411,13 @@ This node is handy if you need to remove the negative sign (-) element from a va
 
 ![vNumberAbsolute](Images/Nodes/vNumberAbsolute.png)
 
-### vNumberAdd
+#### vNumberAdd
 
 Returns the sum of two numbers
 
 ![vNumberAdd](Images/Nodes/vNumberAdd.png)
 
-### vNumberCeil
+#### vNumberCeil
 
 Returns the integer no greater than a number
 
@@ -413,30 +427,30 @@ Ceil (ceiling) is the counterpoint to the floor rounding method.
 
 ![vNumberCeil](Images/Nodes/vNumberCeil.png)
 
-### vNumberClamp
+#### vNumberClamp
 
 Clamps a number to specific boundaries
 
 ![vNumberClamp](Images/Nodes/vNumberClamp.png)
 
-### vNumberDivide
+#### vNumberDivide
 
 Returns the quotient of two numbers
 
 ![vNumberDivide](Images/Nodes/vNumberDivide.png)
 
-### vNumberEase
+#### vNumberEase
 
 Performs a specific interpolation between two numbers during a defined time duration
 
 ![vNumberEase](Images/Nodes/vNumberEase.png)
 
-### vNumberFactorial
+#### vNumberFactorial
 
 Returns the product of all positive integers less than or equal to InNumber
 ![vNumberFactorial](Images/Nodes/vNumberFactorial.png)
 
-### vNumberFloor
+#### vNumberFloor
 
 Returns the integer no less than a number
 
@@ -444,37 +458,37 @@ This provides a way to round a floating point number to a whole number (an integ
 
 ![vNumberFloor](Images/Nodes/vNumberFloor.png)
 
-### vNumberFractional
+#### vNumberFractional
 
 Returns the fractional part of a number
 
 ![vNumberFractional](Images/Nodes/vNumberFractional.png)
 
-### vNumberIntegral
+#### vNumberIntegral
 
 Returns the integral part of a number
 
 ![vNumberIntegral](Images/Nodes/vNumberIntegral.png)
 
-### vNumberMax
+#### vNumberMax
 
 Returns the maximum of two numbers
 
 ![vNumberMax](Images/Nodes/vNumberMax.png)
 
-### vNumberMin
+#### vNumberMin
 
 Returns the minimum of two numbers
 
 ![vNumberMin](Images/Nodes/vNumberMin.png)
 
-### vNumberMix
+#### vNumberMix
 
 Performs a linear interpolation between two numbers
 
 ![vNumberMix](Images/Nodes/vNumberMix.png)
 
-### vNumberModulus
+#### vNumberModulus
 
 Returns the remainder of the division of x by y that rounds the quotient towards zero
 
@@ -484,31 +498,31 @@ For example, a Divisor value of 10 will cause the output from modulus to cycle f
 
 ![vNumberModulus](Images/Nodes/vNumberModulus.png)
 
-### vNumberMultiply
+#### vNumberMultiply
 
 Returns the product of two numbers
 
 ![vNumberMultiply](Images/Nodes/vNumberMultiply.png)
 
-### vNumberPartialPermutation
+#### vNumberPartialPermutation
 
 Returns the sum of two numbers
 
 ![vNumberPartialPermutation](Images/Nodes/vNumberPartialPermutation.png)
 
-### vNumberPower
+#### vNumberPower
 
 Returns the power of a number
 
 ![vNumberPower](Images/Nodes/vNumberPower.png)
 
-### vNumberReciprocal
+#### vNumberReciprocal
 
 Returns the reciprocal of a number
 
 ![vNumberReciprocal](Images/Nodes/vNumberReciprocal.png)
 
-### vNumberSign
+#### vNumberSign
 
 Returns the sign of a number
 
@@ -516,31 +530,33 @@ The output from the node will be either "-1", "0", or "1".
 
 ![vNumberSign](Images/Nodes/vNumberSign.png)
 
-### vNumberSmoothstep
+#### vNumberSmoothstep
 
 Generates a smoothstep function
 
 ![vNumberSmoothstep](Images/Nodes/vNumberSmoothstep.png)
 
-### vNumberSquareRoot
+#### vNumberSquareRoot
 
 Returns the square root of a number
 
 ![vNumberSquareRoot](Images/Nodes/vNumberSquareRoot.png)
 
-### vNumberStep
+#### vNumberStep
 
 Generates a step function by comparing two values
 
 ![vNumberStep](Images/Nodes/vNumberStep.png)
 
-### vNumberSubtract
+#### vNumberSubtract
 
 Returns the difference of two numbers
 
 ![vNumberSubtract](Images/Nodes/vNumberSubtract.png)
 
-### vNumberResolvePID
+### Resolve
+
+#### vNumberResolvePID
 
 Returns the Resolve/Fusion PID (Process ID)
 
@@ -550,7 +566,7 @@ Often PID values are the identifier used to tell an external program to graceful
 
 ![vNumberResolvePID](Images/Nodes/vNumberResolvePID.png)
 
-### vNumberResolveTimelineFPS
+#### vNumberResolveTimelineFPS
 
 Returns the Resolve Timeline frame rate
 
@@ -558,43 +574,49 @@ This node is useful if you need to perform math operations that need to be infor
 
 ![vNumberResolveTimelineFPS](Images/Nodes/vNumberResolveTimelineFPS.png)
 
-### vNumberDoString
+### Script
+
+#### vNumberDoString
 
 Return a Number object from running a string of Lua code
 
 ![vNumberDoString](Images/Nodes/vNumberDoString.png)
 
-### vNumberProcessOpen
+#### vNumberProcessOpen
 
 Launch a command-line process via popen
 
 ![vNumberProcessOpen](Images/Nodes/vNumberProcessOpen.png)
 
-### vNumberSlashCommand
+#### vNumberSlashCommand
 
 Run a Console Fuse SlashCommand as a node
 
 ![vNumberSlashCommand](Images/Nodes/vNumberSlashCommand.png)
 
-### vNumberTimeSpeed
+### Temporal
+
+#### vNumberTimeSpeed
 
 Time based operation on numbers
 
 ![vNumberTimeSpeed](Images/Nodes/vNumberTimeSpeed.png)
 
-### vNumberTimeStretch
+#### vNumberTimeStretch
 
 Time based operation on numbers
 
 ![vNumberTimeStretch](Images/Nodes/vNumberTimeStretch.png)
 
-### vNumberXSheet
+#### vNumberXSheet
 
 Time based operation on numbers
 
 ![vNumberXSheet](Images/Nodes/vNumberXSheet.png)
 
-### vNumberFromCSV
+### Text
+
+#### vNumberFromCSV
 
 Creates a Fusion Number object by extracting a single cell from a CSV formatted block of text
 
@@ -606,7 +628,7 @@ The "Ignore Header Row" checkbox will offset the first index position to start a
 
 ![vNumberFromCSV](Images/Nodes/vNumberFromCSV.png)
 
-### vNumberFromText
+#### vNumberFromText
 
 Returns a number from a Fusion Text object
 
@@ -614,85 +636,89 @@ This node converts an ASCII text based string that holds numerical content like 
 
 ![vNumberFromText](Images/Nodes/vNumberFromText.png)
 
-### vNumberXYZFromCSV
+#### vNumberXYZFromCSV
 
 Creates a set of XYZ Fusion Number objects by extracting three cells from a CSV formatted block of text
 
 ![vNumberXYZFromCSV](Images/Nodes/vNumberXYZFromCSV.png)
 
-### vNumberArcCosine
+### Trigonometry
+
+#### vNumberArcCosine
 
 Returns the inverse cosine for a number in radians
 
 ![vNumberArcCosine](Images/Nodes/vNumberArcCosine.png)
 
-### vNumberArcSine
+#### vNumberArcSine
 
 Returns the inverse sine for a number in radians
 
 ![vNumberArcSine](Images/Nodes/vNumberArcSine.png)
 
-### vNumberArcTangent
+#### vNumberArcTangent
 
 Returns the inverse tangent for a number in radians
 
 ![vNumberArcTangent](Images/Nodes/vNumberArcTangent.png)
 
-### vNumberTwoArgumentArcTangent
+#### vNumberTwoArgumentArcTangent
 
 Returns the arc tangent of y/x (in radians) but uses the signs of both parameters to find the quadrant of the result
 
 ![vNumberTwoArgumentArcTangent](Images/Nodes/vNumberTwoArgumentArcTangent.png)
 
-### vNumberCosine
+#### vNumberCosine
 
 Returns the cosine for a number in radians
 
 ![vNumberCosine](Images/Nodes/vNumberCosine.png)
 
-### vNumberDegreesToRadians
+#### vNumberDegreesToRadians
 
 Returns the radian value as a number in degrees
 
 ![vNumberDegreesToRadians](Images/Nodes/vNumberDegreesToRadians.png)
 
-### vNumberHyperbolicCosine
+#### vNumberHyperbolicCosine
 
 Returns the hyperbolic cosine for a number in radians
 
 ![vNumberHyperbolicCosine](Images/Nodes/vNumberHyperbolicCosine.png)
 
-### vNumberHyperbolicSine
+#### vNumberHyperbolicSine
 
 Returns the hyperbolic sine of a number in radians
 
 ![vNumberHyperbolicSine](Images/Nodes/vNumberHyperbolicSine.png)
 
-### vNumberHyperbolicTangent
+#### vNumberHyperbolicTangent
 
 Returns the hyperbolic tangent of a number in radians
 
 ![vNumberHyperbolicTangent](Images/Nodes/vNumberHyperbolicTangent.png)
 
-### vNumberRadiansToDegrees
+#### vNumberRadiansToDegrees
 
 Returns the degree value as a number in radians
 
 ![vNumberRadiansToDegrees](Images/Nodes/vNumberRadiansToDegrees.png)
 
-### vNumberSine
+#### vNumberSine
 
 Returns the sine for a number in radians
 
 ![vNumberSine](Images/Nodes/vNumberSine.png)
 
-### vNumberTangent
+#### vNumberTangent
 
 Returns the tangent for a number in radians
 
 ![vNumberTangent](Images/Nodes/vNumberTangent.png)
 
-### vNumberDelay
+### Utility
+
+#### vNumberDelay
 
 Creates a Delay while passing a Fusion Number object
 
@@ -702,7 +728,7 @@ The delay effect is measured in seconds. This node is implemented internally usi
 
 Among several use cases one can find for a tool that can momentarily pause rendering; it can be used to simulate a slow to render comp task when testing a render farm program. It also has applications when running a command line task via the Vonk ProcessOpen node and the system requires a momentary pause.
 
-### vNumberEndPID
+#### vNumberEndPID
 
 Quit a program using its PID (Process ID) on macOS and Linux
 
@@ -737,13 +763,15 @@ You can see a list of running programs and their PID values in the terminal usin
 
 It is also possible to see programs and their PID values in the macOS "Activity Monitor.app" utility. In the top right corner of the Activity Monitor window you can type in the name of the program in the search field to filter the results in the view down to what matters.
 
-### vNumberViewer
+#### vNumberViewer
 
 View the Fusion number object in the Inspector
 
 ![vNumberViewer](Images/Nodes/vNumberViewer.png)
 
-### vNumberFromVector
+### Vector
+
+#### vNumberFromVector
 
 Returns a number from a vector
 

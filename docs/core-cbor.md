@@ -12,25 +12,29 @@ ScriptVal:
 
 ## Node Docs
 
-### vJSONFromCBORFile
+### JSON
+
+#### vJSONFromCBORFile
 
 Casts a CBOR binary file into JSON text
 
 ![vJSONFromCBORFile](Images/Nodes/vJSONFromCBORFile.png)
 
-### vJSONToCBORFile
+#### vJSONToCBORFile
 
 Casts JSON text into a CBOR binary file
 
 ![vJSONToCBORFile](Images/Nodes/vJSONToCBORFile.png)
 
-### vScriptValFromCBORFile
+### ScriptVal
+
+#### vScriptValFromCBORFile
 
 Reads a Fusion ScriptVal object from a CBOR binary file
 
 ![vScriptValFromCBORFile](Images/Nodes/vScriptValFromCBORFile.png)
 
-### vScriptValToCBORFile
+#### vScriptValToCBORFile
 
 Writes a Fusion ScriptVal object to a CBOR binary file
 

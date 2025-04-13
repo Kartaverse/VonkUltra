@@ -15,31 +15,35 @@ IO:
 
 ## Node Docs
 
-### vGuideCreate
+### Create
+
+#### vGuideCreate
 
 Create a vGuide object
 
 ![vGuideCreate](Images/Nodes/vGuideCreate.png)
 
-### vGuideShape
+#### vGuideShape
 
 Create a new guide element
 
 ![vGuideShape](Images/Nodes/vGuideShape.png)
 
-### vGuideText
+#### vGuideText
 
 Create a vGuide object from Lua table formatted text
 
 ![vGuideText](Images/Nodes/vGuideText.png)
 
-### vGuideFromFile
+### IO
+
+#### vGuideFromFile
 
 Reads a vGuide object from a file
 
 ![vGuideFromFile](Images/Nodes/vGuideFromFile.png)
 
-### vGuideToFile
+#### vGuideToFile
 
 Writes a vGuide object to a file
 

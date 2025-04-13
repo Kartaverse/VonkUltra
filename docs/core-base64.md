@@ -17,7 +17,9 @@ Utility:
 
 ## Node Docs
 
-### vBase64DecodeFromText
+### Decode
+
+#### vBase64DecodeFromText
 
 Base64 decodes text from a Fusion Text object.
 
@@ -29,7 +31,7 @@ The "Show Input" checkbox allows you to source the Text information from an exte
 
 ![vBase64DecodeFromText](Images/Nodes/vBase64DecodeFromText.png)
 
-### vBase64DecodeImageFromFile
+#### vBase64DecodeImageFromFile
 
 Base64 decodes an image into a file.
 
@@ -39,7 +41,7 @@ The "Input" field is used to specify the filepath to an image that is currently 
 
 ![vBase64DecodeImageFromFile](Images/Nodes/vBase64DecodeImageFromFile.png)
 
-### vBase64DecodeImageFromText
+#### vBase64DecodeImageFromText
 
 Base64 decodes an image from a Fusion Text object.
 
@@ -51,7 +53,9 @@ The "Show Input" checkbox allows you to source the Text information from an exte
 
 ![vBase64DecodeImageFromText](Images/Nodes/vBase64DecodeImageFromText.png)
 
-### vBase64EncodeFromFile
+### Encode
+
+#### vBase64EncodeFromFile
 
 Base64 encodes a file into a Fusion Text object.
 
@@ -61,7 +65,7 @@ The "File" input field is used to specify the filepath to a document.
 
 ![vBase64EncodeFromFile](Images/Nodes/vBase64EncodeFromFile.png)
 
-### vBase64EncodeFromText
+#### vBase64EncodeFromText
 
 Base64 encodes text into a Fusion Text object.
 
@@ -71,13 +75,15 @@ The "Text" input field is used to specify the source ASCII string to process.
 
 ![vBase64EncodeFromText](Images/Nodes/vBase64EncodeFromText.png)
 
-### vBase64ImageViewer
+### Utility
+
+#### vBase64ImageViewer
 
 Displays Bas64 encoded image content in the Inspector window.
 
 ![vBase64ImageViewer](Images/Nodes/vBase64ImageViewer.png)
 
-### vBase64ToHTML
+#### vBase64ToHTML
 
 Converts a Base64 encoded PNG image into an inline HTML `<IMG>` embed.
 

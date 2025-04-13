@@ -45,25 +45,33 @@ Utility:
 
 ## Node Docs
 
-### vMatrixFromArray
+### Array
+
+#### vMatrixFromArray
 
 Creates a matrix from an array
 
 ![vMatrixFromArray](Images/Nodes/vMatrixFromArray.png)
 
-### vMatrixColorTransform
+### Color
+
+#### vMatrixColorTransform
 
 Animatible/Modifiable ColorMatrix
 
 ![vMatrixColorTransform](Images/Nodes/vMatrixColorTransform.png)
 
-### vMatrixCreate
+### Create
+
+#### vMatrixCreate
 
 Creates a 4x4 matrix
 
 ![vMatrixCreate](Images/Nodes/vMatrixCreate.png)
 
-### vMatrixLink
+### Flow
+
+#### vMatrixLink
 
 Links to a matrix
 
@@ -71,7 +79,7 @@ This allows you to access a matrix that is stored using image metadata.
 
 ![vMatrixLink](Images/Nodes/vMatrixLink.png)
 
-### vMatrixSwitch
+#### vMatrixSwitch
 
 Switch between vMatrix objects
 
@@ -85,7 +93,7 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vMatrixSwitch](Images/Nodes/vMatrixSwitch.png)
 
-### vMatrixWireless
+#### vMatrixWireless
 
 Create wireless links between vMatrix objects
 
@@ -93,31 +101,33 @@ The vMatrixWireless node allows you to connect to other matrix based nodes in yo
 
 ![vMatrixWireless](Images/Nodes/vMatrixWireless.png)
 
-### vMatrixDeterminant
+### Operators
+
+#### vMatrixDeterminant
 
 Calculates the determinant of a matrix
 
 ![vMatrixDeterminant](Images/Nodes/vMatrixDeterminant.png)
 
-### vMatrixDivide
+#### vMatrixDivide
 
 Divides a matrix by a number
 
 ![vMatrixDivide](Images/Nodes/vMatrixDivide.png)
 
-### vMatrixDivideNumber
+#### vMatrixDivideNumber
 
 Divides a matrix by a number
 
 ![vMatrixDivideNumber](Images/Nodes/vMatrixDivideNumber.png)
 
-### vMatrixInvert
+#### vMatrixInvert
 
 Inverts a matrix
 
 ![vMatrixInvert](Images/Nodes/vMatrixInvert.png)
 
-### vMatrixMultiply
+#### vMatrixMultiply
 
 Multiplies two matrices
 
@@ -125,85 +135,91 @@ It is possible combine separate rotation, translation, and scale matrices using 
 
 ![vMatrixMultiply](Images/Nodes/vMatrixMultiply.png)
 
-### vMatrixTimeSpeed
+### Temporal
+
+#### vMatrixTimeSpeed
 
 Time based operation on a vMatrix
 
 ![vMatrixTimeSpeed](Images/Nodes/vMatrixTimeSpeed.png)
 
-### vMatrixTimeStretch
+#### vMatrixTimeStretch
 
 Time based operation on a vMatrix
 
 ![vMatrixTimeStretch](Images/Nodes/vMatrixTimeStretch.png)
 
-### vMatrixFromRotation
+### Transform
+
+#### vMatrixFromRotation
 
 Creates a rotation matrix
 
 ![vMatrixFromRotation](Images/Nodes/vMatrixFromRotation.png)
 
-### vMatrixFromScale
+#### vMatrixFromScale
 
 Creates a scale matrix
 
 ![vMatrixFromScale](Images/Nodes/vMatrixFromScale.png)
 
-### vMatrixFromTranslation
+#### vMatrixFromTranslation
 
 Creates a translation matrix
 
 ![vMatrixFromTranslation](Images/Nodes/vMatrixFromTranslation.png)
 
-### vMatrixToEuler
+#### vMatrixToEuler
 
 Converts a matrix to [Euler angles](https://en.wikipedia.org/wiki/Euler_angles)
 
 ![vMatrixToEuler](Images/Nodes/vMatrixToEuler.png)
 
-### vMatrixToRotation
+#### vMatrixToRotation
 
 Decomposes a rotation from a matrix in [Euler angles](https://en.wikipedia.org/wiki/Euler_angles). This returns XYZ rotation values from a 4x4 vMatrix input.
 
 ![vMatrixToRotation](Images/Nodes/vMatrixToRotation.png)
 
-### vMatrixToScale
+#### vMatrixToScale
 
 Decomposes scale from a matrix. This returns XYZ scale values from a 4x4 vMatrix input.
 
 ![vMatrixToScale](Images/Nodes/vMatrixToScale.png)
 
-### vMatrixToTranslation
+#### vMatrixToTranslation
 
 Decomposes translation from a matrix. This returns XYZ rotation values from a 4x4 vMatrix input.
 
 ![vMatrixToTranslation](Images/Nodes/vMatrixToTranslation.png)
 
-### vMatrixTranspose
+### Utility
+
+#### vMatrixTranspose
 
 Transposes a matrix
 
 ![vMatrixTranspose](Images/Nodes/vMatrixTranspose.png)
 
-### vMatrixConcatenateHorizontal
+#### vMatrixConcatenateHorizontal
 
 Concatenates two matrices horizontally
 
 ![vMatrixConcatenateHorizontal](Images/Nodes/vMatrixConcatenateHorizontal.png)
 
-### vMatrixConcatenateVertical
+#### vMatrixConcatenateVertical
 
 Concatenates two matrices vertically
 
 ![vMatrixConcatenateVertical](Images/Nodes/vMatrixConcatenateVertical.png)
 
-### vMatrixSlice
+#### vMatrixSlice
 
 Slices a matrix
 
 ![vMatrixSlice](Images/Nodes/vMatrixSlice.png)
 
-### vMatrixViewer
+#### vMatrixViewer
 
 View vMatrix content in the Inspector
 

@@ -28,85 +28,95 @@ Utility:
 
 ## Node Docs
 
-### vVectorFromArray
+### Array
+
+#### vVectorFromArray
 
 Creates a vector from an array
 
 ![vVectorFromArray](Images/Nodes/vVectorFromArray.png)
 
-### vVectorCreate
+### Create
+
+#### vVectorCreate
 
 Creates a vector from an array
 
 ![vVectorCreate](Images/Nodes/vVectorCreate.png)
 
-### vVectorAdd
+### Operators
+
+#### vVectorAdd
 
 Adds two vectors
 
 ![vVectorAdd](Images/Nodes/vVectorAdd.png)
 
-### vVectorCrossProduct
+#### vVectorCrossProduct
 
 Adds two vectors
 
 ![vVectorCrossProduct](Images/Nodes/vVectorCrossProduct.png)
 
-### vVectorDivideNumber
+#### vVectorDivideNumber
 
 Divides a vector by a number
 
 ![vVectorDivideNumber](Images/Nodes/vVectorDivideNumber.png)
 
-### vVectorDotProduct
+#### vVectorDotProduct
 
 Adds two vectors
 
 ![vVectorDotProduct](Images/Nodes/vVectorDotProduct.png)
 
-### vVectorMultiplyNumber
+#### vVectorMultiplyNumber
 
 Multiplies a vector by a number
 
 ![vVectorMultiplyNumber](Images/Nodes/vVectorMultiplyNumber.png)
 
-### vVectorNormalize
+#### vVectorNormalize
 
 Normalizes a vector
 
 ![vVectorNormalize](Images/Nodes/vVectorNormalize.png)
 
-### vVectorSlice
+#### vVectorSlice
 
 Slices a vector
 
 ![vVectorSlice](Images/Nodes/vVectorSlice.png)
 
-### vVectorSubtract
+#### vVectorSubtract
 
 Subtracts two vectors
 
 ![vVectorSubtract](Images/Nodes/vVectorSubtract.png)
 
-### vPointToVector
+### Point
+
+#### vPointToVector
 
 Creates a vector from a point
 
 ![vPointToVector](Images/Nodes/vPointToVector.png)
 
-### vVectorFromPoint
+#### vVectorFromPoint
 
 Creates a vector from a point
 
 ![vVectorFromPoint](Images/Nodes/vVectorFromPoint.png)
 
-### vVectorToPoint
+#### vVectorToPoint
 
 Creates a point from a vector
 
 ![vVectorToPoint](Images/Nodes/vVectorToPoint.png)
 
-### vVectorLength
+### Utility
+
+#### vVectorLength
 
 Calculates the length of a vector
 

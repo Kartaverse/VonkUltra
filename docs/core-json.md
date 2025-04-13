@@ -32,13 +32,17 @@ Utility:
 
 ## Node Docs
 
-### vJSONFromArray
+### Array
+
+#### vJSONFromArray
 
 Casts a JSON Array to JSON Text
 
 ![vJSONFromArray](Images/Nodes/vJSONFromArray.png)
 
-### vJSONSwitch
+### Flow
+
+#### vJSONSwitch
 
 Switch between Fusion JSON text objects
 
@@ -52,7 +56,7 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vJSONSwitch](Images/Nodes/vJSONSwitch.png)
 
-### vJSONWireless
+#### vJSONWireless
 
 Create wireless links between JSON text objects
 
@@ -60,7 +64,9 @@ The vJSONWireless node allows you to connect to other USD based nodes in your co
 
 ![vJSONWireless](Images/Nodes/vJSONWireless.png)
 
-### vJSONFromFile
+### IO
+
+#### vJSONFromFile
 
 Reads a JSON string from a file
 
@@ -70,7 +76,7 @@ The JSON file will be loaded when the node is viewed/rendered. The contents of t
 
 ![vJSONFromFile](Images/Nodes/vJSONFromFile.png)
 
-### vJSONFromNet
+#### vJSONFromNet
 
 Reads a JSON string from a network URL
 
@@ -80,7 +86,7 @@ This means IoT (Internet of Things) electronic sensors, sports statistics, finan
 
 ![vJSONFromNet](Images/Nodes/vJSONFromNet.png)
 
-### vJSONToFile
+#### vJSONToFile
 
 Writes a JSON string into a file
 
@@ -90,7 +96,9 @@ The JSON file will be saved when the node is viewed/rendered. The contents of th
 
 ![vJSONToFile](Images/Nodes/vJSONToFile.png)
 
-### vJSONGet
+### Key Value
+
+#### vJSONGet
 
 Gets the value of a JSON key
 
@@ -104,7 +112,7 @@ It is possible to translate this text based output from this node into numerical
 
 ![vJSONGet](Images/Nodes/vJSONGet.png)
 
-### vJSONGetElement
+#### vJSONGetElement
 
 Gets the element of a JSON array
 
@@ -118,7 +126,7 @@ The first item is accessed at Index position 1.
 
 ![vJSONGetElement](Images/Nodes/vJSONGetElement.png)
 
-### vJSONSet
+#### vJSONSet
 
 Sets a new key value pair in a JSON table
 
@@ -128,25 +136,31 @@ The vJSONSet node makes it possible to create new JSON data structures that can 
 
 ![vJSONSet](Images/Nodes/vJSONSet.png)
 
-### vJSONDoString
+### Script
+
+#### vJSONDoString
 
 Return JSON text from running a string of Lua code
 
 ![vJSONDoString](Images/Nodes/vJSONDoString.png)
 
-### vJSONTimeSpeed
+### Temporal
+
+#### vJSONTimeSpeed
 
 Time based operation on JSON
 
 ![vJSONTimeSpeed](Images/Nodes/vJSONTimeSpeed.png)
 
-### vJSONTimeStretch
+#### vJSONTimeStretch
 
 Time based operation on JSON
 
 ![vJSONTimeStretch](Images/Nodes/vJSONTimeStretch.png)
 
-### vJSONCountElement
+### Utility
+
+#### vJSONCountElement
 
 Counts the elements in a JSON array
 
@@ -156,7 +170,7 @@ This node returns a number data type that indicates how many array elements exis
 
 ![vJSONCountElement](Images/Nodes/vJSONCountElement.png)
 
-### vJSONViewer
+#### vJSONViewer
 
 View JSON text in the Inspector
 

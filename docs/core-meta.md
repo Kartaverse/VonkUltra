@@ -19,19 +19,23 @@ Utility:
 
 ## Node Docs
 
-### vMetadataFromComp
+### Comp
+
+#### vMetadataFromComp
 
 Creates a Fusion image with metadata added from a Fusion Studio comp
 
 ![vMetadataFromComp](Images/Nodes/vMetadataFromComp.png)
 
-### vMetadataToComp
+#### vMetadataToComp
 
 Creates a Fusion comp from image metadata
 
 ![vMetadataToComp](Images/Nodes/vMetadataToComp.png)
 
-### vMetadataFromMediaIn
+### Resolve
+
+#### vMetadataFromMediaIn
 
 Creates a Fusion image with MediaIn MediaProps metadata
 
@@ -58,13 +62,15 @@ The MediaProps based Metadata Lua table output is formatted like:
         "MEDIA_WIDTH":64,
     }
 
-### vMetadataFilename
+### Text
+
+#### vMetadataFilename
 
 Creates a Fusion Text object from an image's metadata filename
 
 ![vMetadataFilename](Images/Nodes/vMetadataFilename.png)
 
-### vMetadataFromText
+#### vMetadataFromText
 
 Creates a Fusion image with metadata added from text
 
@@ -87,7 +93,7 @@ A metadata example for Fusion Viewer window based 360VR "Latitude/Longitude" ima
     Field Name: Pano
     Field Value: {Format = "LatLong"}
 
-### vMetadataToText
+#### vMetadataToText
 
 Creates a Fusion Text object from metadata
 
@@ -99,7 +105,9 @@ An example of an image metadata record "Key" entry would be the Loader node adde
 
 ![vMetadataToText](Images/Nodes/vMetadataToText.png)
 
-### vMetadataViewer
+### Utility
+
+#### vMetadataViewer
 
 View the image metadata in the Inspector
 

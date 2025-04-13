@@ -8,7 +8,9 @@ Flow:
 
 ## Node Docs
 
-### vUSDSwitch
+### Flow
+
+#### vUSDSwitch
 
 Switch between Fusion OpenUSD scenegraph objects
 
@@ -22,7 +24,7 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vUSDSwitch](Images/Nodes/vUSDSwitch.png)
 
-### vUSDWireless
+#### vUSDWireless
 
 Create wireless links between Fusion OpenUSD scenegraph objects
 

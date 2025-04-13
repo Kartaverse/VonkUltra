@@ -13,19 +13,25 @@ Utility:
 
 ## Node Docs
 
-### vMTLXToFile
+### IO
+
+#### vMTLXToFile
 
 Writes an XML string to a MaterialX file
 
 ![vMTLXToFile](Images/Nodes/vMTLXToFile.png)
 
-### vMTLXUsdPreviewSurface
+### Surface
+
+#### vMTLXUsdPreviewSurface
 
 Creates a UsdPreviewSurface material description
 
 ![vMTLXUsdPreviewSurface](Images/Nodes/vMTLXUsdPreviewSurface.png)
 
-### vMTLXMerge
+### Utility
+
+#### vMTLXMerge
 
 Dynamically joins separate MTLX content into one
 

@@ -42,13 +42,15 @@ Utility:
 
 ## Node Docs
 
-### vPointCreate
+### Create
+
+#### vPointCreate
 
 Create a Fusion Point object
 
 ![vPointCreate](Images/Nodes/vPointCreate.png)
 
-### vPointCreateImage
+#### vPointCreateImage
 
 Create a Fusion Point object with an image visible in the background
 
@@ -61,11 +63,11 @@ The "Add Metadata" checkbox creates image output metadata entries for the point 
 
 If you enable the viewer window's "Metadata" sub-viewer entry you can quickly see the information that is appended to the image output stream.
 
-### vPointCreateRandom
+#### vPointCreateRandom
 
 ![vPointCreateRandom](Images/Nodes/vPointCreateRandom.png)
 
-### vPointFromMousePos
+#### vPointFromMousePos
 
 Return a Fusion Point object that holds the current mouse X & Y cursor position
 
@@ -87,7 +89,9 @@ Note: Make sure to load the vPointFromMousePos node's output into the left or ri
 
 Failure to view the vPointFromMousePos node before displaying the downstream node will likely lead to lockups in Fusion v18+.
 
-### vPointSwitch
+### Flow
+
+#### vPointSwitch
 
 Switch between Fusion Point objects
 
@@ -101,19 +105,21 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vPointSwitch](Images/Nodes/vPointSwitch.png)
 
-### vPointWireless
+#### vPointWireless
 
 The vPointWireless node allows you to connect to other 2D Point datatype based nodes in your comp without drawing the connection wirelines visually in the Flow/Nodes view. This can be helpful if you need to reduce clutter.
 
 ![vPointWireless](Images/Nodes/vPointWireless.png)
 
-### vPointFromNumber
+### Number
+
+#### vPointFromNumber
 
 Return a Fusion Point object from two numbers
 
 ![vPointFromNumber](Images/Nodes/vPointFromNumber.png)
 
-### vPointToNumber
+#### vPointToNumber
 
 Return a pair of numbers from a Fusion Point object
 
@@ -121,13 +127,15 @@ Return a pair of numbers from a Fusion Point object
 
 ### vPointAbsolute
 
+#### vPointAbsolute
+
 Returns a Fusion Point object with an absolute value
 
 This will remove a negative sign from any point value that is below 0.
 
 ![vPointAbsolute](Images/Nodes/vPointAbsolute.png)
 
-### vPointAdd
+#### vPointAdd
 
 Returns the sum of two Fusion Point objects
 
@@ -135,7 +143,7 @@ This node can be used to apply a positive offset to the origin of the 1st point 
 
 ![vPointAdd](Images/Nodes/vPointAdd.png)
 
-### vPointClamp
+#### vPointClamp
 
 Clamp a Fusion Point object to specific boundaries
 
@@ -143,7 +151,7 @@ This acts as a hard limiter on the range of numbers that can pass through the Po
 
 ![vPointClamp](Images/Nodes/vPointClamp.png)
 
-### vPointDivide
+#### vPointDivide
 
 Returns the quotient of two Fusion Point objects
 
@@ -151,13 +159,13 @@ This node can be used to apply a scale reducing effect to the origin of the 1st 
 
 ![vPointDivide](Images/Nodes/vPointDivide.png)
 
-### vPointMix
+#### vPointMix
 
 Performs linear interpolation between two Fusion Point objects
 
 ![vPointMix](Images/Nodes/vPointMix.png)
 
-### vPointModulus
+#### vPointModulus
 
 Returns the remainder of the division of a Fusion Point object that rounds the quotient towards zero
 
@@ -165,7 +173,7 @@ The "Divisor X" and "Divisor Y" controls make it possible to create a looping ef
 
 ![vPointModulus](Images/Nodes/vPointModulus.png)
 
-### vPointMultiply
+#### vPointMultiply
 
 Returns the product of two Fusion Point objects
 
@@ -173,13 +181,13 @@ This node can be used to apply a scale enlargement effect to the origin of the 1
 
 ![vPointMultiply](Images/Nodes/vPointMultiply.png)
 
-### vPointPower
+#### vPointPower
 
 Returns the power of a Fusion Point object
 
 ![vPointPower](Images/Nodes/vPointPower.png)
 
-### vPointSubtract
+#### vPointSubtract
 
 Returns the difference of two Fusion Point objects
 
@@ -187,31 +195,37 @@ This node can be used to apply a negative offset to the origin of the 1st point 
 
 ![vPointSubtract](Images/Nodes/vPointSubtract.png)
 
-### vPointTimeSpeed
+### Temporal
+
+#### vPointTimeSpeed
 
 Time based operations on a Fusion Point object
 
 ![vPointTimeSpeed](Images/Nodes/vPointTimeSpeed.png)
 
-### vPointTimeStretch
+#### vPointTimeStretch
 
 Time based operations on a Fusion Point object
 
 ![vPointTimeStretch](Images/Nodes/vPointTimeStretch.png)
 
-### vPointFromText
+### Text
+
+#### vPointFromText
 
 Returns a Fusion Point object from two Text inputs
 
 ![vPointFromText](Images/Nodes/vPointFromText.png)
 
-### vPointToText
+#### vPointToText
 
 Return a pair of Text objects from a Fusion Point object
 
 ![vPointToText](Images/Nodes/vPointToText.png)
 
-### vPointAngle
+### Utility
+
+#### vPointAngle
 
 Measure the angle in degrees between two Fusion Point objects
 
@@ -219,13 +233,13 @@ The output from this node is a Number datatype that reports the angle between Po
 
 ![vPointAngle](Images/Nodes/vPointAngle.png)
 
-### vPointDelay
+#### vPointDelay
 
 Creates a Delay while passing a Fusion Point object
 
 ![vPointDelay](Images/Nodes/vPointDelay.png)
 
-### vPointLength
+#### vPointLength
 
 Measure the distance between two Fusion Point objects
 

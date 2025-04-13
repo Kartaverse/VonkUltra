@@ -118,7 +118,9 @@ Utility:
 
 ## Node Docs
 
-### vTextCaseAlternate
+Case
+
+#### vTextCaseAlternate
 
 Alternates the case of a Fusion Text object
 
@@ -126,7 +128,7 @@ A Text based input of "hello world!" would be converted to "hElLo wOrLd!" where 
 
 ![vTextCaseAlternate](Images/Nodes/vTextCaseAlternate.png)
 
-### vTextCaseInvert
+#### vTextCaseInvert
 
 Inverts the case of a Fusion Text object
 
@@ -134,7 +136,7 @@ A Text based input of "Hello World!" would be converted to "hELLO wORLD!". Every
 
 ![vTextCaseInvert](Images/Nodes/vTextCaseInvert.png)
 
-### vTextCaseLower
+#### vTextCaseLower
 
 Converts the case of a Fusion Text object to lower
 
@@ -142,7 +144,7 @@ A Text based input of "Hello World!" would be converted to "hello world!".
 
 ![vTextCaseLower](Images/Nodes/vTextCaseLower.png)
 
-### vTextCaseRandom
+#### vTextCaseRandom
 
 Changes the case of a Fusion Text object in a random fashion
 
@@ -150,7 +152,7 @@ A Text based input of "hello world!" would be converted to an output like "hellO
 
 ![vTextCaseRandom](Images/Nodes/vTextCaseRandom.png)
 
-### vTextCaseSentence
+#### vTextCaseSentence
 
 Converts the case of a Fusion Text object to sentence
 
@@ -158,7 +160,7 @@ A Text based input of "hello world!" would be converted to "Hello world!" with t
 
 ![vTextCaseSentence](Images/Nodes/vTextCaseSentence.png)
 
-### vTextCaseTitle
+#### vTextCaseTitle
 
 Converts the case of a Fusion Text object to title
 
@@ -166,7 +168,7 @@ A Text based input of "hello world!" would be converted to "Hello World!".
 
 ![vTextCaseTitle](Images/Nodes/vTextCaseTitle.png)
 
-### vTextCaseUpper
+#### vTextCaseUpper
 
 Converts the case of a Fusion Text object to upper
 
@@ -174,7 +176,9 @@ A Text based input of "hello world!" would be converted to "HELLO WORLD!".
 
 ![vTextCaseUpper](Images/Nodes/vTextCaseUpper.png)
 
-### vTextCompAppUUID
+### Comp
+
+#### vTextCompAppUUID
 
 Returns the Fusion application process UUID
 
@@ -184,7 +188,7 @@ This node is powered by the Lua function "bmd.getappuuid()".
 
 ![vTextCompAppUUID](Images/Nodes/vTextCompAppUUID.png)
 
-### vTextCompCurrentTime
+#### vTextCompCurrentTime
 
 Returns the comp's current time value
 
@@ -192,7 +196,7 @@ The current time represents the point where the timeline playhead is positioned 
 
 ![vTextCompCurrentTime](Images/Nodes/vTextCompCurrentTime.png)
 
-### vTextCompFilename
+#### vTextCompFilename
 
 Returns the full path of a comp
 
@@ -202,7 +206,7 @@ An example output from this node would be an absolute filepath based string like
 
 ![vTextCompFilename](Images/Nodes/vTextCompFilename.png)
 
-### vTextCompName
+#### vTextCompName
 
 Returns the name of the comp
 
@@ -214,7 +218,7 @@ If the currently open composite is an unsaved document the node would output a s
 
 ![vTextCompName](Images/Nodes/vTextCompName.png)
 
-### vTextCompReqTime
+#### vTextCompReqTime
 
 Returns the comp's request time
 
@@ -222,7 +226,9 @@ This is the currently requested frame that is being processed at render time. It
 
 ![vTextCompReqTime](Images/Nodes/vTextCompReqTime.png)
 
-### vTextCreate
+### Create
+
+#### vTextCreate
 
 Creates a Fusion Text object
 
@@ -230,7 +236,7 @@ This is the standard starting point for generating new Text data type based cont
 
 ![vTextCreate](Images/Nodes/vTextCreate.png)
 
-### vTextCreateArch
+#### vTextCreateArch
 
 Creates a unique Fusion Text object per CPU architecture
 
@@ -238,7 +244,7 @@ This node provides a series of text fields that allow you to enter three differe
 
 ![vTextCreateArch](Images/Nodes/vTextCreateArch.png)
 
-### vTextCreateBrowse
+#### vTextCreateBrowse
 
 Creates a Fusion Text object with a file browser dialog
 
@@ -246,7 +252,7 @@ This node is used to create filepath based Text data type content. The Browse bu
 
 ![vTextCreateBrowse](Images/Nodes/vTextCreateBrowse.png)
 
-### vTextCreateMultiline
+#### vTextCreateMultiline
 
 Creates a multi-line Fusion Text object
 
@@ -258,13 +264,13 @@ This node is especially useful if you needed to create the original textual cont
 
 ![vTextCreateMultiline](Images/Nodes/vTextCreateMultiline.png)
 
-### vTextCreateMultilineCode
+#### vTextCreateMultilineCode
 
 Create a multi-line Fusion Text object with syntax highlighting
 
 ![vTextCreateMultilineCode](Images/Nodes/vTextCreateMultilineCode.png)
 
-### vTextCreatePlatform
+#### vTextCreatePlatform
 
 Creates a unique Fusion Text object per OS platform
 
@@ -274,7 +280,7 @@ This node is a handy way to define the correct parameters to use with a vTextSub
 
 ![vTextCreatePlatform](Images/Nodes/vTextCreatePlatform.png)
 
-### vTextCreatePlatformBrowse
+#### vTextCreatePlatformBrowse
 
 Creates a unique Fusion Text object per OS platform
 
@@ -284,7 +290,7 @@ This node is a handy way to define the correct parameters to use with a vTextSub
 
 ![vTextCreatePlatformBrowse](Images/Nodes/vTextCreatePlatformBrowse.png)
 
-### vTextDate
+#### vTextDate
 
 Creates a date and time based Fusion Text object
 
@@ -294,7 +300,7 @@ The Lua documentation on the [Date function](https://www.lua.org/pil/22.1.html) 
 
 ![vTextDate](Images/Nodes/vTextDate.png)
 
-### vTextEnv
+#### vTextEnv
 
 Creates an environment variable based Fusion Text object
 
@@ -306,7 +312,7 @@ If you need to troubleshoot the active environment variables on your Windows sys
 
 ![vTextEnv](Images/Nodes/vTextEnv.png)
 
-### vTextFromArray
+#### vTextFromArray
 
 Creates Text from an array
 
@@ -314,7 +320,7 @@ The "Index" control is used to extract an individual element from a JSON based a
 
 ![vTextFromArray](Images/Nodes/vTextFromArray.png)
 
-### vTextFromASCII
+#### vTextFromASCII
 
 Converts an ASCII code number to text
 
@@ -322,7 +328,7 @@ The "Number" control is used to enter an ASCII code value. The result is a singl
 
 ![vTextFromASCII](Images/Nodes/vTextFromASCII.png)
 
-### vTextFromCSV
+#### vTextFromCSV
 
 Creates a Fusion Text object by extracting a single cell from a CSV formatted block of text
 
@@ -334,7 +340,7 @@ The "Ignore Header Row" checkbox will offset the first index position to start a
 
 ![vTextFromCSV](Images/Nodes/vTextFromCSV.png)
 
-### vTextFromHex
+#### vTextFromHex
 
 Converts a Base16 Hex encoded string to ASCII text
 
@@ -348,7 +354,7 @@ A sample Hex string that says "Hello World!" is "48656C6C6F20576F726C6421".
 
 ![vTextFromHex](Images/Nodes/vTextFromHex.png)
 
-### vTextFromNumber
+#### vTextFromNumber
 
 Converts a number to text
 
@@ -360,7 +366,7 @@ If the "Show Input" checkbox is enabled, the Number field based value can come f
 
 ![vTextFromNumber](Images/Nodes/vTextFromNumber.png)
 
-### vTextFromNumberPadded
+#### vTextFromNumberPadded
 
 Converts a number to a leading zero padded text
 
@@ -368,7 +374,7 @@ This node is excellent for creating fixed length numbers thanks to the built-in 
 
 ![vTextFromNumberPadded](Images/Nodes/vTextFromNumberPadded.png)
 
-### vTextToHex
+#### vTextToHex
 
 Converts a string into Base16 Hex encoded text
 
@@ -378,7 +384,7 @@ The "Remove Non-Printable Characters" control will automatically remove any ASCI
 
 ![vTextToHex](Images/Nodes/vTextToHex.png)
 
-### vTextUUID
+#### vTextUUID
 
 Creates a UUID Fusion Text object
 
@@ -388,7 +394,7 @@ A UUID value is formatted like: `11625315-7785-4eb4-8b2f-d6dca235c424`
 
 ![vTextUUID](Images/Nodes/vTextUUID.png)
 
-### vTextUUIDStatic
+#### vTextUUIDStatic
 
 Creates a UUID Fusion Text object
 
@@ -398,19 +404,25 @@ A UUID value is formatted like: `11625315-7785-4eb4-8b2f-d6dca235c424`
 
 ![vTextUUIDStatic](Images/Nodes/vTextUUIDStatic.png)
 
-### vTextDecodeUrl
+### Decode
+
+#### vTextDecodeUrl
 
 URL-decodes a Fusion Text object
 
 ![vTextDecodeUrl](Images/Nodes/vTextDecodeUrl.png)
 
-### vTextEncodeUrl
+### Encode
+
+#### vTextEncodeUrl
 
 URL-encodes a Fusion Text object
 
 ![vTextEncodeUrl](Images/Nodes/vTextEncodeUrl.png)
 
-### vTextSwitch
+### Flow
+
+#### vTextSwitch
 
 Switches between Fusion Text objects
 
@@ -424,19 +436,23 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vTextSwitch](Images/Nodes/vTextSwitch.png)
 
-### vTextWireless
+#### vTextWireless
 
 The vTextWireless node allows you to connect to other text based nodes in your comp without drawing the connection wirelines visually in the Flow/Nodes view. This can be helpful if you need to reduce clutter.
 
 ![vTextWireless](Images/Nodes/vTextWireless.png)
 
-### vTextFontMetrics
+### Font
+
+#### vTextFontMetrics
 
 Return font measurements as Fusion Number objects
 
 ![vTextFontMetrics](Images/Nodes/vTextFontMetrics.png)
 
-### vTextFromClipboard
+### IO
+
+#### vTextFromClipboard
 
 Grabs the current clipboard text
 
@@ -448,7 +464,7 @@ This node works on Windows, macOS, and Linux.
 
 ![vTextFromClipboard](Images/Nodes/vTextFromClipboard.png)
 
-### vTextFromComp
+#### vTextFromComp
 
 Reads text strings from a Fusion .comp file
 
@@ -468,7 +484,7 @@ The "Remove Duplicates" checkbox is used to remove any line entry that is a dupl
 
 ![vTextFromComp](Images/Nodes/vTextFromComp.png)
 
-### vTextFromFile
+#### vTextFromFile
 
 Reads a Text string from a file
 
@@ -482,7 +498,7 @@ The output from this node is a text data type.
 
 ![vTextFromFile](Images/Nodes/vTextFromFile.png)
 
-### vTextFromNet
+#### vTextFromNet
 
 Reads a Text string from a network URL
 
@@ -494,7 +510,7 @@ This means IoT (Internet of Things) electronic sensors, sports statistics, finan
 
 ![vTextFromNet](Images/Nodes/vTextFromNet.png)
 
-### vTextFromZip
+#### vTextFromZip
 
 Reads a Text string from a zip archive
 
@@ -508,13 +524,13 @@ Both attributes can be driven externally by a Text data type connection to the n
 
 ![vTextFromZip](Images/Nodes/vTextFromZip.png)
 
-### vTextToClipboard
+#### vTextToClipboard
 
 Send text to the clipboard
 
 ![vTextToClipboard](Images/Nodes/vTextToClipboard.png)
 
-### vTextToFile
+#### vTextToFile
 
 Writes a Text string to a file
 
@@ -526,7 +542,9 @@ Both of these controls can be driven externally by enabling the "Show Input" che
 
 ![vTextToFile](Images/Nodes/vTextToFile.png)
 
-### vTextEqual
+### Logic
+
+#### vTextEqual
 
 Compares two strings to see if they are equal
 
@@ -534,7 +552,7 @@ The result is a false/true based number result of 0-1.
 
 ![vTextEqual](Images/Nodes/vTextEqual.png)
 
-### vTextNotEqual
+#### vTextNotEqual
 
 Compares two strings to see if they are not equal
 
@@ -542,13 +560,15 @@ The result is a false/true based number result of 0-1.
 
 ![vTextNotEqual](Images/Nodes/vTextNotEqual.png)
 
-### vTextTernary
+#### vTextTernary
 
 Compare a value and return one of two possible strings as the result
 
 ![vTextTernary](Images/Nodes/vTextTernary.png)
 
-### vTextOrderReverse
+### Order
+
+#### vTextOrderReverse
 
 Reverses the order of a Fusion Text object
 
@@ -558,7 +578,7 @@ If you typed in "Hello Shuffle World!" the output would be "!dlroW elffuhS olleH
 
 ![vTextOrderReverse](Images/Nodes/vTextOrderReverse.png)
 
-### vTextOrderShuffle
+#### vTextOrderShuffle
 
 Shuffles the order of a Fusion Text object
 
@@ -568,7 +588,9 @@ If you typed in "Hello Shuffle World!" the output would be "Wdool uhSffod rlHoe!
 
 ![vTextOrderShuffle](Images/Nodes/vTextOrderShuffle.png)
 
-### vTextResolvePID
+### Resolve
+
+#### vTextResolvePID
 
 Returns the Resolve/Fusion PID (Process ID)
 
@@ -578,7 +600,7 @@ Often PID values are the identifier used to tell an external program to graceful
 
 ![vTextResolvePID](Images/Nodes/vTextResolvePID.png)
 
-### vTextResolveProjectName
+#### vTextResolveProjectName
 
 Returns the current Resolve project name
 
@@ -586,7 +608,9 @@ This node outputs a Text based string that holds the name of the current Resolve
 
 ![vTextResolveProjectName](Images/Nodes/vTextResolveProjectName.png)
 
-### vTextDoAction
+### Script
+
+#### vTextDoAction
 
 Executes Fusion actions
 
@@ -600,7 +624,7 @@ The "Wrap Lines" checkbox makes it possible to enable/disable line wrapping in t
 
 DoAction is launched via the "self.Comp:Execute()" function so it is run asynchronously.
 
-### vTextDoString
+#### vTextDoString
 
 Return a Text object from running a string of Lua code
 
@@ -621,7 +645,7 @@ If you need to temporarily troubleshoot the internals of what your code is doing
 
 ![vTextDoString](Images/Nodes/vTextDoString.png)
 
-### vTextExecute
+#### vTextExecute
 
 Executes code sourced from a Fusion Text object
 
@@ -631,7 +655,7 @@ In the code block you can return a value from the executed script to the node gr
 
 ![vTextExecute](Images/Nodes/vTextExecute.png)
 
-### vTextProcessOpen
+#### vTextProcessOpen
 
 Launches a command-line process via popen
 
@@ -652,7 +676,7 @@ If you need to access more complex automation techniques, or dynamically define 
 
 ![vTextProcessOpen](Images/Nodes/vTextProcessOpen.png)
 
-### vTextRenderComp
+#### vTextRenderComp
 
 Launches a command-line Fusion Render Node based .comp or .dfq process via popen
 
@@ -674,7 +698,7 @@ If "Custom Frame Range" is selected, a set of numerical input controls will be d
 
 The "Render Node Version" control allows you to choose the exact Fusion Render Node executable version number you would like to launch when the .comp file is rendered. This allows you the flexibility to target a different Fusion Render node release than you are using to run the GUI session inside of Fusion Studio.
 
-### vTextRunScript
+#### vTextRunScript
 
 Runs an external Lua script
 
@@ -686,7 +710,7 @@ Note: This node is effectively deprecated please use vTextDoString Instead.
 
 ![vTextRunScript](Images/Nodes/vTextRunScript.png)
 
-### vTextShellBG
+#### vTextShellBG
 
 Launch a command-line shell task in the background via `bmd.executebg()`
 
@@ -701,7 +725,7 @@ Note: Make sure to write in the absolute filepath for the executable program you
 
 Also, the vTextShellBG node is used to launch a program with its command line arguments specified. It is not a full terminal environment so shell redirection approaches and expanding environment variable tokens in the command string are not supported. If you need those extended command line scripting features, write out a temporary .bat/.sh/.command file to disk then use vTextShellBG to run the script.
 
-### vTextSlashCommand
+#### vTextSlashCommand
 
 Run a Console Fuse SlashCommand as a node
 
@@ -709,7 +733,9 @@ A SlashCommand is a type of Lua or Python script in Fusion that is normally laun
 
 ![vTextSlashCommand](Images/Nodes/vTextSlashCommand.png)
 
-### vTextMerge
+### Substring
+
+#### vTextMerge
 
 Dynamically joins strings into one
 
@@ -717,7 +743,7 @@ Merge together several strings that are connected to the node's text based input
 
 ![vTextMerge](Images/Nodes/vTextMerge.png)
 
-### vTextSubFormat
+#### vTextSubFormat
 
 Formats a template string with input values
 
@@ -725,7 +751,7 @@ Each input connection on the vTextSubFormat node can be placed exactly where it 
 
 ![vTextSubFormat](Images/Nodes/vTextSubFormat.png)
 
-### vTextSubFormatMultiline
+#### vTextSubFormatMultiline
 
 Formats a multi-line template string with input values
 
@@ -733,13 +759,13 @@ Each input connection on the vTextSubFormat node can be placed exactly where it 
 
 ![vTextSubFormatMultiline](Images/Nodes/vTextSubFormatMultiline.png)
 
-### vTextSubJoin
+#### vTextSubJoin
 
 Dynamically joins strings into one
 
 ![vTextSubJoin](Images/Nodes/vTextSubJoin.png)
 
-### vTextSubReplace
+#### vTextSubReplace
 
 Replaces substrings of a string
 
@@ -749,7 +775,7 @@ The 2nd text field represents the "Replace" text that will be substituted.
 
 ![vTextSubReplace](Images/Nodes/vTextSubReplace.png)
 
-### vTextSubReturn
+#### vTextSubReturn
 
 Returns a substring of a string
 
@@ -761,7 +787,7 @@ This added complexity makes it easier to remove elements like a 3 letter file ex
 
 ![vTextSubReturn](Images/Nodes/vTextSubReturn.png)
 
-### vTextSubSplit
+#### vTextSubSplit
 
 Returns a substring of a string
 
@@ -782,7 +808,7 @@ If you had a string with an IPv4 style IP address in it like "192.168.1.1", you 
 The output would be formatted as: `{"size":4,"array":["192","168","1","1"]}`
 ![vTextSubSplit](Images/Nodes/vTextSubSplit.png)
 
-### vTextSubStripLeft
+#### vTextSubStripLeft
 
 Strips a leading substring of a string
 
@@ -790,7 +816,7 @@ The "Strip" text field is used to define the text you would like to remove from 
 
 ![vTextSubStripLeft](Images/Nodes/vTextSubStripLeft.png)
 
-### vTextSubStripRight
+#### vTextSubStripRight
 
 Strips a trailing substring of a string
 
@@ -798,13 +824,17 @@ The "Strip" text field is used to define the text you would like to remove from 
 
 ![vTextSubStripRight](Images/Nodes/vTextSubStripRight.png)
 
-### vTextFromSubtitle
+### Subtitle
+
+#### vTextFromSubtitle
 
 Creates a Fusion Text object by extracting text from SRT Subtitles
 
 ![vTextFromSubtitle](Images/Nodes/vTextFromSubtitle.png)
 
-### vTextAccumulator
+### Temporal
+
+#### vTextAccumulator
 
 Temporally concatenates a text string over a frame range
 
@@ -828,19 +858,19 @@ If you want to stop a vTextAccumulator node from re-rendering on subsequent fram
 
 ![vTextAccumulator](Images/Nodes/vTextAccumulator.png)
 
-### vTextTimeSpeed
+#### vTextTimeSpeed
 
 Time based operation on text
 
 ![vTextTimeSpeed](Images/Nodes/vTextTimeSpeed.png)
 
-### vTextTimeStretch
+#### vTextTimeStretch
 
 Time based operation on text
 
 ![vTextTimeStretch](Images/Nodes/vTextTimeStretch.png)
 
-### vTextDelay
+#### vTextDelay
 
 Creates a Delay while passing a Fusion Text object
 
@@ -850,7 +880,9 @@ Among several use cases one can find for a tool that can momentarily pause rende
 
 ![vTextDelay](Images/Nodes/vTextDelay.png)
 
-### vTextDump
+### Utility
+
+#### vTextDump
 
 Dump the contents of a Fusion Text object to the Console window
 
@@ -864,13 +896,13 @@ Vonk number datatype content can be translated into a text format using the "vTe
 
 Tip: The "Shift + 0" hotkey is useful if you need to quickly toggle the visibility of the Console window in Resolve or Fusion Studio. Alternatively, clicking on the "Console" tab button at the top left of the Fusion Studio user interface will carry out a similar task.
 
-### vTextFromCSVViewer
+#### vTextFromCSVViewer
 
 View a CSV row or column in the Inspector
 
 ![vTextFromCSVViewer](Images/Nodes/vTextFromCSVViewer.png)
 
-### vTextLength
+#### vTextLength
 
 Returns the length of a string
 
@@ -880,7 +912,7 @@ If the text "Hello" was input to the vTextLength node, the output would be a str
 
 ![vTextLength](Images/Nodes/vTextLength.png)
 
-### vTextLineCount
+#### vTextLineCount
 
 Returns the line count of a multi-line string
 
@@ -890,7 +922,7 @@ The output from the node is a Number data type that indicates the total line cou
 
 ![vTextLineCount](Images/Nodes/vTextLineCount.png)
 
-### vTextNormalizeSlashes
+#### vTextNormalizeSlashes
 
 Unifies the slash direction on filepaths
 
@@ -900,7 +932,7 @@ The "Remove Duplicate Slashes" checkbox will replace any occurrence for two adja
 
 ![vTextNormalizeSlashes](Images/Nodes/vTextNormalizeSlashes.png)
 
-### vTextParseFilename
+#### vTextParseFilename
 
 Creates a Fusion Text object by parsing a filepath
 
@@ -912,7 +944,7 @@ The "Parse" ComboControl entries include:
 
 "FullPath", "FullPathMap", "Path", "PathMap", "FullName", "Name", "CleanName", "SNum", "Number", "Extension", "Padding", "UNC", and "Path + Name".
 
-### vTextParseFilenameOutputs
+#### vTextParseFilenameOutputs
 
 Creates a Fusion Text object by parsing a disk based filepath
 
@@ -922,7 +954,7 @@ The use of this multi-output node is fairly rare but it does a good job of showi
 
 ![vTextParseFilenameOutputs](Images/Nodes/vTextParseFilenameOutputs.png)
 
-### vTextReadLine
+#### vTextReadLine
 
 Creates a Fusion Text object by extracting a single line of text from a multi-line text block
 
@@ -938,7 +970,7 @@ The "Wrap Lines" checkbox makes it possible to enable/disable line wrapping in t
 
 ![vTextReadLine](Images/Nodes/vTextReadLine.png)
 
-### vTextSortLines
+#### vTextSortLines
 
 Sorts a multi-line block of text
 
@@ -948,13 +980,13 @@ The "Remove Duplicates" checkbox is used to remove any line entry that is a dupl
 
 ![vTextSortLines](Images/Nodes/vTextSortLines.png)
 
-### vTextToHTMLViewer
+#### vTextToHTMLViewer
 
 View HTML code in the Inspector
 
 ![vTextToHTMLViewer](Images/Nodes/vTextToHTMLViewer.png)
 
-### vTextViewer
+#### vTextViewer
 
 Displays the Fusion Text object contents in the Inspector
 

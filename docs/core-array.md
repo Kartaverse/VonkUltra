@@ -45,7 +45,9 @@ Utility:
 
 ## Node Docs
 
-### vArrayFromCSV
+### Create
+
+#### vArrayFromCSV
 
 Creates a JSON array from a CSV row or column
 
@@ -57,19 +59,19 @@ The "Ignore Header Row" checkbox will offset the first index position to start a
 
 The output from vArrayFromCSV is typically connected to an vArrayGetIndex node. This makes it possible to select an individual cell of data.
 
-### vArrayFromDataWindow
+#### vArrayFromDataWindow
 
 Casts DataWindow to an array
 
 ![vArrayFromDataWindow](Images/Nodes/vArrayFromDataWindow.png)
 
-### vArrayFromJSON
+#### vArrayFromJSON
 
 Casts JSON text into a JSON array
 
 ![vArrayFromJSON](Images/Nodes/vArrayFromJSON.png)
 
-### vArrayFromLuaTable
+#### vArrayFromLuaTable
 
 Casts a Lua Table to an array
 
@@ -77,7 +79,7 @@ A Lua table structure is used as the underlying format for Fusion .comp files, F
 
 ![vArrayFromLuaTable](Images/Nodes/vArrayFromLuaTable.png)
 
-### vArrayFromMediaIn
+#### vArrayFromMediaIn
 
 Casts a Resolve MediaIn MediaProps to an array
 
@@ -85,7 +87,7 @@ This makes it possible to read MediaPool/Edit page timeline information provided
 
 ![vArrayFromMediaIn](Images/Nodes/vArrayFromMediaIn.png)
 
-### vArrayFromMetadata
+#### vArrayFromMetadata
 
 Casts metadata to an array
 
@@ -93,7 +95,7 @@ This node translates metadata records into a JSON based array structure. This su
 
 ![vArrayFromMetadata](Images/Nodes/vArrayFromMetadata.png)
 
-### vArrayFromXML
+#### vArrayFromXML
 
 Creates a JSON array from XML
 
@@ -105,7 +107,7 @@ This JSON array formatted data can be navigated and extracted using the Vonk pro
 
 ![vArrayFromXML](Images/Nodes/vArrayFromXML.png)
 
-### vArrayFromYAML
+#### vArrayFromYAML
 
 Creates a JSON array from YAML
 
@@ -115,7 +117,9 @@ Blackmagic BRAW media filmed on a [BMD URSA Mini Pro 12K](https://www.blackmagic
 
 ![vArrayFromYAML](Images/Nodes/vArrayFromYAML.png)
 
-### vArraySwitch
+### Flow
+
+#### vArraySwitch
 
 Switch between Fusion JSON arra objects
 
@@ -129,7 +133,7 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vArraySwitch](Images/Nodes/vArraySwitch.png)
 
-### vArrayWireless
+#### vArrayWireless
 
 Create wireless links between JSON array objects
 
@@ -137,85 +141,95 @@ The vArrayWireless node allows you to connect to other USD based nodes in your c
 
 ![vArrayWireless](Images/Nodes/vArrayWireless.png)
 
-### vArrayGet
+### Key Value
+
+#### vArrayGet
 
 Gets the value of a key in an array
 
 ![vArrayGet](Images/Nodes/vArrayGet.png)
 
-### vArrayGetElement
+#### vArrayGetElement
 
 Creates Text from an array element
 
 ![vArrayGetElement](Images/Nodes/vArrayGetElement.png)
 
-### vArrayGetIndex
+#### vArrayGetIndex
 
 Creates Text from an array
 
 ![vArrayGetIndex](Images/Nodes/vArrayGetIndex.png)
 
-### vArrayGetKey
+#### vArrayGetKey
 
 Gets the value of a key in an array
 
 ![vArrayGetKey](Images/Nodes/vArrayGetKey.png)
 
-### vArrayKeys
+#### vArrayKeys
 
 Returns the keys present in an array
 
 ![vArrayKeys](Images/Nodes/vArrayKeys.png)
 
-### vArrayDoString
+### Script
+
+#### vArrayDoString
 
 Return Array text from running a string of Lua code
 
 ![vArrayDoString](Images/Nodes/vArrayDoString.png)
 
-### vArraySubReturn
+### Substring
+
+#### vArraySubReturn
 
 Concatenates an array
 
 ![vArraySubReturn](Images/Nodes/vArraySubReturn.png)
 
-### vArrayTimeSpeed
+### Temporal
+
+#### vArrayTimeSpeed
 
 Time based operation on Array
 
 ![vArrayTimeSpeed](Images/Nodes/vArrayTimeSpeed.png)
 
-### vArrayTimeStretch
+#### vArrayTimeStretch
 
 Time based operation on Array
 
 ![vArrayTimeStretch](Images/Nodes/vArrayTimeStretch.png)
 
-### vArrayConcatenate
+### Utility
+
+#### vArrayConcatenate
 
 Concatenates an array
 
 ![vArrayConcatenate](Images/Nodes/vArrayConcatenate.png)
 
-### vArrayCountElement
+#### vArrayCountElement
 
 Counts the elements in an Array
 
 ![vArrayCountElement](Images/Nodes/vArrayCountElement.png)
 
-### vArrayCountSubElements
+#### vArrayCountSubElements
 
 Counts the sub-elements in an Array
 
 ![vArrayCountSubElements](Images/Nodes/vArrayCountSubElements.png)
 
-### vArrayJoin
+#### vArrayJoin
 
 Gets the value of a key in an array
 
 ![vArrayJoin](Images/Nodes/vArrayJoin.png)
 
-### vArrayMatch
+#### vArrayMatch
 
 Gets the value of a key in an array
 
@@ -225,19 +239,19 @@ The "Pattern" text field uses [Lua Patterns](http://lua-users.org/wiki/PatternsT
 
 ![vArrayMatch](Images/Nodes/vArrayMatch.png)
 
-### vArraySize
+#### vArraySize
 
 Gets the size of an array
 
 ![vArraySize](Images/Nodes/vArraySize.png)
 
-### vArraySlice
+#### vArraySlice
 
 Creates Text from an array
 
 ![vArraySlice](Images/Nodes/vArraySlice.png)
 
-### vArrayViewer
+#### vArrayViewer
 
 View a JSON array in the Inspector
 

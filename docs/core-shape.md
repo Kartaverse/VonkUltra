@@ -8,7 +8,9 @@ Flow:
 
 ## Node Docs
 
-### vShapeSwitch
+### Flow
+
+#### vShapeSwitch
 
 Switch between Fusion ShapeTree objects
 
@@ -22,7 +24,7 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vShapeSwitch](Images/Nodes/vShapeSwitch.png)
 
-### vShapeWireless
+#### vShapeWireless
 
 Create wireless links to Fusion ShapeTree objects
 

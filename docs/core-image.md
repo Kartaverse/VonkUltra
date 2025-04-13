@@ -36,7 +36,9 @@ Utility:
 
 ## Node Docs
 
-### vImageCreateTiles
+### Create
+
+#### vImageCreateTiles
 
 Creates an image grid layout from an image sequence
 
@@ -50,17 +52,19 @@ The "Reverse X Order" and "Reverse Y Order" checkboxes are used to provide contr
 
 ![vImageCreateTiles](Images/Nodes/vImageCreateTiles.png)
 
-### vImageHook
+### Flow
+
+#### vImageHook
 
 ![vImageHook](Images/Nodes/vImageHook.png)
 
-### vImageRouter
+#### vImageRouter
 
 Control the output routing of a Fusion Image object
 
 ![vImageRouter](Images/Nodes/vImageRouter.png)
 
-### vImageSwitch
+#### vImageSwitch
 
 Switches between Fusion Image objects
 
@@ -74,13 +78,15 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vImageSwitch](Images/Nodes/vImageSwitch.png)
 
-### vImageWireless
+#### vImageWireless
 
 The vImageWireless node allows you to connect to other image based nodes in your comp without drawing the connection wirelines visually in the Flow/Nodes view. This can be helpful if you need to reduce clutter.
 
 ![vImageWireless](Images/Nodes/vImageWireless.png)
 
-### vImageEXRFromFile
+### IO
+
+#### vImageEXRFromFile
 
 Reads an EXR image from a file
 
@@ -92,7 +98,7 @@ The "Time Mode" control allows you to adjust how the frame number for image sequ
 
 ![vImageEXRFromFile](Images/Nodes/vImageEXRFromFile.png)
 
-### vImageEXRToFile
+#### vImageEXRToFile
 
 Saves an EXR image to disk
 
@@ -100,7 +106,7 @@ The "Filename" control can be driven externally by a Text data type connection t
 
 ![vImageEXRToFile](Images/Nodes/vImageEXRToFile.png)
 
-### vImageFromClipboard
+#### vImageFromClipboard
 
 Grabs, saves, then loads the current clipboard image
 
@@ -110,7 +116,7 @@ This node was designed to work with Fusion Standalone v9 on Windows.
 
 ![vImageFromClipboard](Images/Nodes/vImageFromClipboard.png)
 
-### vImageFromColor
+#### vImageFromColor
 
 Creates an image from a color
 
@@ -118,7 +124,7 @@ This node can act as a fuse based alternative to a Background node if you need t
 
 ![vImageFromColor](Images/Nodes/vImageFromColor.png)
 
-### vImageFromFile
+#### vImageFromFile
 
 Reads an Image object from a file
 
@@ -128,7 +134,7 @@ The "Time Mode" control allows you to adjust how the frame number for image sequ
 
 ![vImageFromFile](Images/Nodes/vImageFromFile.png)
 
-### vImageFromNet
+#### vImageFromNet
 
 Reads an Image object from a network URL
 
@@ -142,7 +148,7 @@ An example image you can use to test this node is an Eastern Canada weather sate
 
 ![vImageFromNet](Images/Nodes/vImageFromNet.png)
 
-### vImageFromZip
+#### vImageFromZip
 
 Reads an Image object from a zip archive
 
@@ -156,7 +162,7 @@ Both attributes can be driven externally by a Text data type connection to the n
 
 ![vImageFromZip](Images/Nodes/vImageFromZip.png)
 
-### vImageToFile
+#### vImageToFile
 
 Saves a jpg/exr/png/bmp/raw/fusepic image sequence to disk
 
@@ -164,7 +170,9 @@ The "File" control can be driven externally by a Text data type connection to th
 
 ![vImageToFile](Images/Nodes/vImageToFile.png)
 
-### vCryptomatte
+### Matte
+
+#### vCryptomatte
 
 This node is a version of the Cryptomatte fuse that supports an exposed Text data type based input connection to the "Matte List".
 
@@ -172,7 +180,9 @@ This is handy if you want to use the Vonk JSON + Metadata + Array features to cr
 
 ![vCryptomatte](Images/Nodes/vCryptomatte.png)
 
-### vImageProcessOpen
+### Script
+
+#### vImageProcessOpen
 
 Launch a command-line process via popen.
 
@@ -186,19 +196,23 @@ If you need cross-platform support, you can use a vTextCreatePlatform or vTextCr
 
 ![vImageProcessOpen](Images/Nodes/vImageProcessOpen.png)
 
-### vImageSlashCommand
+#### vImageSlashCommand
 
 Run a Console Fuse SlashCommand as a node
 
 ![vImageSlashCommand](Images/Nodes/vImageSlashCommand.png)
 
-### vImageCreateLine
+### Shape
+
+#### vImageCreateLine
 
 Creates a Line Shape object
 
 ![vImageCreateLine](Images/Nodes/vImageCreateLine.png)
 
-### vImageDelay
+### Utility
+
+#### vImageDelay
 
 Creates a Delay while passing a Fusion Image object
 

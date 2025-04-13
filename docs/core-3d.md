@@ -17,7 +17,9 @@ Utility:
 
 ## Node Docs
 
-### v3DSwitch
+### Flow
+
+#### v3DSwitch
 
 Switch between Fusion 3D objects
 
@@ -31,7 +33,9 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![v3DSwitch](Images/Nodes/v3DSwitch.png)
 
-### v3DToFile
+### IO
+
+#### v3DToFile
 
 Writes PointCloud3D data from the Fusion 3D node-graph to a file.
 
@@ -51,10 +55,11 @@ The Filename field contents can include relative PathMap values like "Comp:/" th
 
 If a sub-folder is specified in the filename field, and it is missing at render time, the sub-folders will be re-created automatically when the file is saved to disk. This is helpful if you want to use per--timeline-frame numbered folders in the output filepath.
 
-
 ![v3DToFile](Images/Nodes/v3DToFile.png)
 
-### v3DProcessOpen
+### Script
+
+#### v3DProcessOpen
 
 Launch a command-line process via popen.
 
@@ -68,13 +73,15 @@ If you need cross-platform support, you can use a vTextCreatePlatform or vTextCr
 
 ![v3DProcessOpen](Images/Nodes/v3DProcessOpen.png)
 
-### v3DSlashCommand
+#### v3DSlashCommand
 
 Run a Console Fuse SlashCommand as a node
 
 ![v3DSlashCommand](Images/Nodes/v3DSlashCommand.png)
 
-### v3DDelay
+### Utility
+
+#### v3DDelay
 
 Creates a delay while passing a Fusion 3D object.
 

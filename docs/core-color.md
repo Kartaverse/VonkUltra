@@ -8,19 +8,19 @@
 
 ## Node Docs
 
-### vColorJuggler
+#### vColorJuggler
 
 A color node that works with a "Palette Array".
 
 ![vColorJuggler](Images/Nodes/vColorJuggler.png)
 
-### vColorPermutations
+#### vColorPermutations
 
 A color node that works with a "Palette Array".
 
 ![vColorPermutations](Images/Nodes/vColorPermutations.png)
 
-### vColorSet
+#### vColorSet
 
 This node was created by Chad Capeland.
 

@@ -45,19 +45,25 @@ Utility:
 
 ## Node Docs
 
-### vGradientFromArray
+### Array
+
+#### vGradientFromArray
 
 Create a Gradient from an array
 
 ![vGradientFromArray](Images/Nodes/vGradientFromArray.png)
 
-### vGradientCreate
+### Create
+
+#### vGradientCreate
 
 Create a Fusion Gradient object
 
 ![vGradientCreate](Images/Nodes/vGradientCreate.png)
 
-### vGradientSwitch
+### Flow
+
+#### vGradientSwitch
 
 Switch between Fusion Gradient objects
 
@@ -71,7 +77,7 @@ The "Show Active Input" checkbox is used as a visualization and diagnostics mode
 
 ![vGradientSwitch](Images/Nodes/vGradientSwitch.png)
 
-### vGradientWireless
+#### vGradientWireless
 
 Create wireless links between gradient objects
 
@@ -79,36 +85,45 @@ The vGradientWireless node allows you to connect to other matrix based nodes in 
 
 ![vGradientWireless](Images/Nodes/vGradientWireless.png)
 
-### vGradientToImage
+### Image
+
+#### vGradientToImage
 
 Create an image from a Fusion Gradient object
 
 ![vGradientToImage](Images/Nodes/vGradientToImage.png)
 
-### vGradientToNumber
+### Number
+
+#### vGradientToNumber
 
 Return the Gradient color as Numbers
 
 ![vGradientToNumber](Images/Nodes/vGradientToNumber.png)
 
-### vGradientFromPixel
+### Pixel
+
+#### vGradientFromPixel
 
 Create a Fusion Gradient object from pixels in an image
 
 ![vGradientFromPixel](Images/Nodes/vGradientFromPixel.png)
 
-### vScriptValFromPixel
+### Script
+
+#### vScriptValFromPixel
 
 Return a ScriptVal with the RGB color from pixels in an image
 
 ![vScriptValFromPixel](Images/Nodes/vScriptValFromPixel.png)
 
-### vGradientDoString
+### ScriptVal
+
+#### vGradientDoString
 
 Return a Gradient object from running a string of Lua code
 
 ![vGradientDoString](Images/Nodes/vGradientDoString.png)
-
 
 The code you run is expected to return a Gradient formatted Lua table structure:
 
@@ -144,73 +159,79 @@ or
         }
     }
 
-### vGradientFromScriptVal
+### Temporal
+
+#### vGradientFromScriptVal
 
 Create a Gradient from a ScriptVal object
 
 ![vGradientFromScriptVal](Images/Nodes/vGradientFromScriptVal.png)
 
-### vGradientToScriptVal
+### Temporal
+
+#### vGradientToScriptVal
 
 Create a ScriptVal object from a Gradient
 
 ![vGradientToScriptVal](Images/Nodes/vGradientToScriptVal.png)
 
-### vGradientAccumulator
+#### vGradientAccumulator
 
 Temporally concatenate Gradients
 
 ![vGradientAccumulator](Images/Nodes/vGradientAccumulator.png)
 
-### vGradientTimeSpeed
+#### vGradientTimeSpeed
 
 Time based operation on Gradient objects
 
 ![vGradientTimeSpeed](Images/Nodes/vGradientTimeSpeed.png)
 
-### vGradientTimeStretch
+#### vGradientTimeStretch
 
 Time based operation on Gradient objects
 
 ![vGradientTimeStretch](Images/Nodes/vGradientTimeStretch.png)
 
-### vGradientColorCount
+### Utility
+
+#### vGradientColorCount
 
 Return the Gradient color count as a number
 
 ![vGradientColorCount](Images/Nodes/vGradientColorCount.png)
 
-### vGradientMerge
+#### vGradientMerge
 
 Merge several Gradients into a single output
 
 ![vGradientMerge](Images/Nodes/vGradientMerge.png)
 
-### vGradientNormalizePosition
+#### vGradientNormalizePosition
 
 Normalizes the position of colors in a Gradient to a uniform spacing from 0-1
 
 ![vGradientNormalizePosition](Images/Nodes/vGradientNormalizePosition.png)
 
-### vGradientSlice
+#### vGradientSlice
 
 Extracts a range of color indexes from a Gradient
 
 ![vGradientSlice](Images/Nodes/vGradientSlice.png)
 
-### vGradientSort
+#### vGradientSort
 
 Sort the gradient by color
 
 ![vGradientSort](Images/Nodes/vGradientSort.png)
 
-### vGradientSwatchViewer
+#### vGradientSwatchViewer
 
 View a Gradient object in the Inspector
 
 ![vGradientSwatchViewer](Images/Nodes/vGradientSwatchViewer.png)
 
-### vGradientViewer
+#### vGradientViewer
 
 View a Gradient object in the Inspector
 

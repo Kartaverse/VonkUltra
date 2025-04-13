@@ -2,11 +2,11 @@
 
 ## Node Listing
 
-
 - vFileSystemChmod
 - vFileSystemColorTags
 - vFileSystemCreateDir
 - vFileSystemDirExists
+- vFileSystemExtendedAttributes
 - vFileSystemFileCopy
 - vFileSystemFileExists
 - vFileSystemFileOpen
@@ -22,7 +22,7 @@
 
 ## Node Docs
 
-### vFileSystemChmod
+#### vFileSystemChmod
 
 Change a file/folder's access permissions
 
@@ -36,13 +36,13 @@ Note: This node works on macOS and Linux systems only due to the use of the UNIX
 
 ![vFileSystemChmod](Images/Nodes/vFileSystemChmod.png)
 
-### vFileSystemColorTags
+#### vFileSystemColorTags
 
 Apply macOS Finder Color tags to a file or folder
 
 ![vFileSystemColorTags](Images/Nodes/vFileSystemColorTags.png)
 
-### vFileSystemCreateDir
+#### vFileSystemCreateDir
 
 Creates a new directory
 
@@ -52,13 +52,20 @@ When enabled, the "\[x\] Use Parent Directory" checkbox allows you to enter a fi
 
 ![vFileSystemCreateDir](Images/Nodes/vFileSystemCreateDir.png)
 
-### vFileSystemDirExists
+#### vFileSystemDirExists
 
 Check if a directory exists
 
 ![vFileSystemDirExists](Images/Nodes/vFileSystemDirExists.png)
 
-### vFileSystemFileCopy
+#### vFileSystemExtendedAttributes
+
+Edit macOS xattr flags on files
+
+![vFileSystemExtendedAttributes](Images/Nodes/vFileSystemExtendedAttributes.png)
+
+
+#### vFileSystemFileCopy
 
 Copies a file
 
@@ -68,7 +75,7 @@ The "Create Destination Directory" checkbox is useful if you need to dynamically
 
 ![vFileSystemFileCopy](Images/Nodes/vFileSystemFileCopy.png)
 
-### vFileSystemFileExists
+#### vFileSystemFileExists
 
 Checks if a file exists
 
@@ -78,7 +85,7 @@ If you want to connect this node to a Switch node's "Which" field, you will have
 
 ![vFileSystemFileExists](Images/Nodes/vFileSystemFileExists.png)
 
-### vFileSystemFileOpen
+#### vFileSystemFileOpen
 
 Opens a file
 
@@ -86,7 +93,7 @@ This node will open the "Source File" using the operating system's default file 
 
 ![vFileSystemFileOpen](Images/Nodes/vFileSystemFileOpen.png)
 
-### vFileSystemFileSize
+#### vFileSystemFileSize
 
 Returns the file size
 
@@ -100,7 +107,7 @@ The Unit field supports a wide range of file size output scales including:
 
 The node has two output connections labelled "Output" and "OutputUnit". The "OutputUnit" connection is handy if you need to create a visual overlay with a Text+ node of file size and want to indicate the scale of measure.
 
-### vFileSystemListFiles
+#### vFileSystemListFiles
 
 Creates a Fusion Text object with a list of the folder contents
 
@@ -118,7 +125,7 @@ The "Skip Hidden Files" checkbox is used to ignore hidden files like "`.DS_Store
 
 ![vFileSystemListFiles](Images/Nodes/vFileSystemListFiles.png)
 
-### vFileSystemMapPath
+#### vFileSystemMapPath
 
 Expands a PathMap
 
@@ -128,25 +135,25 @@ This is useful if you want to supply an executable program name, or a filename t
 
 ![vFileSystemMapPath](Images/Nodes/vFileSystemMapPath.png)
 
-### vFileSystemRemoveDir
+#### vFileSystemRemoveDir
 
 Remove a directory
 
 ![vFileSystemRemoveDir](Images/Nodes/vFileSystemRemoveDir.png)
 
-### vFileSystemRemoveFile
+#### vFileSystemRemoveFile
 
 Remove a file
 
 ![vFileSystemRemoveFile](Images/Nodes/vFileSystemRemoveFile.png)
 
-### vFileSystemRename
+#### vFileSystemRename
 
 Rename a file or folder. This node can also be used to move files on disk.
 
 ![vFileSystemRename](Images/Nodes/vFileSystemRename.png)
 
-### vFileSystemSymlink
+#### vFileSystemSymlink
 
 Creates a Symbolic Link to a file or folder on macOS, Linux, and Windows
 
@@ -191,13 +198,13 @@ In the Windows Explorer folder browsing window a symlinked file has an "arrow ic
 
 If you want to create a symlink without using Administrator permissions on Windows systems, you need to open the Windows operating system "Settings \> Privacy & security \> For developers" preference to enable the "Developer Mode".
 
-### vFileSystemTouch
+#### vFileSystemTouch
 
 Touch a file/folder's creation and modification dates on macOS and Linux
 
 ![vFileSystemTouch](Images/Nodes/vFileSystemTouch.png)
 
-### vFileSystemURLOpen
+#### vFileSystemURLOpen
 
 Opens a file
 

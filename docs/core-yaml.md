@@ -7,7 +7,9 @@ Utility:
 
 ## Node Docs
 
-### vYAMLViewer
+### Utility
+
+#### vYAMLViewer
 
 View YAML in the Inspector
 
