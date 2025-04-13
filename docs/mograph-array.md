@@ -89,7 +89,9 @@ Utility:
 
 ## Node Docs
 
-### vArrayBuffer
+### Create
+
+#### vArrayBuffer
 
 FIFO (first in first out) in an array
 
@@ -101,7 +103,7 @@ Example Node Connections:
     vArrayBuffer.High = 10
     vArrayBuffer.Output -> vArrayViewer.Text
 
-### vArrayCircularPoints
+#### vArrayCircularPoints
 
 Distributes points in circular form
 
@@ -113,7 +115,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCreate
+#### vArrayCreate
 
 Creates an Array
 
@@ -125,7 +127,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCreateJSONFont
+#### vArrayCreateJSONFont
 
 Generates a JSON array-based font
 
@@ -139,7 +141,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCreateList
+#### vArrayCreateList
 
 Creates an Array
 
@@ -151,7 +153,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCreateMinMax
+#### vArrayCreateMinMax
 
 Creates Array based on Max/Min operations
 
@@ -163,7 +165,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCreateRandom
+#### vArrayCreateRandom
 
 Creates a Random Array
 
@@ -175,7 +177,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCreateTextFont
+#### vArrayCreateTextFont
 
 Creates Text Font
 
@@ -187,7 +189,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayFromAudio
+#### vArrayFromAudio
 
 Convert .wav audio data into a vArray format
 
@@ -199,7 +201,7 @@ Example Node Connections:
     vArrayFromAudio.Output -> vArrayViewer.Text
     vArrayFromAudio.Output -> vArrayCountElement.Text
 
-### vArrayFromOBJ
+#### vArrayFromOBJ
 
 Convert Wavefront OBJ mesh data into a vArray format
 
@@ -212,7 +214,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayFromXYZ
+#### vArrayFromXYZ
 
 Convert ASCII XYZ point cloud data into a vArray format
 
@@ -232,7 +234,7 @@ Transform XYZ Points Node Connections:
     vArrayMath.Output -> vArrayToXYZ.ArrayA
     vArrayToXYZ.Output -> vTextToFile.Input
 
-### vArrayGenerateSphere
+#### vArrayGenerateSphere
 
 Generates a Sphere with longitude/latitude lines
 
@@ -244,7 +246,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayGenerateSpirals
+#### vArrayGenerateSpirals
 
 Generate Spiral splines
 
@@ -256,7 +258,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayGenerateText
+#### vArrayGenerateText
 
 Example, generating random Text and Strings
 
@@ -348,7 +350,7 @@ IPv4 Node Connections:
     vArrayGenerateText.arrayLength = 1
     vArrayGenerateText.OutputValData -> vArrayViewer.Text
 
-### vArrayLissajouseSpline
+#### vArrayLissajouseSpline
 
 Generate a Lissajouse spline
 
@@ -360,7 +362,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayLogarithmicSpiral
+#### vArrayLogarithmicSpiral
 
 Generate a logarithmic Spiral spline
 
@@ -372,7 +374,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayMapGeoJSON
+#### vArrayMapGeoJSON
 
 Map from geographic coordinates
 
@@ -386,7 +388,7 @@ Example Node Connections:
     vArrayMapGeoJSON.ScriptVal_Groups -> vArrayShapeRender.ArrayGroups
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPhyllotaxis
+#### vArrayPhyllotaxis
 
 Generate points on Phyllotaxis
 
@@ -398,7 +400,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointParticles
+#### vArrayPointParticles
 
 Simple particle generator
 
@@ -410,7 +412,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsHexagonGrid
+#### vArrayPointsHexagonGrid
 
 Generate points on Hexagon Grid
 
@@ -422,7 +424,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsOnCircle
+#### vArrayPointsOnCircle
 
 Generate points on Array circle
 
@@ -434,7 +436,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsOnCube
+#### vArrayPointsOnCube
 
 Generate points on cube
 
@@ -446,7 +448,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsOnGrid
+#### vArrayPointsOnGrid
 
 Generate points on Array Grid
 
@@ -458,7 +460,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsOnRectangle
+#### vArrayPointsOnRectangle
 
 Generate points on Rectangle
 
@@ -470,7 +472,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsOnSphere
+#### vArrayPointsOnSphere
 
 Generate points on Sphere
 
@@ -482,7 +484,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayToOBJ
+#### vArrayToOBJ
 
 Convert an Array into Wavefront OBJ ASCII Text
 
@@ -499,7 +501,7 @@ Example Node Connections:
     vArrayToOBJ.Output -> vTextViewer.Input
     vArrayToOBJ.Output -> vTextToFile.Input
 
-### vArrayToXYZ
+#### vArrayToXYZ
 
 Convert an Array into XYZ ASCII Text
 
@@ -510,7 +512,9 @@ Example Node Connections:
     vArrayFromXYZ.Points -> vArrayToXYZ.ArrayA
     vArrayToXYZ.Output -> vTextToFile.Input
 
-### vArrayLogicBetween
+### Logic
+
+#### vArrayLogicBetween
 
 Logic Between Operations on an Array. If value of array is between min and max then the value is 1 else 0
 
@@ -523,7 +527,9 @@ Example Node Connections:
     ArraySortByDistance.Output -> vArrayPacker.ArrayA
     vArrayPacker.Output -> vArrayViewer.Text
 
-### vArrayBoundingBox
+### Modify
+
+#### vArrayBoundingBox
 
 Calculate a 3D, 2D, or 1D bounding box volume from an Array of XYZ/XY/X points
 
@@ -537,7 +543,7 @@ Example Node Connections:
     vArrayBoundingBox.Edges -> vArrayShapeRender.ArrayEdge
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCameraProjection
+#### vArrayCameraProjection
 
 Transforms Array using a perspective projection matrix
 
@@ -549,7 +555,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayConvert2D-3D
+#### vArrayConvert2D-3D
 
 Convert 2D array to 3D array
 
@@ -561,7 +567,7 @@ Example Node Connections:
     vArrayConvert2D_3D.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayDisplaceValues
+#### vArrayDisplaceValues
 
 Displace XYZ positions using noise with spherical falloff
 
@@ -574,7 +580,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayInterpolate
+#### vArrayInterpolate
 
 Interpolate between two arrays
 
@@ -600,7 +606,7 @@ Example Node Connections:
     vArrayCircularPoints2.Output -> vArrayInterpolate.ArrayB
     vArrayInterpolate.Output -> vArrayViewer.Text
 
-### vArrayIterator
+#### vArrayIterator
 
 Loop an array
 
@@ -612,7 +618,7 @@ Example Node Connections:
     vArrayIterator.Output -> vArrayPacker.ArrayA
     vArrayPacker.Output -> vArrayViewer.Text
 
-### vArrayMapRange
+#### vArrayMapRange
 
 Map Range Operations on an Array
 
@@ -624,7 +630,7 @@ Example Node Connections:
     vArrayMapRange.Output -> vArrayPacker.ArrayA
     vArrayPacker.Output -> vArrayViewer.Text
 
-### vArrayMath
+#### vArrayMath
 
 Math Operations on an Array
 
@@ -681,7 +687,7 @@ Matrix Multiply Node Connections:
     vArrayMath.Operation = "Matrix Multiply"
     vArrayMath.Output -> vArrayViewer.Text
 
-### vArrayPacker
+#### vArrayPacker
 
 Pack Operations on an Array
 
@@ -696,13 +702,13 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayParallelPointsOffSet
+#### vArrayParallelPointsOffSet
 
 Offset the parallel points in an array
 
 ![Node](Images/Nodes/vArrayParallelPointsOffSet.png)
 
-### vArrayPerlin3Noise
+#### vArrayPerlin3Noise
 
 Perlin Noise function on array values
 
@@ -717,7 +723,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsConnect
+#### vArrayPointsConnect
 
 Connect points in an array
 
@@ -733,7 +739,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayPointsOnArc
+#### vArrayPointsOnArc
 
 Generate points on an arc
 
@@ -746,7 +752,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayRotateValues
+#### vArrayRotateValues
 
 Rotate Array Between Operations on an Array
 
@@ -759,7 +765,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArraySin
+#### vArraySin
 
 Math Sin - Cos Operations on an Array
 
@@ -774,7 +780,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArraySortByDistance
+#### vArraySortByDistance
 
 Sort array by point distance
 
@@ -787,7 +793,7 @@ Example Node Connections:
     vArraySortByDistance.Output -> vArrayPacker.ArrayA
     vArrayPacker.Output -> vArrayViewer.Text
 
-### vArrayTangentVector
+#### vArrayTangentVector
 
 Create a vector that is tangent to a curve or surface at a given point
 
@@ -800,7 +806,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayTextWrap
+#### vArrayTextWrap
 
 Text wrap Operations on a Array
 
@@ -814,7 +820,7 @@ Example Node Connections:
     vArrayGenerateText.Output -> vArrayTextWrap.Array
     vArrayTextWrap.Text -> vTextViewer.Input
 
-### vArrayTranslate
+#### vArrayTranslate
 
 Transforms array positions
 
@@ -830,7 +836,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayUnPacker
+#### vArrayUnPacker
 
 Unpack Operations on an Array
 
@@ -845,7 +851,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayWave
+#### vArrayWave
 
 Animates an array
 
@@ -867,7 +873,9 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayShapeRender
+### ShapeRender
+
+#### vArrayShapeRender
 
 Create a polygon dot shapes from an Array based Lua table of XY point pairs
 
@@ -880,7 +888,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayShapeRenderTextPath
+#### vArrayShapeRenderTextPath
 
 Using Text and Strings on Array based Lua table of XY points path
 
@@ -894,7 +902,9 @@ Example Node Connections:
     Background.Output -> vArrayShapeRenderTextPath.Input
     vTextCreate.Output -> vArrayShapeRenderTextPath.inputtext
 
-### vArrayCustom2DShapes
+### Shapes
+
+#### vArrayCustom2DShapes
 
 Dynamically create 2D Shape elements
 
@@ -910,7 +920,7 @@ Example Node Connections:
     vArrayCustom2DShapes.Output -> vArrayShapeRender.ArrayShape
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayCustom3DShapes
+#### vArrayCustom3DShapes
 
 Dynamically create Shape elements
 
@@ -923,7 +933,7 @@ Example Node Connections:
     vArrayCustom3DShapes.Output -> vArrayShapeRender.ArrayShape
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayShapeText
+#### vArrayShapeText
 
 Example, using Text and Strings
 
@@ -936,7 +946,7 @@ Example Node Connections:
     Background.Output -> vArrayShapeRender.Input
     vArrayShapeText.OutputValShape -> vArrayShapeRender.ArrayShape
 
-### vArrayTangentVectorItem
+#### vArrayTangentVectorItem
 
 Create a vector that is tangent to a curve or surface at a given point
 
@@ -950,7 +960,9 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayAccumulator
+### Temporal
+
+#### vArrayAccumulator
 
 Temporally concatenate array elements
 
@@ -966,7 +978,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayAccumulatorOBJ
+#### vArrayAccumulatorOBJ
 
 Temporally concatenate Wavefront OBJ geometry with edge and point array elements
 
@@ -984,7 +996,9 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayAppend
+### Utility
+
+#### vArrayAppend
 
 Append Array to an array
 
@@ -1000,13 +1014,13 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayAppendGroup
+#### vArrayAppendGroup
 
 Append Array Groups to an array
 
 ![Node](Images/Nodes/vArrayAppendGroup.png)
 
-### vArrayInfo
+#### vArrayInfo
 
 Returns info of an array
 
@@ -1017,7 +1031,7 @@ Example Node Connections:
     vArrayPointsOnCube.Output -> vArrayUnPacker.ArrayB
     vArrayUnPacker.OutputArray -> vArrayInfo.ArrayA
 
-### vArrayMerge
+#### vArrayMerge
 
 Dynamically join Array elements into one table
 
@@ -1034,7 +1048,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArrayMergeOBJ
+#### vArrayMergeOBJ
 
 Merge Wavefront OBJ geometry with edge and point Arrays
 
@@ -1051,7 +1065,7 @@ Example Node Connections:
     vArrayToOBJ.Output -> vTextViewer.Input
     vArrayToOBJ.Output -> vTextToFile.Input
 
-### vArrayReducePoints
+#### vArrayReducePoints
 
 Reduce points Operations on an Array
 
@@ -1070,7 +1084,7 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
-### vArraySlicer
+#### vArraySlicer
 
 Trim the start and end of single or multi-dimensional arrays
 

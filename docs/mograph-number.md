@@ -19,7 +19,9 @@ Utility:
 
 ## Node Docs
 
-### vNumberSchlickBias
+### Modify
+
+#### vNumberSchlickBias
 
 Custom easing curve via schlick bias and gain
 
@@ -29,7 +31,9 @@ Example Node Connections:
 
     vNumberSchlickBias.Output -> vJSONInterpolate.Progress
 
-### vNumberCircleCoordinates
+### Trigonometry
+
+#### vNumberCircleCoordinates
 
 Calculates a vector (x and y) coordinates of a circle
 
@@ -42,7 +46,7 @@ Example Node Connections:
     vJSONCameraProjection1.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vNumberDegreeToVector
+#### vNumberDegreeToVector
 
 Calculates a vector (x and y) based on an angle in degrees
 
@@ -53,7 +57,9 @@ Example Node Connections:
     vNumberCompCurrentTime.Output -> vNumberDegreeToVector.Degree
     vNumberDegreeToVector.Output -> vJSONViewer.Text
 
-### vNumberSmootherStep
+### Utility
+
+#### vNumberSmootherStep
 
 Performs a interpolate smoothly between two input values, ensuring smooth acceleration and deceleration
 
@@ -64,7 +70,7 @@ Example Node Connections:
     vNumberSmootherStep.Output -> vNumberDegreeToVector.Degree
     vNumberDegreeToVector.Output -> vJSONViewer.Text
 
-### vNumberTween
+#### vNumberTween
 
 Tween numbers
 
@@ -76,7 +82,7 @@ Example Node Connections:
     NumberCreate1.Output -> vNumberTween.NumberEnd
     vNumberTween.Number -> vNumberViewer.Number1
 
-### vNumberWave
+#### vNumberWave
 
 Creates a Delay while passing a Fusion Number object
 

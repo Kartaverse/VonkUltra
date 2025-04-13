@@ -81,7 +81,9 @@ Utility:
 
 ## Node Docs
 
-### vJSONBuffer
+### Create
+
+#### vJSONBuffer
 
 FIFO (first in first out) in an array
 
@@ -93,7 +95,7 @@ Example Node Connections:
     vJSONBuffer.High = 10
     vJSONBuffer.Output -> vJSONViewer.Text
 
-### vJSONCircularPoints
+#### vJSONCircularPoints
 
 Distributes points in circular form
 
@@ -105,7 +107,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCreate
+#### vJSONCreate
 
 Creates an Array based on selected modes
 
@@ -117,7 +119,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCreateJSONFont
+#### vJSONCreateJSONFont
 
 Generates a JSON array-based font
 
@@ -131,7 +133,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCreateList
+#### vJSONCreateList
 
 Create an array by entering each value manually
 
@@ -143,7 +145,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCreateMinMax
+#### vJSONCreateMinMax
 
 Creates Array based on Max/Min operations
 
@@ -155,7 +157,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCreateRandom
+#### vJSONCreateRandom
 
 Creates a random JSON Array
 
@@ -167,7 +169,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCreateTextFont
+#### vJSONCreateTextFont
 
 Creates Text Font
 
@@ -179,7 +181,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONFromOBJ
+#### vJSONFromOBJ
 
 Convert Wavefront OBJ mesh data into a JSON format
 
@@ -192,7 +194,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONFromXYZ
+#### vJSONFromXYZ
 
 Convert ASCII XYZ point cloud data into a JSON format
 
@@ -204,7 +206,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONGenerateSphere
+#### vJSONGenerateSphere
 
 Generates a Sphere with longitude/latitude lines
 
@@ -216,7 +218,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONGenerateSpirals
+#### vJSONGenerateSpirals
 
 Generate Spiral splines
 
@@ -228,7 +230,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONGenerateText
+#### vJSONGenerateText
 
 Example, generating random Text and Strings
 
@@ -320,7 +322,7 @@ IPv4 Node Connections:
     vJSONGenerateText.arrayLength = 1
     vJSONGenerateText.OutputValData -> vJSONViewer.Text
 
-### vJSONLissajouseSpline
+#### vJSONLissajouseSpline
 
 Generate a Lissajouse spline
 
@@ -332,7 +334,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONLogarithmicSpiral
+#### vJSONLogarithmicSpiral
 
 Generate a Logarithmic Spiral spline
 
@@ -344,7 +346,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONMapGeoJSON
+#### vJSONMapGeoJSON
 
 Map from geographic coordinates
 
@@ -358,7 +360,7 @@ Example Node Connections:
     vJSONMapGeoJSON.ScriptVal_Groups -> vJSONShapeRender.JSONTextGroups
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPhyllotaxis
+#### vJSONPhyllotaxis
 
 Generate points on Phyllotaxis
 
@@ -370,7 +372,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointParticles
+#### vJSONPointParticles
 
 Simple particle generator
 
@@ -382,7 +384,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsHexagonGrid
+#### vJSONPointsHexagonGrid
 
 Generate points on Hexagon Grid
 
@@ -394,7 +396,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsOnCircle
+#### vJSONPointsOnCircle
 
 Generate points on a cricle
 
@@ -406,7 +408,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsOnCube
+#### vJSONPointsOnCube
 
 Generate points on cube
 
@@ -418,7 +420,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsOnGrid
+#### vJSONPointsOnGrid
 
 Generate point on Array Grid
 
@@ -430,7 +432,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsOnRectangle
+#### vJSONPointsOnRectangle
 
 Generate points on Rectangle
 
@@ -442,7 +444,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsOnSphere
+#### vJSONPointsOnSphere
 
 Generate points on Sphere
 
@@ -454,7 +456,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONToXYZ
+#### vJSONToXYZ
 
 Convert a JSON Array into XYZ ASCII Text
 
@@ -465,7 +467,9 @@ Example Node Connections:
     vJSONFromXYZ.Points -> vJSONToXYZ.ArrayA
     vJSONToXYZ.Output -> vTextToFile.Input
 
-### vJSONLogicBetween
+### Logic
+
+#### vJSONLogicBetween
 
 Logic Between Operations on an Array
 
@@ -478,7 +482,9 @@ Example Node Connections:
     ArraySortByDistance.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
-### vJSONBoundingBox
+### Modify
+
+#### vJSONBoundingBox
 
 Calculate a 3D, 2D, or 1D bounding box volume from a JSON array of XYZ/XY/X points
 
@@ -492,7 +498,7 @@ Example Node Connections:
     vJSONBoundingBox.Edges -> vJSONShapeRender.JSONEdge
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCameraProjection
+#### vJSONCameraProjection
 
 Transforms arrays using a perspective projection matrix
 
@@ -504,7 +510,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONConvert2D-3D
+#### vJSONConvert2D-3D
 
 Convert 2D array to 3D array
 
@@ -516,7 +522,7 @@ Example Node Connections:
     vJSONConvert2D_3D.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONDisplaceValues
+#### vJSONDisplaceValues
 
 Displace XYZ positions using noise with spherical falloff
 
@@ -529,7 +535,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONInterpolate
+#### vJSONInterpolate
 
 Interpolate between corresponding values in two arrays
 
@@ -555,7 +561,7 @@ Example Node Connections:
     vJSONCircularPoints2.Output -> vJSONInterpolate.ArrayB
     vJSONInterpolate.Output -> vJSONViewer.Text
 
-### vJSONArrayIterator
+#### vJSONArrayIterator
 
 Loop an array
 
@@ -567,7 +573,7 @@ Example Node Connections:
     vJSONIterator.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
-### vJSONMapRange
+#### vJSONMapRange
 
 Apply range mapping operations to an array
 
@@ -579,7 +585,7 @@ Example Node Connections:
     vJSONMapRange.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
-### vJSONMath
+#### vJSONMath
 
 Apply mathematical operations to an array
 
@@ -626,7 +632,7 @@ The following math operations are supported:
 - Random
 - Randomseed
 
-### vJSONPacker
+#### vJSONPacker
 
 Pack an array into a new array
 
@@ -641,13 +647,13 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONParallelPointsOffSet
+#### vJSONParallelPointsOffSet
 
 Offset the parallel points in an array
 
 ![Node](Images/Nodes/vJSONParallelPointsOffSet.png)
 
-### vJSONPerlin3Noise
+#### vJSONPerlin3Noise
 
 Perlin Noise function on array values
 
@@ -662,7 +668,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsConnect
+#### vJSONPointsConnect
 
 Connect points in an array
 
@@ -678,7 +684,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONPointsOnArc
+#### vJSONPointsOnArc
 
 Generate points on an arc
 
@@ -691,7 +697,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONRotateValues
+#### vJSONRotateValues
 
 Rotate an array indexes and values
 
@@ -704,7 +710,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONSin
+#### vJSONSin
 
 Math Sin - Cos Operations on an Array
 
@@ -719,7 +725,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONSortByDistance
+#### vJSONSortByDistance
 
 Sort array by point distance
 
@@ -732,7 +738,7 @@ Example Node Connections:
     vJSONSortByDistance.Output -> vJSONPacker.ArrayA
     vJSONPacker.Output -> vJSONViewer.Text
 
-### vJSONTangentVector
+#### vJSONTangentVector
 
 Create a vector that is tangent to a curve or surface at a given point
 
@@ -745,7 +751,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONTextWrap
+#### vJSONTextWrap
 
 Text wrap Operations on a JSON
 
@@ -759,7 +765,7 @@ Example Node Connections:
     vJSONGenerateText.OutputValData -> vJSONTextWrap.Array
     vJSONTextWrap.Text -> vTextViewer.Input
 
-### vJSONTranslate
+#### vJSONTranslate
 
 Transforms array positions
 
@@ -775,7 +781,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONUnPacker
+#### vJSONUnPacker
 
 Unpack Operations on an Array
 
@@ -790,7 +796,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONWave
+#### vJSONWave
 
 Animates an Array
 
@@ -812,7 +818,9 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONShapeRender
+### ShapeRender
+
+#### vJSONShapeRender
 
 Create a polygon dot shapes from a JSON based Lua table of XY point pairs
 
@@ -825,7 +833,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONShapeRenderTextPath
+#### vJSONShapeRenderTextPath
 
 Using Text and Strings on Array based Lua table of XY points path
 
@@ -839,7 +847,9 @@ Example Node Connections:
     Background.Output -> vJSONShapeRenderTextPath.Input
     vTextCreate.Output -> vJSONShapeRenderTextPath.inputtext
 
-### vJSONCustom2DShapes
+### Shapes
+
+#### vJSONCustom2DShapes
 
 Dynamically create 2D Shape elements
 
@@ -855,7 +865,7 @@ Example Node Connections:
     vJSONCustom2DShapes.Output -> vJSONShapeRender.JSONCustomShape
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONCustom3DShapes
+#### vJSONCustom3DShapes
 
 Dynamically create Shape elements
 
@@ -868,7 +878,7 @@ Example Node Connections:
     vJSONCustom3DShapes.Output -> vJSONShapeRender.JSONCustomShape
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONShapeText
+#### vJSONShapeText
 
 Example, using Text and Strings
 
@@ -881,7 +891,7 @@ Example Node Connections:
     Background.Output -> vJSONShapeRender.Input
     vJSONShapeText.OutputValShape -> vJSONShapeRender.JSONCustomShape
 
-### vJSONTangentVectorItem
+#### vJSONTangentVectorItem
 
 Create a vector that is tangent to a curve or surface at a given point
 
@@ -895,7 +905,9 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONAppend
+### Utility
+
+#### vJSONAppend
 
 Append Array to an array
 
@@ -911,13 +923,13 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONAppendGroup
+#### vJSONAppendGroup
 
 Append Array Groups to an array
 
 ![Node](Images/Nodes/vJSONAppendGroup.png)
 
-### vJSONInfo
+#### vJSONInfo
 
 Returns info of an array
 
@@ -928,7 +940,7 @@ Example Node Connections:
     vJSONPointsOnCube.Output -> vJSONUnPacker.ArrayB
     vJSONUnPacker.OutputArray -> vJSONInfo.ArrayA
 
-### vJSONMerge
+#### vJSONMerge
 
 Dynamically join JSON elements into one table
 
@@ -945,7 +957,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONReducePoints
+#### vJSONReducePoints
 
 Reduce points Operations on an Array
 
@@ -964,7 +976,7 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
 
-### vJSONSlicer
+#### vJSONSlicer
 
 Trimming the start and end of single or multi-dimensional arrays
 

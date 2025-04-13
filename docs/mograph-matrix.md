@@ -13,7 +13,9 @@ IO:
 
 ## Node Docs
 
-### vMatrixCreateTRS
+### Create
+
+#### vMatrixCreateTRS
 
 Creates a 4x4 matrix using traditional XYZ translation, rotation, and scale controls
 
@@ -26,7 +28,9 @@ Example Node Connections:
     vScriptValMergeAsset.Output -> vScriptValRenderAsset.vGeometry
     Background.Output -> vScriptValRenderAsset.Input
 
-### vMatrixFromMOVE
+### IO
+
+#### vMatrixFromMOVE
 
 Import translation matrix content from the Maya MOVE ASCII format
 
@@ -37,7 +41,7 @@ Example Node Connections:
     vTextCreateMultilineCode.Output -> vMatrixFromMOVE.Input
     vMatrixFromMOVE.Output -> vMatrixViewer.Matrix1
 
-### vMatrixToMOVE
+#### vMatrixToMOVE
 
 Export translation matrix content to the Maya MOVE ASCII format
 

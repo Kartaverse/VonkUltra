@@ -87,7 +87,9 @@ Utility:
 
 ## Node Docs
 
-### vScriptValBuffer
+### Create
+
+#### vScriptValBuffer
 
 FIFO (first in first out) in an array
 
@@ -99,7 +101,7 @@ Example Node Connections:
     vScriptValBuffer.High = 10
     vScriptValBuffer.Output -> vScriptValViewer.ScriptVal
 
-### vScriptValCircularPoints
+#### vScriptValCircularPoints
 
 Distributes points in circular form
 
@@ -111,7 +113,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCreateAsset
+#### vScriptValCreateAsset
 
 Create a ScriptVal based 3D asset from Edge, Point, and vMatrix data
 
@@ -127,7 +129,7 @@ Example Node Connections:
     vScriptValMergeAsset.Output -> vScriptValRenderAsset.vGeometry
     Background.Output -> vScriptValRenderAsset.Input
 
-### vScriptValCreateJSONFont
+#### vScriptValCreateJSONFont
 
 Generates a JSON array-based font
 
@@ -141,7 +143,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCreateList
+#### vScriptValCreateList
 
 Create an array by entering each value manually
 
@@ -153,7 +155,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCreateMinMax
+#### vScriptValCreateMinMax
 
 Creates Array based on Max/Min operations
 
@@ -165,7 +167,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCreateRandom
+#### vScriptValCreateRandom
 
 Creates a random JSON Array
 
@@ -177,7 +179,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCreateTextFont
+#### vScriptValCreateTextFont
 
 Creates Text Font
 
@@ -189,7 +191,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValFromAudio
+#### vScriptValFromAudio
 
 Convert .wav audio data into a ScriptVal
 
@@ -201,7 +203,7 @@ Example Node Connections:
     vScriptValFromAudio.ScriptVal -> vScriptValViewer.ScriptVal
     vScriptValFromAudio.ScriptVal -> vScriptValCount.ScriptVal
 
-### vScriptValFromOBJ
+#### vScriptValFromOBJ
 
 Convert Wavefront OBJ mesh data into a ScriptVal
 
@@ -214,7 +216,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValFromXYZ
+#### vScriptValFromXYZ
 
 Convert ASCII XYZ point cloud data into a ScriptVal
 
@@ -226,7 +228,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValGenerateSphere
+#### vScriptValGenerateSphere
 
 Generates a Sphere with longitude/latitude lines
 
@@ -238,7 +240,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValGenerateSpirals
+#### vScriptValGenerateSpirals
 
 Generate Spiral splines
 
@@ -250,7 +252,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValGenerateText
+#### vScriptValGenerateText
 
 Example, generating random Text and Strings
 
@@ -342,7 +344,7 @@ IPv4 Node Connections:
     vScriptValGenerateText.arrayLength = 1
     vScriptValGenerateText.OutputValData -> vScriptValViewer.ScriptVal
 
-### vScriptValLissajouseSpline
+#### vScriptValLissajouseSpline
 
 Generate a Lissajouse spline
 
@@ -354,7 +356,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValLocatorAsset
+#### vScriptValLocatorAsset
 
 Create a ScriptVal based 3D locator cursor asset
 
@@ -367,7 +369,7 @@ Example Node Connections:
     vScriptValMergeAsset.Output -> vScriptValRenderAsset.vGeometry
     Background.Output -> vScriptValRenderAsset.Input
 
-### vScriptValLogarithmicSpiral
+#### vScriptValLogarithmicSpiral
 
 Generate a Logarithmic Spiral spline
 
@@ -379,7 +381,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValMapGeoJSON
+#### vScriptValMapGeoJSON
 
 Map from geographic coordinates
 
@@ -393,7 +395,7 @@ Example Node Connections:
     vScriptValMapGeoJSON.ScriptVal_Groups -> vScriptValShapeRender.ScriptValGroups
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPhyllotaxis
+#### vScriptValPhyllotaxis
 
 Generate points on Phyllotaxis
 
@@ -405,7 +407,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointParticles
+#### vScriptValPointParticles
 
 Simple particle generator
 
@@ -417,7 +419,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsHexagonGrid
+#### vScriptValPointsHexagonGrid
 
 Generate points on Hexagon Grid
 
@@ -429,7 +431,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsOnCircle
+#### vScriptValPointsOnCircle
 
 Generate points on a circle
 
@@ -441,7 +443,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsOnCube
+#### vScriptValPointsOnCube
 
 Generate points on cube
 
@@ -453,7 +455,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsOnGrid
+#### vScriptValPointsOnGrid
 
 Generate point on Array Grid
 
@@ -465,7 +467,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsOnRectangle
+#### vScriptValPointsOnRectangle
 
 Generate points on Rectangle
 
@@ -477,7 +479,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsOnSphere
+#### vScriptValPointsOnSphere
 
 Generate points on Sphere
 
@@ -489,13 +491,13 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValToOBJ
+#### vScriptValToOBJ
 
 Convert a Fusion ScriptVal object into Wavefront OBJ ASCII Text
 
 ![Node](Images/Nodes/vScriptValToOBJ.png)
 
-### vScriptValToXYZ
+#### vScriptValToXYZ
 
 Convert a Fusion ScriptVal object into XYZ ASCII Text
 
@@ -506,7 +508,9 @@ Example Node Connections:
     vScriptValFromXYZ.ScriptValPoints -> vScriptValToXYZ.ScriptVal
     vScriptValToXYZ.Output -> vTextToFile.Input
 
-### vScriptValLogicBetween
+### Logic
+
+#### vScriptValLogicBetween
 
 Logic Between Operations on an Array
 
@@ -519,7 +523,9 @@ Example Node Connections:
     ArraySortByDistance.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
-### vScriptValArrayIterator
+### Modify
+
+#### vScriptValArrayIterator
 
 Loop an array
 
@@ -531,7 +537,7 @@ Example Node Connections:
     vScriptValArrayIterator.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
-### vScriptValBoundingBox
+#### vScriptValBoundingBox
 
 Calculate a 3D, 2D, or 1D bounding box volume from a ScriptVal object of XYZ/XY/X points
 
@@ -545,7 +551,7 @@ Example Node Connections:
     vScriptValBoundingBox.ScriptValEdges -> vScriptValShapeRender.ScriptValEdge
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCameraProjection
+#### vScriptValCameraProjection
 
 Transforms ScriptVals using a perspective projection matrix
 
@@ -557,7 +563,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValConvert2D-3D
+#### vScriptValConvert2D-3D
 
 Convert 2D array to 3D array
 
@@ -569,7 +575,7 @@ Example Node Connections:
     vScriptValConvert2D_3D.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValDisplaceValues
+#### vScriptValDisplaceValues
 
 Displace XYZ positions using noise with spherical falloff.
 
@@ -582,7 +588,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValInterpolate
+#### vScriptValInterpolate
 
 Interpolate between corresponding values in two arrays
 
@@ -608,7 +614,7 @@ Example Node Connections:
     vScriptValCircularPoints2.Output -> vScriptValInterpolate.ScriptVal2
     vScriptValInterpolate.Output -> vScriptValViewer.ScriptVal
 
-### vScriptValMapRange
+#### vScriptValMapRange
 
 Apply range mapping operations to an array
 
@@ -620,7 +626,7 @@ Example Node Connections:
     vScriptValMapRange.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
-### vScriptValMath
+#### vScriptValMath
 
 Math Operations on a ScriptVal
 
@@ -667,7 +673,7 @@ The following math operations are supported:
 - Random
 - Randomseed
 
-### vScriptValPacker
+#### vScriptValPacker
 
 Pack Operations on a ScriptVal
 
@@ -682,13 +688,13 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValParallelPointsOffSet
+#### vScriptValParallelPointsOffSet
 
 Offset the parallel points in an array
 
 ![Node](Images/Nodes/vScriptValParallelPointsOffSet.png)
 
-### vScriptValPerlin3Noise
+#### vScriptValPerlin3Noise
 
 Perlin Noise function on array values
 
@@ -703,7 +709,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsConnect
+#### vScriptValPointsConnect
 
 Connect points in an array
 
@@ -719,7 +725,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValPointsOnArc
+#### vScriptValPointsOnArc
 
 Generate points on an arc
 
@@ -732,7 +738,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValRotateValues
+#### vScriptValRotateValues
 
 Rotate ScriptVals Between Operations on a ScriptVal Object
 
@@ -745,7 +751,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValSin
+#### vScriptValSin
 
 Math Sin - Cos Operations on an Array
 
@@ -760,7 +766,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValSortByDistance
+#### vScriptValSortByDistance
 
 Sort array by point distance
 
@@ -773,7 +779,7 @@ Example Node Connections:
     vScriptValSortByDistance.Output -> vScriptValPacker.ScriptVal
     vScriptValPacker.ScriptVal -> vScriptValViewer.ScriptVal
 
-### vScriptValTangentVector
+#### vScriptValTangentVector
 
 Create a vector that is tangent to a curve or surface at a given point
 
@@ -786,7 +792,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValTextWrap
+#### vScriptValTextWrap
 
 Text wrap Operations on a ScriptVal
 
@@ -800,7 +806,7 @@ Example Node Connections:
     vScriptValGenerateText.OutputValData -> vScriptValTextWrap.ScriptVal
     vScriptValTextWrap.Text -> vTextViewer.Input
 
-### vScriptValTranslate
+#### vScriptValTranslate
 
 Transforms array positions
 
@@ -816,7 +822,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValUnPacker
+#### vScriptValUnPacker
 
 Unpack Operations on a ScriptVal object
 
@@ -831,7 +837,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValWave
+#### vScriptValWave
 
 Animates an Array
 
@@ -853,7 +859,9 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValRenderAsset
+### ShapeRender
+
+#### vScriptValRenderAsset
 
 Render 3D wireframe from a ScriptVal Lua table of vGeometry mesh data
 
@@ -876,7 +884,7 @@ Example Node Connections:
     vScriptValMergeAsset.Output -> vScriptValRenderAsset.vGeometry
     Background.Output -> vScriptValRenderAsset.Input
 
-### vScriptValRenderAssetSVG
+#### vScriptValRenderAssetSVG
 
 Export an SVG wireframe from a ScriptVal Lua table of vGeometry mesh data
 
@@ -899,7 +907,7 @@ Example Node Connections:
     vScriptValMergeAsset.Output -> vScriptValRenderAssetSVG.vGeometry
     Background.Output -> vScriptValRenderAssetSVG.Input
 
-### vScriptValShapeRender
+#### vScriptValShapeRender
 
 Create a polygon dot shapes from a ScriptVal based Lua table of XY point pairs
 
@@ -912,7 +920,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValShapeRenderTextPath
+#### vScriptValShapeRenderTextPath
 
 Using Text and Strings on Array based Lua table of XY points path
 
@@ -926,7 +934,9 @@ Example Node Connections:
     Background.Output -> vScriptValShapeRenderTextPath.Input
     vTextCreate.Output -> vScriptValShapeRenderTextPath.inputtext
 
-### vScriptValCustom2DShapes
+### Shapes
+
+#### vScriptValCustom2DShapes
 
 Dynamically create 2D Shape elements
 
@@ -942,7 +952,7 @@ Example Node Connections:
     vScriptValCustom2DShapes.Output -> vScriptValShapeRender.ScriptValShape
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValCustom3DShapes
+#### vScriptValCustom3DShapes
 
 Dynamically create Shape elements
 
@@ -955,7 +965,7 @@ Example Node Connections:
     vScriptValCustom3DShapes.Output -> vScriptValShapeRender.ScriptValShape
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValShapeTextArray
+#### vScriptValShapeTextArray
 
 Example, using Text and Strings
 
@@ -968,7 +978,7 @@ Example Node Connections:
     vScriptValShapeText.OutputValShape -> vScriptValShapeRender.ScriptValShape
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValTangentVectorItem
+#### vScriptValTangentVectorItem
 
 Create a vector that is tangent to a curve or surface at a given point
 
@@ -982,7 +992,9 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValAppend
+### Utility
+
+#### vScriptValAppend
 
 Append Array to an array
 
@@ -998,13 +1010,13 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValAppendGroup
+#### vScriptValAppendGroup
 
 Append Array Groups to an array
 
 ![Node](Images/Nodes/vScriptValAppendGroup.png)
 
-### vScriptValInfo
+#### vScriptValInfo
 
 Returns info of an array
 
@@ -1015,19 +1027,19 @@ Example Node Connections:
     vScriptValPointsOnCube.Output -> vScriptValUnPacker.ScriptVal
     vScriptValUnPacker.ScriptVal1 -> vScriptValInfo.ScriptVal
 
-### vScriptValMergeAsset
+#### vScriptValMergeAsset
 
 Dynamically join ScriptVal Asset elements into one table
 
 ![Node](Images/Nodes/vScriptValMergeAsset.png)
 
-### vScriptValMergeOBJ
+#### vScriptValMergeOBJ
 
 Merge Wavefront OBJ geometry with edge and point ScriptVal Arrays
 
 ![Node](Images/Nodes/vScriptValMergeOBJ.png)
 
-### vScriptValReducePoints
+#### vScriptValReducePoints
 
 Reduce points Operations on a ScriptVal
 
@@ -1046,7 +1058,7 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
-### vScriptValSlicer
+#### vScriptValSlicer
 
 Trim the start and end of single or multi-dimensional arrays
 
