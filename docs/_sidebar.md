@@ -2,6 +2,7 @@
 - [Home](/)
 - **Vonk Ultra:**
 	- [Instagram Channel](https://www.instagram.com/vonkultra/)
+	- [Video Tutorials](tutorials)
 	- [Install Vonk Ultra Using Reactor](install)
 	- Mograph
 		- [Example Comps](mograph-comps)
