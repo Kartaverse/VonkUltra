@@ -6,7 +6,7 @@
 
 ## CloutVFX
 
-The [CloutFX](https://www.youtube.com/@Cloutboifx) channel has done a wonderful job on independently creating a unique series of Vonk Ultra motion graphics tutorials. If you've enjoyed CloutVFX's Vonk tutorials as much as I have, please make sure to like the videos on YouTube, and leave a comment on the episodes.
+The [CloutVFX](https://www.youtube.com/@Cloutboifx) channel has done a wonderful job on independently creating a unique series of Vonk Ultra motion graphics tutorials. If you've enjoyed CloutVFX's Vonk tutorials as much as I have, please make sure to like the videos on YouTube, and leave a comment on the episodes.
 
 ### Unlock INSANE Motion Graphics in DaVinci Resolve with Vonk Ultra!
 
