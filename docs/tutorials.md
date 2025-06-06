@@ -41,3 +41,11 @@ This is the ultimate guide to Vonk Ultra’s vMograph toolset inside DaVinci Res
 In this video, I walk you through every single vMograph node — breaking down what they do, how to use them, and how they can transform your motion graphics workflow with data-driven design.
 
 Whether you're into 3D visuals, parameter linking, or creating complex graphics without scripting, this toolset gives you serious power — and no one else is covering it like this.
+
+### Vonk Ultra Part 4 – Every Modifier Node Explained (DaVinci Resolve Fusion)
+
+@yt(YVv5eBQDhz0,560px,317px,center)
+
+In this video, we cover EVERY single modifier node in the vMograph toolset inside DaVinci Resolve Fusion — there are 14 different modifiers within the vMograph toolset. As I am still studying this, I have had overwhelming support from the devs and other users that learned from this series, so thank you. I highly urge you to check out the Vonk Ultra website to check on each and every effect.
+
+These modifiers are the secret to bringing your static visuals to life: driving values, creating motion, and building data-driven animations without writing a single line of code.
