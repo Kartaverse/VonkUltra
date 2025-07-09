@@ -2,6 +2,11 @@
 
 ## Node Listing
 
+Animate:
+
+- vScriptValStagger
+- vScriptValMaterialEasing
+
 Create:
 
 - vScriptValBuffer
@@ -9,6 +14,7 @@ Create:
 - vScriptValCreateAsset
 - vScriptValCreateJSONFont
 - vScriptValCreateList
+- vScriptValCreateCubicBezier
 - vScriptValCreateMinMax
 - vScriptValCreateRandom
 - vScriptValCreateTextFont
@@ -60,6 +66,7 @@ Modify:
 - vScriptValTranslate
 - vScriptValUnPacker
 - vScriptValWave
+- vScriptValPointAttractor
 
 ShapeRender:
 
@@ -67,6 +74,13 @@ ShapeRender:
 - vScriptValRenderAssetSVG
 - vScriptValShapeRender
 - vScriptValShapeRenderTextPath
+- vScriptValCustomTimeline
+- vScriptValTaperedPath
+- vScriptValTextHighlighter
+- vScriptValShapePacker
+- vScriptValWordPacker
+- vScriptValCircuitBoardPattern
+- vScriptValCircuitBoardAbstract
 
 Shapes:
 
@@ -84,6 +98,8 @@ Utility:
 - vScriptValMergeOBJ
 - vScriptValReducePoints
 - vScriptValSlicer
+- vScriptValPathSubDivide
+- vScriptValFontArray
 
 ## Node Docs
 
