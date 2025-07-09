@@ -2,6 +2,11 @@
 
 ## Node Listing
 
+Animate:
+
+- vArrayStagger
+- vArrayMaterialEasing
+
 Create:
 
 - vArrayBuffer
@@ -9,6 +14,7 @@ Create:
 - vArrayCreate
 - vArrayCreateJSONFont
 - vArrayCreateList
+- vArrayCreateCubicBezier
 - vArrayCreateMinMax
 - vArrayCreateRandom
 - vArrayCreateTextFont
@@ -59,6 +65,7 @@ Modify:
 - vArrayTranslate
 - vArrayUnPacker
 - vArrayWave
+- vArrayPointAttractor
 
 ShapeRender:
 
@@ -71,6 +78,13 @@ Shapes:
 - vArrayCustom3DShapes
 - vArrayShapeText
 - vArrayTangentVectorItem
+- vArrayCustomTimeline
+- vArrayShapePacker
+- vArrayWordPacker
+- vArrayTaperedPath
+- vArrayTextHighlighter
+- vArrayCircuitBoardAbstract
+- vArrayCircuitBoardPattern
 
 Temporal:
 
@@ -85,7 +99,9 @@ Utility:
 - vArrayMerge
 - vArrayMergeOBJ
 - vArrayReducePoints
-- vArraySlicer.fuse
+- vArraySlicer
+- vArrayPathSubDivide
+- vArrayFontArray
 
 ## Node Docs
 
