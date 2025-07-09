@@ -2,6 +2,11 @@
 
 ## Node Listing
 
+Animate:
+
+- vJSONStagger
+- vJSONMaterialEasing
+
 Create:
 
 - vJSONBuffer
@@ -9,6 +14,7 @@ Create:
 - vJSONCreate
 - vJSONCreateJSONFont
 - vJSONCreateList
+- vJSONCreateCubicBezier
 - vJSONCreateMinMax
 - vJSONCreateRandom
 - vJSONCreateTextFont
@@ -57,11 +63,20 @@ Modify:
 - vJSONTranslate
 - vJSONUnPacker
 - vJSONWave
+- vJSONPointAttractor
+
 
 ShapeRender:
 
 - vJSONShapeRender
 - vJSONShapeRenderTextPath
+- vJSONCustomTimeline
+- vJSONTaperedPath
+- vJSONTextHighlighter
+- vJSONWordPacker
+- vJSONShapePacker
+- vJSONCircuitBoardPattern
+- vJSONCircuitBoardAbstract
 
 Shapes:
 
@@ -78,6 +93,8 @@ Utility:
 - vJSONMerge
 - vJSONReducePoints
 - vJSONSlicer
+- vJSONPathSubDivide
+- vJSONFontArray
 
 ## Node Docs
 
