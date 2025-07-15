@@ -12,9 +12,9 @@ Create:
 - vArrayBuffer
 - vArrayCircularPoints
 - vArrayCreate
+- vArrayCreateCubicBezier
 - vArrayCreateJSONFont
 - vArrayCreateList
-- vArrayCreateCubicBezier
 - vArrayCreateMinMax
 - vArrayCreateRandom
 - vArrayCreateTextFont
@@ -55,6 +55,7 @@ Modify:
 - vArrayPacker
 - vArrayParallelPointsOffSet
 - vArrayPerlin3Noise
+- vArrayPointAttractor
 - vArrayPointsConnect
 - vArrayPointsOnArc
 - vArrayRotateValues
@@ -65,26 +66,26 @@ Modify:
 - vArrayTranslate
 - vArrayUnPacker
 - vArrayWave
-- vArrayPointAttractor
 
 ShapeRender:
 
+- vArrayCircuitBoardAbstract
+- vArrayCircuitBoardPattern
+- vArrayColor
+- vArrayShapePacker
 - vArrayShapeRender
 - vArrayShapeRenderTextPath
+- vArrayTaperedPath
+- vArrayTextHighlighter
+- vArrayWordPacker
 
 Shapes:
 
 - vArrayCustom2DShapes
 - vArrayCustom3DShapes
+- vArrayCustomTimeline
 - vArrayShapeText
 - vArrayTangentVectorItem
-- vArrayCustomTimeline
-- vArrayShapePacker
-- vArrayWordPacker
-- vArrayTaperedPath
-- vArrayTextHighlighter
-- vArrayCircuitBoardAbstract
-- vArrayCircuitBoardPattern
 
 Temporal:
 
@@ -95,13 +96,13 @@ Utility:
 
 - vArrayAppend
 - vArrayAppendGroup
+- vArrayFontArray
 - vArrayInfo
 - vArrayMerge
 - vArrayMergeOBJ
+- vArrayPathSubDivide
 - vArrayReducePoints
 - vArraySlicer
-- vArrayPathSubDivide
-- vArrayFontArray
 
 ## Node Docs
 

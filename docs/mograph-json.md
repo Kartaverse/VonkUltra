@@ -4,20 +4,21 @@
 
 Animate:
 
-- vJSONStagger
 - vJSONMaterialEasing
+- vJSONStagger
 
 Create:
 
 - vJSONBuffer
 - vJSONCircularPoints
 - vJSONCreate
+- vJSONCreateCubicBezier
 - vJSONCreateJSONFont
 - vJSONCreateList
-- vJSONCreateCubicBezier
 - vJSONCreateMinMax
 - vJSONCreateRandom
 - vJSONCreateTextFont
+- vJSONFromAudio
 - vJSONFromOBJ
 - vJSONFromXYZ
 - vJSONGenerateSphere
@@ -42,17 +43,18 @@ Logic:
 
 Modify:
 
+- vJSONArrayIterator
 - vJSONBoundingBox
 - vJSONCameraProjection
 - vJSONConvert2D-3D
 - vJSONDisplaceValues
 - vJSONInterpolate
-- vJSONArrayIterator
 - vJSONMapRange
 - vJSONMath
 - vJSONPacker
 - vJSONParallelPointsOffSet
 - vJSONPerlin3Noise
+- vJSONPointAttractor
 - vJSONPointsConnect
 - vJSONPointsOnArc
 - vJSONRotateValues
@@ -63,25 +65,25 @@ Modify:
 - vJSONTranslate
 - vJSONUnPacker
 - vJSONWave
-- vJSONPointAttractor
-
 
 ShapeRender:
 
+
+- vJSONCircuitBoardAbstract
+- vJSONCircuitBoardPattern
+- vJSONColor
+- vJSONShapePacker
 - vJSONShapeRender
 - vJSONShapeRenderTextPath
-- vJSONCustomTimeline
 - vJSONTaperedPath
 - vJSONTextHighlighter
 - vJSONWordPacker
-- vJSONShapePacker
-- vJSONCircuitBoardPattern
-- vJSONCircuitBoardAbstract
 
 Shapes:
 
 - vJSONCustom2DShapes
 - vJSONCustom3DShapes
+- vJSONCustomTimeline
 - vJSONShapeText
 - vJSONTangentVectorItem
 
@@ -89,12 +91,12 @@ Utility:
 
 - vJSONAppend
 - vJSONAppendGroup
+- vJSONFontArray
 - vJSONInfo
 - vJSONMerge
+- vJSONPathSubDivide
 - vJSONReducePoints
 - vJSONSlicer
-- vJSONPathSubDivide
-- vJSONFontArray
 
 ## Node Docs
 

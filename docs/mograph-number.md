@@ -13,6 +13,7 @@ Trigonometry:
 
 Utility:
 
+- vNumberMaterialEasing
 - vNumberSmootherStep
 - vNumberTween
 - vNumberWave

@@ -4,17 +4,17 @@
 
 Animate:
 
-- vScriptValStagger
 - vScriptValMaterialEasing
+- vScriptValStagger
 
 Create:
 
 - vScriptValBuffer
 - vScriptValCircularPoints
 - vScriptValCreateAsset
+- vScriptValCreateCubicBezier
 - vScriptValCreateJSONFont
 - vScriptValCreateList
-- vScriptValCreateCubicBezier
 - vScriptValCreateMinMax
 - vScriptValCreateRandom
 - vScriptValCreateTextFont
@@ -37,6 +37,7 @@ Create:
 - vScriptValPointsOnRectangle
 - vScriptValPointsOnSphere
 - vScriptValToOBJ
+- vScriptValToUSD
 - vScriptValToXYZ
 
 Logic:
@@ -56,6 +57,7 @@ Modify:
 - vScriptValPacker
 - vScriptValParallelPointsOffSet
 - vScriptValPerlin3Noise
+- vScriptValPointAttractor
 - vScriptValPointsConnect
 - vScriptValPointsOnArc
 - vScriptValRotateValues
@@ -66,26 +68,26 @@ Modify:
 - vScriptValTranslate
 - vScriptValUnPacker
 - vScriptValWave
-- vScriptValPointAttractor
 
 ShapeRender:
 
+- vScriptValCircuitBoardAbstract
+- vScriptValCircuitBoardPattern
+- vScriptValColor
 - vScriptValRenderAsset
 - vScriptValRenderAssetSVG
+- vScriptValShapePacker
 - vScriptValShapeRender
 - vScriptValShapeRenderTextPath
-- vScriptValCustomTimeline
 - vScriptValTaperedPath
 - vScriptValTextHighlighter
-- vScriptValShapePacker
 - vScriptValWordPacker
-- vScriptValCircuitBoardPattern
-- vScriptValCircuitBoardAbstract
 
 Shapes:
 
 - vScriptValCustom2DShapes
 - vScriptValCustom3DShapes
+- vScriptValCustomTimeline
 - vScriptValShapeTextArray
 - vScriptValTangentVectorItem
 
@@ -93,13 +95,13 @@ Utility:
 
 - vScriptValAppend
 - vScriptValAppendGroup
+- vScriptValFontArray
 - vScriptValInfo
 - vScriptValMergeAsset
 - vScriptValMergeOBJ
+- vScriptValPathSubDivide
 - vScriptValReducePoints
 - vScriptValSlicer
-- vScriptValPathSubDivide
-- vScriptValFontArray
 
 ## Node Docs
 
