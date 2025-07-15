@@ -68,7 +68,6 @@ Modify:
 
 ShapeRender:
 
-
 - vJSONCircuitBoardAbstract
 - vJSONCircuitBoardPattern
 - vJSONColor
@@ -99,6 +98,16 @@ Utility:
 - vJSONSlicer
 
 ## Node Docs
+
+### Animate
+
+#### vJSONStagger
+
+Animate points using staggered offsets
+
+#### vJSONMaterialEasing
+
+Animate points using Material Design 3 easing with staggered offsets
 
 ### Create
 
@@ -137,6 +146,10 @@ Example Node Connections:
     vJSONCreate.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
+
+#### vJSONCreateCubicBezier
+
+Create an array by entering each value manually
 
 #### vJSONCreateJSONFont
 
@@ -199,6 +212,10 @@ Example Node Connections:
     vJSONCreateTextFont.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
+
+#### vJSONFromAudio
+
+Convert .wav audio data into a JSON format
 
 #### vJSONFromOBJ
 
@@ -503,6 +520,18 @@ Example Node Connections:
 
 ### Modify
 
+#### vJSONArrayIterator
+
+Loop an array
+
+![Node](Images/Nodes/vJSONArrayIterator.png)
+
+Example Node Connections:
+
+    vJSONUnPacker.OutputArray -> vJSONIterator.ArrayA
+    vJSONIterator.Output -> vJSONPacker.ArrayA
+    vJSONPacker.Output -> vJSONViewer.Text
+
 #### vJSONBoundingBox
 
 Calculate a 3D, 2D, or 1D bounding box volume from a JSON array of XYZ/XY/X points
@@ -579,18 +608,6 @@ Example Node Connections:
     vJSONCircularPoints1.Output -> vJSONInterpolate.ArrayA
     vJSONCircularPoints2.Output -> vJSONInterpolate.ArrayB
     vJSONInterpolate.Output -> vJSONViewer.Text
-
-#### vJSONArrayIterator
-
-Loop an array
-
-![Node](Images/Nodes/vJSONArrayIterator.png)
-
-Example Node Connections:
-
-    vJSONUnPacker.OutputArray -> vJSONIterator.ArrayA
-    vJSONIterator.Output -> vJSONPacker.ArrayA
-    vJSONPacker.Output -> vJSONViewer.Text
 
 #### vJSONMapRange
 
@@ -686,6 +703,10 @@ Example Node Connections:
     vJSONPacker.Output -> vJSONCameraProjection.ArrayA
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     Background.Output -> vJSONShapeRender.Input
+
+#### vJSONPointAttractor
+
+2D/3D point attractor/repulsor with spring dynamics
 
 #### vJSONPointsConnect
 
@@ -839,6 +860,22 @@ Example Node Connections:
 
 ### ShapeRender
 
+#### vJSONCircuitBoardAbstract
+
+Generates a absract circuit board with lines and components
+
+#### vJSONCircuitBoardPattern
+
+Generates a pattern circuit board with lines and components
+
+#### vJSONColor
+
+Dynamically color 2D Shape elements
+
+#### vJSONShapePacker
+
+Fills a letter-shaped area with tightly packed shapes using multiple algorithms
+
 #### vJSONShapeRender
 
 Create a polygon dot shapes from a JSON based Lua table of XY point pairs
@@ -865,6 +902,18 @@ Example Node Connections:
     vJSONConvert2D_3D.Output -> vJSONShapeRenderTextPath.JSONpath
     Background.Output -> vJSONShapeRenderTextPath.Input
     vTextCreate.Output -> vJSONShapeRenderTextPath.inputtext
+
+#### vJSONTaperedPath
+
+Draws a tapered 2D path from point list with optional smoothing
+
+#### vJSONTextHighlighter
+
+Highlights text elements dynamically
+
+#### vJSONWordPacker
+
+Fills a letter shape with tightly packed text, using FitTo and custom algorithms
 
 ### Shapes
 
@@ -896,6 +945,10 @@ Example Node Connections:
     vJSONCameraProjection.Output -> vJSONShapeRender.JSONPoint
     vJSONCustom3DShapes.Output -> vJSONShapeRender.JSONCustomShape
     Background.Output -> vJSONShapeRender.Input
+
+#### vJSONCustomTimeline
+
+Stylized timeline with major and minor tick marks
 
 #### vJSONShapeText
 
@@ -947,6 +1000,10 @@ Example Node Connections:
 Append Array Groups to an array
 
 ![Node](Images/Nodes/vJSONAppendGroup.png)
+
+#### vJSONFontArray
+
+Return multiple font measurements as a Fusion ScriptVal object
 
 #### vJSONInfo
 

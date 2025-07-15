@@ -106,6 +106,16 @@ Utility:
 
 ## Node Docs
 
+### Animate
+
+#### vArrayStagger
+
+Animate points using staggered offsets
+
+#### vArrayMaterialEasing
+
+Animate points using Material Design 3 easing with staggered offsets
+
 ### Create
 
 #### vArrayBuffer

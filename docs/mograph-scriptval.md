@@ -105,6 +105,16 @@ Utility:
 
 ## Node Docs
 
+### Animate
+
+#### vScriptValStagger
+
+Animate points using staggered offsets
+
+#### vScriptValMaterialEasing
+
+Animate points using Material Design 3 easing with staggered offsets
+
 ### Create
 
 #### vScriptValBuffer
@@ -146,6 +156,10 @@ Example Node Connections:
     vScriptValCreateAsset.Output -> vScriptValMergeAsset.ScriptVal1
     vScriptValMergeAsset.Output -> vScriptValRenderAsset.vGeometry
     Background.Output -> vScriptValRenderAsset.Input
+
+#### vScriptValCreateCubicBezier
+
+Create an array by entering each value manually
 
 #### vScriptValCreateJSONFont
 
@@ -515,6 +529,10 @@ Convert a Fusion ScriptVal object into Wavefront OBJ ASCII Text
 
 ![Node](Images/Nodes/vScriptValToOBJ.png)
 
+#### vScriptValToUSD
+
+Convert a Fusion ScriptVal object into OpenUSD ASCII Text
+
 #### vScriptValToXYZ
 
 Convert a Fusion ScriptVal object into XYZ ASCII Text
@@ -727,6 +745,10 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     Background.Output -> vScriptValShapeRender.Input
 
+#### vScriptValPointAttractor
+
+2D/3D point attractor/repulsor with spring dynamics
+
 #### vScriptValPointsConnect
 
 Connect points in an array
@@ -879,6 +901,18 @@ Example Node Connections:
 
 ### ShapeRender
 
+#### vScriptValCircuitBoardAbstract
+
+Generates a absract circuit board with lines and components
+
+#### vScriptValCircuitBoardPattern
+
+Generates a pattern circuit board with lines and components
+
+#### vScriptValColor
+
+Dynamically color 2D Shape elements
+
 #### vScriptValRenderAsset
 
 Render 3D wireframe from a ScriptVal Lua table of vGeometry mesh data
@@ -925,6 +959,10 @@ Example Node Connections:
     vScriptValMergeAsset.Output -> vScriptValRenderAssetSVG.vGeometry
     Background.Output -> vScriptValRenderAssetSVG.Input
 
+#### vScriptValShapePacker
+
+Fills a letter-shaped area with tightly packed shapes using multiple algorithms
+
 #### vScriptValShapeRender
 
 Create a polygon dot shapes from a ScriptVal based Lua table of XY point pairs
@@ -951,6 +989,18 @@ Example Node Connections:
     vScriptValConvert2D_3D.Output -> vScriptValShapeRenderTextPath.ScriptValpath
     Background.Output -> vScriptValShapeRenderTextPath.Input
     vTextCreate.Output -> vScriptValShapeRenderTextPath.inputtext
+
+#### vScriptValTaperedPath
+
+Draws a tapered 2D path from point list with optional smoothing
+
+#### vScriptValTextHighlighter
+
+Highlights text elements dynamically
+
+#### vScriptValWordPacker
+
+Fills a letter shape with tightly packed text, using FitTo and custom algorithms
 
 ### Shapes
 
@@ -982,6 +1032,10 @@ Example Node Connections:
     vScriptValCameraProjection.Output -> vScriptValShapeRender.ScriptValPoint
     vScriptValCustom3DShapes.Output -> vScriptValShapeRender.ScriptValShape
     Background.Output -> vScriptValShapeRender.Input
+
+#### vScriptValCustomTimeline
+
+Stylized timeline with major and minor tick marks
 
 #### vScriptValShapeTextArray
 
@@ -1033,6 +1087,10 @@ Example Node Connections:
 Append Array Groups to an array
 
 ![Node](Images/Nodes/vScriptValAppendGroup.png)
+
+#### vScriptValFontArray
+
+Return multiple font measurements as a Fusion ScriptVal object
 
 #### vScriptValInfo
 
