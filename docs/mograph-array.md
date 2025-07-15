@@ -154,6 +154,10 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
+#### vArrayCreateCubicBezier
+
+Create an array by entering each value manually
+
 #### vArrayCreateJSONFont
 
 Generates a JSON array-based font
@@ -750,6 +754,10 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     Background.Output -> vArrayShapeRender.Input
 
+#### vArrayPointAttractor
+
+2D/3D point attractor/repulsor with spring dynamics
+
 #### vArrayPointsConnect
 
 Connect points in an array
@@ -902,6 +910,22 @@ Example Node Connections:
 
 ### ShapeRender
 
+#### vArrayCircuitBoardAbstract
+
+Generates a abstract circuit board with lines and components
+
+#### vArrayCircuitBoardPattern
+
+Generates a pattern circuit board with lines and components
+
+#### vArrayColor
+
+Dynamically color 2D Shape elements
+
+#### vArrayShapePacker
+
+Fills a letter-shaped area with tightly packed shapes using multiple algorithms
+
 #### vArrayShapeRender
 
 Create a polygon dot shapes from an Array based Lua table of XY point pairs
@@ -928,6 +952,18 @@ Example Node Connections:
     vArrayConvert2D_3D.Output -> vArrayShapeRenderTextPath.ArrayPath
     Background.Output -> vArrayShapeRenderTextPath.Input
     vTextCreate.Output -> vArrayShapeRenderTextPath.inputtext
+
+#### vArrayTaperedPath
+
+Draws a tapered 2D path from point list with optional smoothing
+
+#### vArrayTextHighlighter
+
+Highlights text elements dynamically
+
+#### vArrayWordPacker
+
+Fills a letter shape with tightly packed text, using FitTo and custom algorithms
 
 ### Shapes
 
@@ -959,6 +995,10 @@ Example Node Connections:
     vArrayCameraProjection.Output -> vArrayShapeRender.ArrayPoint
     vArrayCustom3DShapes.Output -> vArrayShapeRender.ArrayShape
     Background.Output -> vArrayShapeRender.Input
+
+#### vArrayCustomTimeline
+
+Stylized timeline with major and minor tick marks
 
 #### vArrayShapeText
 
@@ -1046,6 +1086,10 @@ Example Node Connections:
 Append Array Groups to an array
 
 ![Node](Images/Nodes/vArrayAppendGroup.png)
+
+#### vArrayFontArray
+
+Return multiple font measurements as a Fusion ScriptVal object
 
 #### vArrayInfo
 
