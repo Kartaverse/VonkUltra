@@ -69,6 +69,10 @@ Order
 - vTextOrderReverse
 - vTextOrderShuffle
 
+Fusion
+- vTextRenderComp
+- vTextRenderManager
+
 Resolve
 - vTextResolvePID
 - vTextResolveProjectName
@@ -78,7 +82,6 @@ Script:
 - vTextDoString
 - vTextExecute
 - vTextProcessOpen
-- vTextRenderComp
 - vTextRunScript
 - vTextShellBG
 - vTextSlashCommand
@@ -588,6 +591,74 @@ If you typed in "Hello Shuffle World!" the output would be "Wdool uhSffod rlHoe!
 
 ![vTextOrderShuffle](Images/Nodes/vTextOrderShuffle.png)
 
+### Fusion
+
+
+#### vTextRenderComp
+
+Launches a command-line Fusion Render Node based .comp or .dfq process via popen
+
+This node currently works on macOS and Linux. Windows support is a WIP task that is yet to be completed.
+
+![vTextRenderComp](Images/Nodes/vTextRenderComp.png)
+
+The Fusion composite specified in the "Comp File" field will be batch rendered in the background by the Fusion Render Node executable.
+
+The "Render Mode" control allows you to adjust how the composite will be rendered.
+
+If "Current Frame" is selected, the parent comp's current frame will be passed to the Fusion Render Node program as the frame to render in the child comp.
+
+If "Comp Frame Range" is selected, the parent comp's Render Start - Render End frame range will be sent to the Fusion Render Node program as the frame range to render in the child comp.
+
+If "Comp Frame Range" is selected, the parent comp's Render Start - Render End frame range will be sent to the Fusion Render Node program as the frame range to render in the child comp.
+
+If "Custom Frame Range" is selected, a set of numerical input controls will be displayed. These controls allow you to manually drive the frame range used by the Fusion Render Node program on the fly.
+
+The "Render Node Version" control allows you to choose the exact Fusion Render Node executable version number you would like to launch when the .comp file is rendered. This allows you the flexibility to target a different Fusion Render node release than you are using to run the GUI session inside of Fusion Studio.
+
+#### vTextRenderManager
+
+Submit a .comp or .dfq file to the Fusion Studio Render Manager. The vTextRenderManager node is processed when you hit the "render" button in the comp, so it avoids accidentally launching unintended job tasks in an interactive Fusion session.
+
+![vTextRenderManager](Images/Nodes/vTextRenderManager.png)
+
+The vTextRenderManager tool allows you to use Vonk Ultra nodes to build the name of a .comp file, and then it can be submitted to the render manager for processing.
+
+If you are on a single user artist system, you can submit your Fusion Studio based comps to the Fusion Render Manager and a GUI session of Fusion will be used to render the output. If you have any Fusion Render Node systems connected to the Fusion Render Manager, you have the option to further accelerate your workflows with distributed rendering.
+
+The "Render Mode" control allows you to adjust how the composite will be rendered.
+
+If "Current Frame" is selected, the parent comp's current frame will be passed to the Fusion Render Node program as the frame to render in the child comp.
+
+If "Comp Frame Range" is selected, the parent comp's Render Start - Render End frame range will be sent to the Fusion Render Manager as the frame range to render in the child comp.
+
+If "Comp Frame Range" is selected, the parent comp's Render Start - Render End frame range will be sent to the Fusion Render Manager as the frame range to render in the child comp.
+
+If "Custom Frame Range" is selected, a set of numerical input controls will be displayed. These controls allow you to manually drive the frame range used by the Fusion Render Manager.
+
+If "Predefined Frame Range" is selected, the frame range defined in the original .comp file on disk is used for the rendering task.
+
+##### Multi-View Rendering Tasks
+
+If you are processing immersive content, or volumetric video the vTextRenderManager is a huge help.
+
+The design goal with the vTextRenderManager node is that you start by using Vonk filesystem nodes to copy Fusion .comp templates into project sub-folders.
+
+The comps would be built with relative PathMap based file paths. Then you would kick off the rendering task for these .comp files with the vTextRenderManager node.
+
+This allows you to process media from multi-view camera arrays or other complex file structure based media hierarchies.
+
+##### Side by Side Scripting of Comp Renders
+
+Fusion has a really neat hidden capability called SxS (side-by-side) scripting. It works with comp files and allows you to make adjustments on the fly when the comp is loaded and rendered. This takes comp template creation and automation to the next level!
+
+With SxS scripting, you can place a custom lua script in the same folder as your comp file. If the script has the same base filename it will be run as soon as the comp is rendered.
+
+Example SxS Script and Comp Filenames:
+
+- Example.comp
+- Example.lua
+
 ### Resolve
 
 #### vTextResolvePID
@@ -675,28 +746,6 @@ If you need to access more complex automation techniques, or dynamically define 
     say Hello Vonk World!
 
 ![vTextProcessOpen](Images/Nodes/vTextProcessOpen.png)
-
-#### vTextRenderComp
-
-Launches a command-line Fusion Render Node based .comp or .dfq process via popen
-
-This node currently works on macOS and Linux. Windows support is a WIP task that is yet to be completed.
-
-![vTextRenderComp](Images/Nodes/vTextRenderComp.png)
-
-The Fusion composite specified in the "Comp File" field will be batch rendered in the background by the Fusion Render Node executable.
-
-The "Render Mode" control allows you to adjust how the composite will be rendered.
-
-If "Current Frame" is selected, the parent comp's current frame will be passed to the Fusion Render Node program as the frame to render in the child comp.
-
-If "Comp Frame Range" is selected, the parent comp's Render Start - Render End frame range will be sent to the Fusion Render Node program as the frame range to render in the child comp.
-
-If "Comp Frame Range" is selected, the parent comp's Render Start - Render End frame range will be sent to the Fusion Render Node program as the frame range to render in the child comp.
-
-If "Custom Frame Range" is selected, a set of numerical input controls will be displayed. These controls allow you to manually drive the frame range used by the Fusion Render Node program on the fly.
-
-The "Render Node Version" control allows you to choose the exact Fusion Render Node executable version number you would like to launch when the .comp file is rendered. This allows you the flexibility to target a different Fusion Render node release than you are using to run the GUI session inside of Fusion Studio.
 
 #### vTextRunScript
 
