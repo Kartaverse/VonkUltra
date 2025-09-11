@@ -6,7 +6,7 @@ Vonk Ultra is a free open-source (GPL v3) toolset. It is distributed through the
 
 ![Vonk Ultra in Reactor](Images/vonk-install.png)
 
-Vonk Ultra works with Fusion Studio v18-19.1+, Fusion Render Node v18-19.1+, DaVinci Resolve (Free) v18-19.0.3, and DaVinci Resolve Studio v18-19.1+. It runs on Windows 10-11, macOS Monterey - Sonoma, and Linux 64-Bit RHEL 7+, CentOS 7+, and recent Ubuntu distributions.
+Vonk Ultra works with Fusion Studio v18-20.2+, Fusion Render Node v18-20.2+, DaVinci Resolve (Free) v18-20.2, and DaVinci Resolve Studio v18-20.2+. It runs on Windows 10-11, macOS Monterey - Sonoma, and Linux 64-Bit RHEL 7+, CentOS 7+, and recent Ubuntu distributions.
 
 ## Reactor Package Manager
 
