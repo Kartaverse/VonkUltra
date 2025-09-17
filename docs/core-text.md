@@ -945,6 +945,12 @@ Vonk number datatype content can be translated into a text format using the "vTe
 
 Tip: The "Shift + 0" hotkey is useful if you need to quickly toggle the visibility of the Console window in Resolve or Fusion Studio. Alternatively, clicking on the "Console" tab button at the top left of the Fusion Studio user interface will carry out a similar task.
 
+#### vTextExpandEscapedCharacters
+
+Process escaped newline, return and tab characters in a Fusion Text object
+
+![vTextExpandEscapedCharacters](Images/Nodes/vTextExpandEscapedCharacters.png)
+
 #### vTextFromCSVViewer
 
 View a CSV row or column in the Inspector
