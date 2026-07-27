@@ -3,6 +3,12 @@
 ## YouTube Playlists
 
 - [Vonk Ultra Learning Playlist](https://www.youtube.com/watch?v=NIERGDzrMDs&list=PLVDcRvd92hcgumsGnIth-hDi3gvVTc71u)
+- [Vonk Ultra Mograph Generators Playlist](https://www.youtube.com/watch?v=3DTuP-y8OWk&list=PLVZmtJrrJ6L74-G9Fe-TqnR5zaJJeVbKj)
+
+
+### Vonk Ultra Mograph Generators Showreel
+
+@yt(3DTuP-y8OWk,560px,317px,center)
 
 ## CloutVFX
 

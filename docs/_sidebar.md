@@ -8,6 +8,7 @@
 		- [Example Comps](mograph-comps)
 		- [Array Nodes](mograph-array)
 		- [HTML Nodes](mograph-html)
+		- [Generator Nodes](mograph-generators)
 		- [JSON Nodes](mograph-json)
 		- [Matrix Nodes](mograph-matrix)
 		- [Number Nodes](mograph-number)
